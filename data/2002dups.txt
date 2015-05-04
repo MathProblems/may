@@ -1,0 +1,22 @@
+_____________
+adjs : None
+container : None
+entity : book
+idx : 2004
+location : None
+num : 12
+surface : books
+verbs : None
+widx : 5
+_____________
+_____________
+adjs : None
+container : None
+entity : book
+idx : None
+location : None
+num : x
+surface : books
+verbs : None
+widx : None
+_____________

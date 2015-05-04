@@ -1,0 +1,22 @@
+_____________
+adjs : None
+container : None
+entity : dollar
+idx : 1009
+location : None
+num : 12
+surface : dollars
+verbs : None
+widx : 10
+_____________
+_____________
+adjs : None
+container : None
+entity : house
+idx : None
+location : None
+num : x
+surface : houses
+verbs : None
+widx : None
+_____________

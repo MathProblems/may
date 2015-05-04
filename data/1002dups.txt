@@ -1,0 +1,22 @@
+_____________
+adjs : None
+container : None
+entity : card
+idx : 1005
+location : None
+num : 12
+surface : cards
+verbs : None
+widx : 6
+_____________
+_____________
+adjs : None
+container : None
+entity : have
+idx : None
+location : None
+num : x
+surface : have
+verbs : None
+widx : None
+_____________
