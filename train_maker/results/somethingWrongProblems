@@ -1,0 +1,204 @@
+no x : after eating at the restaurant , sally , sam , and alyssa decided to divide the bill evenly . if each person paid 45 dollars , what was the total of the bill  ? No answers :  the sum of 3 consecutive even numbers is 162 . what is the smallest of the 3 numbers  ? 
+['3', '162', 'x', '3']
+52
+
+No answers :  sandy sold half of her comic books and then bought 6 more . she now has 13 . how many did she begin with  ? 
+['6', '13', 'x']
+14
+
+No answers :  the sum of 3 consecutive odd numbers is 69 . what is the smallest of the 3 numbers  ? 
+['3', '69', 'x', '3']
+21
+
+no x : mike has 45 dollars in 5 dollar bills .  how many 5 dollars bills does  he have  ? no x : nancy goes fishing with joan . they catch 18 trout .  if they equally split up the trout , how may will each one get  ? No answers :  a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+['63', 'x']
+9
+
+No answers :  sandy worked 45 hours in the last 5 days . assuming that she worked the same amount of hours each day , how long did she work each day  ? 
+['1.875', 'x', '5']
+9
+
+No answers :  mike has 96 muffins , which he needs to box up into dozens . how many boxes does he need ? 
+['96', 'x']
+8
+
+No answers :  nancy , melanie , mary , and alyssa each bought 540 baseball cards ,  which come in packs of 20 . how many packs of baseball cards do they have in all ? 
+['540', '20', 'x']
+108
+
+No answers :  sally earns $25.00 for each house she cleans . if she cleans 96 houses , how many dozens of dollars will she make ? 
+['25.00', '96', 'x']
+200
+
+No answers :  there are 60 calories in a candy bar . how many dozen calories are there in 45 candy bars ? 
+['60', 'x', '45']
+225
+
+No answers :  sara saw 96 birds in a tree . how many dozen birds did sara see ? 
+['96', 'x']
+8
+
+No answers :  melanie has 84 blue marbles . sandy has 8 times more blue marbles than melanie . how many dozen blue marbles does sandy have ? 
+['84', '8', 'x']
+56
+
+No answers :  sara has 192 golf balls . how many dozen golf balls does she have ? 
+['192', 'x']
+16
+
+No answers :  keith bought 72 eggs from the store to bake some cakes .  how many dozen eggs did keith buy ? 
+['72', 'x']
+6
+
+No answers :  mike has 48 books . alyssa has 8 times more books than  mike . how many dozen books does alyssa have ? 
+['48', '8', 'x']
+32
+
+No answers :  sara has saved 9 dollars from washing cars .  how many dozen quarters does sara have ? 
+['36.0', 'x']
+3
+
+No answers :  sara , keith , benny , and alyssa each have 96 baseball cards .  how many dozen baseball cards do they have in all ? 
+['96', 'x']
+32
+
+No answers :  sara has 9 dozen golf balls . how many golf balls does she have  ? 
+['9', 'x']
+108
+
+No answers :  melanie , benny , sally , and jessica each have 3 baseball cards .  how many baseball cards do they have in all  ? 
+['3', 'x']
+12
+
+No answers :  sally earns $12.50 an hour cleaning houses . if she works from  8:00am to 8:00pm , how much money will she make  ? 
+['12.50', '800', '800', 'x']
+150
+
+No answers :  joan bought 6 dozen eggs from the grocery store to bake some cakes .  how many eggs did joan buy  ? 
+['6', 'x']
+72
+
+No answers :  mary , sam , keith , and alyssa each have 6 baseball cards .  how many baseball cards do they have in all  ? 
+['6', 'x']
+24
+
+No answers :  sally bought 4 dozen eggs from the grocery store to bake some cakes .  how many eggs did sally buy  ? 
+['4', 'x']
+48
+
+No answers :  fred earns $12.50 an hour cleaning houses . if he works from  8:00am to 4:00pm , how much money will he make  ? 
+['800', '12.50', '400', 'x']
+100
+
+No answers :  benny goes out to lunch with sara and tom . each person orders the $8 lunch special . benny agrees to pay the bill . how much will he have to pay  ? 
+['x', '8', 'x']
+24
+
+No answers :  benny worked 3 hours for 6 days . how many hours did he work in total  ? 
+['3', '144.0', 'x']
+18
+
+No answers :  jessica , sandy , and jason each have 8 pencils . how many pencils do they have have in all  ? 
+['8', 'x']
+24
+
+No answers :  sam , dan , tom , and keith each have 14 pokemon cards .  how many pokemon cards do they have in all  ? 
+['14', 'x']
+56
+
+No answers :  tim has 13 dozen golf balls . how many golf balls does he have  ? 
+['13', 'x']
+156
+
+No answers :  sally earns $12.50 an hour cleaning houses . if she works from  8:00am to 5:00pm , how much money will she make  ? 
+['12.50', '800', '500', 'x']
+112.5
+
+No answers :  benny bought 7 dozen eggs from the grocery store to bake some cakes .  how many eggs did benny buy  ? 
+['7', 'x']
+84
+
+No answers :  there are 46 children in the classroom , each student will get 4 dozen pencils . how many pencils will the teacher have to give out  ? 
+['46', '4', 'x']
+2208
+
+No answers :  nancy has saved 1 dozen quarters from washing cars .  how much money does nancy have  ? 
+['1', 'x']
+3
+
+No answers :  dan bought 9 dozen eggs from the grocery store to bake some cakes .  how many eggs did dan buy  ? 
+['9', 'x']
+108
+
+No answers :  there are 4 dozen calories in a candy bar . how many calories are there in 42 candy bars  ? 
+['4', 'x', '42']
+2016
+
+No answers :  sandy has 8 dozen books . fred has 5 times more books than  sandy . how many books does fred have  ? 
+['8', '5', 'x']
+480
+
+No answers :  jessica has 3 dozen red marbles . sandy has 4 times more red marbles than jessica . how many red marbles does sandy have  ? 
+['3', '4', 'x']
+144
+
+No answers :  melanie , benny , sandy , and jessica each have 9 dozen pokemon cards .  how many pokemon cards do they have in all  ? 
+['9', 'x']
+432
+
+No answers :  sally saw 1 dozen birds in a tree . how many birds did sally see  ? 
+['1', 'x']
+12
+
+No answers :  fred , benny , and jason have 24 crayons all together . if the crayons are equally divided , how many will each person get  ? 
+['24', 'x', 'x']
+8
+
+No answers :  benny goes to lunch with sally and sandy . the total bill came to 15 dollars . they decided to equally split up the bill , how much will each person have to pay  ? 
+['x', '15', 'x', 'x']
+5
+
+No answers :  a restaurant sold 49 hamburgers last week . how many hamburgers on average were sold each day  ? 
+['49', 'x']
+7
+
+No answers :  mike worked 3 hours , each day , for 5 days . how many hours did he work in total  ? 
+['3', 'x', '120.0', 'x']
+15
+
+No answers :  melanie is selling 4 gumballs for 8 cents each . how much money can melanie get from selling the gumballs ? 
+['0.08', 'x', 'x', '4']
+32
+
+no x : sandy sold lemonade in her neighborhood . she got 17 half-dollars on saturday and 6 half-dollars on sunday . what amount of money did sandy receive ? No answers :  sam got 9 pennies for washing clothes , and 7 quarters for mowing lawns . how much money does sam have ? 
+['0.09', '1.75', 'x']
+184
+
+No answers :  when joan was visited by the toothfairy , she received 14 each of quarters , half-dollars , and dimes . how much money did the toothfairy leave joan ? 
+['14', 'x']
+1190
+
+No answers :  as alyssa was searching through her couch cushions , she found 12 quarters , and 7 pennies in the couch . how much money in total does alyssa have ? 
+['12', '7', 'x', 'x']
+307
+
+no x : on wednesday , joan spent 4 half-dollars playing pinball . the next day , she spent 14 half-dollars on pinball . what was the total amount joan spent playing pinball ? No answers :  tim got 3 nickels and 13 dimes shoes , and in his tip jar found 7 dimes and 9 half-dollars . how much money did tim get ? 
+['0.15', '13', '0.7', '4.5', 'x']
+665
+
+No answers :  while digging through her clothes for ice cream money , joan found 15 dimes in her jacket , and 4 dimes in her shorts . how much money did joan find ? 
+['1.5', '0.4', 'x']
+190
+
+No answers :  on friday , sam spent 2 pennies on ice cream . the next day , sam spent 12 dimes on baseball cards . all in all , how much money did sam spend ? 
+['0.02', '1.2', 'x']
+122
+
+no x : jessica spent $10.22 on a cat toy , and a cage cost her $11.73 . what was the total cost of jessica's purchases ? no x : sara got fast food for lunch . sara spent $5.36 on a hotdog and $5.10 on a salad . what was the total of the lunch bill ? No answers :  joan paid $8.77 on a cat toy , and a cage cost her $10.97 with a $20 bill . how much change did joan receive ? 
+['8.77', 'x', '10.97', '20', 'x']
+0.26
+
+No answers :  christina just transferred $69 out of her bank account . as a result , the account now has $26,935 left in it . how much money was in the account before the transfer ? 
+['26935', 'x']
+27004
+

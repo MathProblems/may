@@ -1,0 +1,3438 @@
+0
+ ellen went to a garage sale to buy chairs . each chair cost 15 dollars . how much money did ellen spend for the 12 chairs she bought ? 
+[(3, <makesets.aset object at 0x10dd32400>), (1003, <makesets.aset object at 0x10dd324a8>), (1000, <makesets.aset object at 0x10dd32390>), (2007, <makesets.aset object at 0x10dd32550>), (2008, <makesets.aset object at 0x10dd325f8>), (2002, <makesets.aset object at 0x10dd32668>)]
+[(3, 'sale', 'a'), (1000, 'chair', 'each'), (1003, 'dollar', '15'), (2002, 'money', 'x'), (2008, 'chair', '12')]
+sale-6
+chair-2
+dollars-5
+money-3
+chairs-10
+[(3, 'sale', 'a'), (1000, 'chair', 'each'), (1003, 'dollar', '15'), (2002, 'money', 'x'), (2008, 'chair', '12')]
+CONVERTING
+dollar money
+[(3, 'sale', 'a'), (1000, 'chair', 'each'), (1003, 'money', '15.0'), (2002, 'money', 'x'), (2008, 'chair', '12')]
+[(3, 'sale', 'a'), (1000, 'chair', '12'), (1003, 'money', '15.0'), (2002, 'money', 'x'), (2008, 'chair', 'USED')]
+[(3, <makesets.aset object at 0x10dd32400>), (1000, <makesets.aset object at 0x10dd32390>), (1003, <makesets.aset object at 0x10dd324a8>), (2002, <makesets.aset object at 0x10dd32668>), (2008, <makesets.aset object at 0x10dd325f8>)]
+
+ Top 3 equations: 
+0.7174384525916795 12 / 15.0 = x
+0.47001354500590004 12 = 15.0 + x
+0.11428934820298477 12 * 15.0 = x
+1
+ three-toed sloths have four legs . how many toes would 25 sloths have ? 
+[(3, <makesets.aset object at 0x10dd2d0f0>), (1004, <makesets.aset object at 0x10dd2d1d0>), (1002, <makesets.aset object at 0x10dd2d080>)]
+[(3, 'leg', '4'), (1002, 'toe', 'x'), (1004, 'sloth', '25')]
+legs-5
+toes-3
+sloths-6
+[(3, 'leg', '4'), (1002, 'toe', 'x'), (1004, 'sloth', '25')]
+[(3, 'leg', '4'), (1002, 'toe', 'x'), (1004, 'sloth', '25')]
+[(3, 'leg', '4'), (1002, 'toe', 'x'), (1004, 'sloth', '25')]
+[(3, <makesets.aset object at 0x10dd2d0f0>), (1002, <makesets.aset object at 0x10dd2d080>), (1004, <makesets.aset object at 0x10dd2d1d0>)]
+
+ Top 3 equations: 
+0.5493382453970028 4 = x / 25
+0.5469357335125851 4 / x = 25
+-0.0680929349856739 4 = x - 25
+
+ INCORRECT
+Guess :  100 
+Answer : 75.0 
+
+
+2
+ albert has two snakes . the garden snake is 10 inches long . the boaconstrictor is 7 times longer than the garden snake . how long is the boaconstrictor ? 
+[(2, <makesets.aset object at 0x11111ed30>), (1000, <makesets.aset object at 0x11111edd8>), (1004, <makesets.aset object at 0x11111ee80>), (2000, <makesets.aset object at 0x11111eef0>), (2003, <makesets.aset object at 0x11111ef98>), (2007, <makesets.aset object at 0x11111ef60>), (3003, <makesets.aset object at 0x11111e9e8>), (3001, <makesets.aset object at 0x11111e780>)]
+[(2, 'snake', '2'), (1000, 'snake', 'the'), (1004, 'inch', '10'), (2000, 'boaconstrictor', 'the'), (2003, 'time', '7'), (2007, 'snake', 'the'), (3001, 'LENGTH', 'x'), (3003, 'boaconstrictor', 'the')]
+snakes-4
+snake-3
+inches-6
+boaconstrictor-2
+times-5
+snake-10
+LENGTH-None
+boaconstrictor-5
+[(2, 'snake', '2'), (1000, 'snake', 'the'), (1004, 'inch', '10'), (2000, 'boaconstrictor', 'the'), (2003, 'time', '7'), (2007, 'snake', 'the'), (3001, 'LENGTH', 'x'), (3003, 'boaconstrictor', 'the')]
+the
+the
+the
+the
+the
+the
+[(2, 'snake', '2'), (1000, 'snake', 'the'), (1004, 'inch', '10'), (2000, 'boaconstrictor', 'the'), (2003, 'time', '7'), (2007, 'snake', 'the'), (3001, 'LENGTH', 'x'), (3003, 'boaconstrictor', 'the')]
+[(2, 'snake', 'USED'), (1000, 'snake', 'USED'), (1004, 'inch', '10'), (2000, 'boaconstrictor', 'the'), (2003, 'time', '7'), (2007, 'snake', '2'), (3001, 'LENGTH', 'x'), (3003, 'boaconstrictor', 'the')]
+[(2, <makesets.aset object at 0x11111ed30>), (1000, <makesets.aset object at 0x11111edd8>), (1004, <makesets.aset object at 0x11111ee80>), (2000, <makesets.aset object at 0x11111eef0>), (2003, <makesets.aset object at 0x11111ef98>), (2007, <makesets.aset object at 0x11111ef60>), (3001, <makesets.aset object at 0x11111e780>), (3003, <makesets.aset object at 0x11111e9e8>)]
+
+ Top 3 equations: 
+1.2673936691683794 ( 10 / 7 ) / 2 = x
+1.23686206102729 10 / ( 7 / 2 ) = x
+1.2327952124254755 10 = ( 7 / 2 ) / x
+
+ INCORRECT
+Guess :  2 
+Answer : 70.0 
+
+
+3
+ albert’s cabbage patch has 12 rows of cabbage . in each row , there are 15 heads of cabbage . how many heads of cabbage does albert have in all ? 
+[(5, <makesets.aset object at 0x10dd23c88>), (1001, <makesets.aset object at 0x10dd23cc0>), (1006, <makesets.aset object at 0x10dd23da0>), (2002, <makesets.aset object at 0x10dd13240>)]
+[(5, 'row', '12'), (1001, 'row', 'each'), (1006, 'head', '15'), (2002, 'head', 'x')]
+rows-7
+row-3
+heads-8
+heads-3
+[(5, 'row', '12'), (1001, 'row', 'each'), (1006, 'head', '15'), (2002, 'head', 'x')]
+[(5, 'row', '12'), (1001, 'row', 'each'), (1006, 'head', '15'), (2002, 'head', 'x')]
+[(5, 'row', 'USED'), (1007, 'row', '12'), (1006, 'head', '15'), (2002, 'head', 'x')]
+[(5, <makesets.aset object at 0x10dd23c88>), (1006, <makesets.aset object at 0x10dd23da0>), (1007, <makesets.aset object at 0x10dd23cc0>), (2002, <makesets.aset object at 0x10dd13240>)]
+
+ Top 3 equations: 
+0.47847126911408216 15 = 12 / x
+0.38541520544523294 15 / 12 = x
+0.1692853208199173 15 = 12 * x
+
+ INCORRECT
+Guess :  3 
+Answer : 180.0 
+
+
+4
+ marie can bike at a speed of 12 miles an hour . how far can she bike in 31 hours ? 
+[(4, <makesets.aset object at 0x1111750f0>), (7, <makesets.aset object at 0x111175198>), (9, <makesets.aset object at 0x111175208>), (1006, <makesets.aset object at 0x1111752e8>), (1001, <makesets.aset object at 0x111175048>)]
+[(4, 'speed', 'a'), (7, 'mile', '12'), (9, 'hour', 'an'), (1001, 'DISTANCE', 'x'), (1006, 'hour', '31')]
+speed-6
+miles-9
+hour-11
+DISTANCE-None
+hours-8
+[(4, 'speed', 'a'), (7, 'mile', '12'), (9, 'hour', 'an'), (1001, 'DISTANCE', 'x'), (1006, 'hour', '31')]
+[(4, 'speed', 'a'), (7, 'mile', '12'), (9, 'hour', 'an'), (1001, 'DISTANCE', 'x'), (1006, 'hour', '31')]
+[(4, 'speed', 'a'), (7, 'mile', '12'), (9, 'hour', '31'), (1001, 'DISTANCE', 'x'), (1006, 'hour', 'USED')]
+[(4, <makesets.aset object at 0x1111750f0>), (7, <makesets.aset object at 0x111175198>), (9, <makesets.aset object at 0x111175208>), (1001, <makesets.aset object at 0x111175048>), (1006, <makesets.aset object at 0x1111752e8>)]
+
+ Top 3 equations: 
+0.5393875673334536 12 = 31 / x
+0.5174384525916795 12 / 31 = x
+-0.05485041368494631 12 - 31 = x
+
+ INCORRECT
+Guess :  19 
+Answer : 372.0 
+
+
+5
+ tammy drove 55 miles in one hour . at that rate , how far can she drive in 36 hours ? 
+[(2, <makesets.aset object at 0x10dd32630>), (5, <makesets.aset object at 0x10dd32080>), (1001, <makesets.aset object at 0x10dd321d0>), (1010, <makesets.aset object at 0x10dd32208>), (1005, <makesets.aset object at 0x10dd32390>)]
+[(2, 'mile', '55'), (5, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'hour', '36')]
+miles-4
+hour-7
+rate-3
+DISTANCE-None
+hours-12
+[(2, 'mile', '55'), (5, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'hour', '36')]
+that
+that
+[(2, 'mile', '55'), (5, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'hour', '36')]
+[(2, 'mile', '55'), (5, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'hour', '36')]
+[(2, <makesets.aset object at 0x10dd32630>), (5, <makesets.aset object at 0x10dd32080>), (1001, <makesets.aset object at 0x10dd321d0>), (1005, <makesets.aset object at 0x10dd32390>), (1010, <makesets.aset object at 0x10dd32208>)]
+
+ Top 3 equations: 
+0.5393875673334536 55 = x / 36
+0.5174384525916795 55 / x = 36
+-0.05485041368494631 55 - x = 36
+
+ CORRECT
+Guess :  1980 
+Answer : 1980.0 
+
+
+6
+ jeff swims 20 laps every day . how many laps will he swim in six weeks ? 
+[(2, <makesets.aset object at 0x1111757b8>), (4, <makesets.aset object at 0x111175860>), (1007, <makesets.aset object at 0x1111759b0>), (1002, <makesets.aset object at 0x111158c88>)]
+[(2, 'lap', '20'), (4, 'day', 'every'), (1002, 'lap', 'x'), (1007, 'week', '6')]
+laps-4
+day-6
+laps-3
+weeks-9
+[(2, 'lap', '20'), (4, 'day', 'every'), (1002, 'lap', 'x'), (1007, 'week', '6')]
+CONVERTING
+day week
+[(2, 'lap', '20'), (4, 'week', 'every 0.14285714285714285'), (1002, 'lap', 'x'), (1007, 'week', '6')]
+[(2, 'lap', '20'), (4, 'week', '6'), (1002, 'lap', 'x'), (1007, 'week', 'USED')]
+[(2, <makesets.aset object at 0x1111757b8>), (4, <makesets.aset object at 0x111175860>), (1002, <makesets.aset object at 0x111158c88>), (1007, <makesets.aset object at 0x1111759b0>)]
+
+ Top 3 equations: 
+0.7657842722328436 20 = 6 / x
+0.5174384525916795 20 / 6 = x
+0.1451495863150537 20 - 6 = x
+
+ INCORRECT
+Guess :  14 
+Answer : 840.0 
+
+
+7
+ mary beth could jump 42 times each minute . how many times could she jump in two hours ? 
+[(4, <makesets.aset object at 0x10dd23b38>), (6, <makesets.aset object at 0x10dd23668>), (1007, <makesets.aset object at 0x10dd23ac8>), (1002, <makesets.aset object at 0x10dd23c18>)]
+[(4, 'time', '42'), (6, 'minute', 'each'), (1002, 'time', 'x'), (1007, 'hour', '2')]
+times-6
+minute-8
+times-3
+hours-9
+[(4, 'time', '42'), (6, 'minute', 'each'), (1002, 'time', 'x'), (1007, 'hour', '2')]
+CONVERTING
+minute hour
+[(4, 'time', '42'), (6, 'hour', 'each 0.016666666666666666'), (1002, 'time', 'x'), (1007, 'hour', '2')]
+[(4, 'time', '42'), (6, 'hour', '2'), (1002, 'time', 'x'), (1007, 'hour', 'USED')]
+[(4, <makesets.aset object at 0x10dd23b38>), (6, <makesets.aset object at 0x10dd23668>), (1002, <makesets.aset object at 0x10dd23c18>), (1007, <makesets.aset object at 0x10dd23ac8>)]
+
+ Top 3 equations: 
+0.6490390595173545 42 = 2 / x
+0.5151521580086513 42 / 2 = x
+0.13737503952476665 42 - 2 = x
+
+ INCORRECT
+Guess :  21 
+Answer : 5040.0 
+
+
+8
+ rob could run 7 miles in one hour . at that rate , how far could rob run in one day ? 
+[(3, <makesets.aset object at 0x11117ecf8>), (6, <makesets.aset object at 0x11117ee10>), (1001, <makesets.aset object at 0x11117ee80>), (1010, <makesets.aset object at 0x11117eef0>), (1005, <makesets.aset object at 0x11117ecc0>)]
+[(3, 'mile', '7'), (6, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'day', 'one')]
+miles-5
+hour-8
+rate-3
+DISTANCE-None
+day-12
+[(3, 'mile', '7'), (6, 'hour', 'one'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'day', 'one')]
+that
+CONVERTING
+hour day
+that
+[(3, 'mile', '7'), (6, 'day', 'one 0.041666666666666664'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'day', 'one')]
+[(3, 'mile', '7'), (6, 'day', 'one 0.041666666666666664'), (1001, 'rate', 'that'), (1005, 'DISTANCE', 'x'), (1010, 'day', 'one')]
+[(3, <makesets.aset object at 0x11117ecf8>), (6, <makesets.aset object at 0x11117ee10>), (1001, <makesets.aset object at 0x11117ee80>), (1005, <makesets.aset object at 0x11117ecc0>), (1010, <makesets.aset object at 0x11117eef0>)]
+
+ Top 3 equations: 
+0.5847838506110481 7 / 0.041666666666666664 = x
+0.5393875673334536 7 = 0.041666666666666664 / x
+-0.047732263762424204 7 - 0.041666666666666664 = x
+
+ CORRECT
+Guess :  168.000000000000 
+Answer : 168.0 
+
+
+9
+ it takes 4 apples to make 1 pie . how many apples does it take to make 504 pies ? 
+[(2, <makesets.aset object at 0x11111ed30>), (6, <makesets.aset object at 0x11111ed68>), (1008, <makesets.aset object at 0x11111ec88>), (1002, <makesets.aset object at 0x11111edd8>)]
+[(2, 'apple', '4'), (6, 'pie', '1'), (1002, 'apple', 'x'), (1008, 'pie', '504')]
+apples-4
+pie-8
+apples-3
+pies-10
+[(2, 'apple', '4'), (6, 'pie', '1'), (1002, 'apple', 'x'), (1008, 'pie', '504')]
+[(2, 'apple', '4'), (6, 'pie', '1'), (1002, 'apple', 'x'), (1008, 'pie', '504')]
+[(2, 'apple', '4'), (6, 'pie', '1'), (1002, 'apple', 'x'), (1008, 'pie', '504')]
+[(2, <makesets.aset object at 0x11111ed30>), (6, <makesets.aset object at 0x11111ed68>), (1002, <makesets.aset object at 0x11111edd8>), (1008, <makesets.aset object at 0x11111ec88>)]
+
+ Top 3 equations: 
+1.348418608910396 4 = ( 1 / x ) / 504
+1.1730083123832744 ( 4 / 1 ) / x = 504
+1.1235298684200896 4 = 1 * ( x / 504 )
+
+ CORRECT
+Guess :  2016 
+Answer : 2016.0 
+
+
+10
+ frank worked 8 hours on the first four days of the week . how many hours did he work in these four days ? 
+[(2, <makesets.aset object at 0x11116c128>), (5, <makesets.aset object at 0x11116c9e8>), (7, <makesets.aset object at 0x11116c978>), (10, <makesets.aset object at 0x11116c898>), (1007, <makesets.aset object at 0x11116cbe0>), (1008, <makesets.aset object at 0x11116c630>), (1002, <makesets.aset object at 0x11116c908>)]
+[(2, 'hour', '8'), (7, 'day', '4'), (10, 'week', 'the'), (1002, 'hour', 'x'), (1008, 'day', '4')]
+hours-4
+days-9
+week-12
+hours-3
+days-10
+[(2, 'hour', '8'), (7, 'day', '4'), (10, 'week', 'the'), (1002, 'hour', 'x'), (1008, 'day', '4')]
+CONVERTING
+day hour
+the
+CONVERTING
+day hour
+the
+[(2, 'hour', '8'), (7, 'hour', '96.0'), (10, 'week', 'the'), (1002, 'hour', 'x'), (1008, 'hour', '96.0')]
+[(2, 'hour', '8'), (7, 'hour', '96.0'), (10, 'week', 'the'), (1002, 'hour', 'x'), (1008, 'hour', '96.0')]
+[(2, <makesets.aset object at 0x11116c128>), (7, <makesets.aset object at 0x11116c978>), (10, <makesets.aset object at 0x11116c898>), (1002, <makesets.aset object at 0x11116c908>), (1008, <makesets.aset object at 0x11116c630>)]
+
+ Top 3 equations: 
+0.44733606270024107 8 + 96.0 = x
+0.35683274453636926 8 = 96.0 + x
+0.30636913323469567 8 - 96.0 = x
+11
+ sue’s family went on vacation . her mom drove the car at 60 mph . they camped at a campground after traveling for 5 hours . how far was the campground from their home ? 
+[(1003, <makesets.aset object at 0x1111c9710>), (1006, <makesets.aset object at 0x1111c97b8>), (2003, <makesets.aset object at 0x1111c97f0>), (2008, <makesets.aset object at 0x1111c9828>), (3003, <makesets.aset object at 0x1111c98d0>), (3001, <makesets.aset object at 0x1111c9630>)]
+[(1003, 'car', 'the'), (1006, 'mph', '60'), (2003, 'campground', 'a'), (2008, 'hour', '5'), (3001, 'DISTANCE', 'x'), (3003, 'campground', 'the')]
+car-5
+mph-8
+campground-5
+hours-10
+DISTANCE-None
+campground-5
+[(1003, 'car', 'the'), (1006, 'mph', '60'), (2003, 'campground', 'a'), (2008, 'hour', '5'), (3001, 'DISTANCE', 'x'), (3003, 'campground', 'the')]
+the
+the
+the
+[(1003, 'car', 'the'), (1006, 'mph', '60'), (2003, 'campground', 'a'), (2008, 'hour', '5'), (3001, 'DISTANCE', 'x'), (3003, 'campground', 'the')]
+[(1003, 'car', 'the'), (1006, 'mph', '60'), (2003, 'campground', 'a'), (2008, 'hour', '5'), (3001, 'DISTANCE', 'x'), (3003, 'campground', 'the')]
+[(1003, <makesets.aset object at 0x1111c9710>), (1006, <makesets.aset object at 0x1111c97b8>), (2003, <makesets.aset object at 0x1111c97f0>), (2008, <makesets.aset object at 0x1111c9828>), (3001, <makesets.aset object at 0x1111c9630>), (3003, <makesets.aset object at 0x1111c98d0>)]
+
+ Top 3 equations: 
+0.5174384525916795 60 = 5 / x
+0.5174384525916795 60 / 5 = x
+-0.05485041368494631 60 = 5 - x
+
+ INCORRECT
+Guess :  12 
+Answer : 300.0 
+
+
+12
+ brett drove 55 miles every hour . how many miles would he drive in 8 hours ? 
+[(2, <makesets.aset object at 0x11116cac8>), (4, <makesets.aset object at 0x11116cd30>), (1007, <makesets.aset object at 0x11116cdd8>), (1002, <makesets.aset object at 0x11116c588>)]
+[(2, 'mile', '55'), (4, 'hour', 'every'), (1002, 'mile', 'x'), (1007, 'hour', '8')]
+miles-4
+hour-6
+miles-3
+hours-9
+[(2, 'mile', '55'), (4, 'hour', 'every'), (1002, 'mile', 'x'), (1007, 'hour', '8')]
+[(2, 'mile', '55'), (4, 'hour', 'every'), (1002, 'mile', 'x'), (1007, 'hour', '8')]
+[(2, 'mile', '55'), (1003, 'hour', '8'), (1002, 'mile', 'x'), (1007, 'hour', 'USED')]
+[(2, <makesets.aset object at 0x11116cac8>), (1002, <makesets.aset object at 0x11116c588>), (1003, <makesets.aset object at 0x11116cd30>), (1007, <makesets.aset object at 0x11116cdd8>)]
+
+ Top 3 equations: 
+0.5493382453970028 55 = x / 8
+0.1319070650143261 55 = x - 8
+0.09218082393824079 55 * x = 8
+
+ CORRECT
+Guess :  440 
+Answer : 440.0 
+
+
+13
+ a perfect score is 21 points . how many points would you have after three perfect games in a row ? 
+[(0, <makesets.aset object at 0x1111c32b0>), (4, <makesets.aset object at 0x1111c9240>), (1007, <makesets.aset object at 0x1111c9198>), (1011, <makesets.aset object at 0x1111c9320>), (1002, <makesets.aset object at 0x1111c3cc0>)]
+[(0, 'score', 'a'), (4, 'point', '21'), (1002, 'point', 'x'), (1007, 'game', '3'), (1011, 'row', 'a')]
+score-3
+points-6
+points-3
+games-10
+row-13
+[(0, 'score', 'a'), (4, 'point', '21'), (1002, 'point', 'x'), (1007, 'game', '3'), (1011, 'row', 'a')]
+[(0, 'score', 'a'), (4, 'point', '21'), (1002, 'point', 'x'), (1007, 'game', '3'), (1011, 'row', 'a')]
+[(0, 'score', 'a'), (4, 'point', '21'), (1002, 'point', 'x'), (1007, 'game', '3'), (1011, 'row', '1')]
+[(0, <makesets.aset object at 0x1111c32b0>), (4, <makesets.aset object at 0x1111c9240>), (1002, <makesets.aset object at 0x1111c3cc0>), (1007, <makesets.aset object at 0x1111c9198>), (1011, <makesets.aset object at 0x1111c9320>)]
+
+ Top 3 equations: 
+1.4396035276737733 21 = ( x / 3 ) / 1
+1.4396035276737733 21 / ( x / 3 ) = 1
+1.3691400092338895 21 = x / ( 3 / 1 )
+
+ CORRECT
+Guess :  63 
+Answer : 63.0 
+
+
+14
+ brian’s car gets 20 miles per gallon . on his last trip , he used 3 gallons of gas . how many miles did he travel on his last trip ? 
+[(4, <makesets.aset object at 0x1111cdba8>), (1007, <makesets.aset object at 0x1111cdc88>), (2002, <makesets.aset object at 0x11119d908>)]
+[(4, 'mile', '20'), (1007, 'gallon', '3'), (2002, 'mile', 'x')]
+miles-6
+gallons-9
+miles-3
+[(4, 'mile', '20'), (1007, 'gallon', '3'), (2002, 'mile', 'x')]
+[(4, 'mile', '20'), (1007, 'gallon', '3'), (2002, 'mile', 'x')]
+[(4, 'mile', '20'), (1007, 'gallon', '3'), (2002, 'mile', 'x')]
+[(4, <makesets.aset object at 0x1111cdba8>), (1007, <makesets.aset object at 0x1111cdc88>), (2002, <makesets.aset object at 0x11119d908>)]
+
+ Top 3 equations: 
+0.8326648573000097 20 = 3 / x
+0.5680915680931808 20 / 3 = x
+0.1551801507915762 20 - 3 = x
+
+ INCORRECT
+Guess :  17 
+Answer : 60.0 
+
+
+15
+ bob’s car gets 10 kilometers per gallon . how far can he drive on 10 gallons of gas ? 
+[(4, <makesets.aset object at 0x10dd962b0>), (1006, <makesets.aset object at 0x10dd96358>), (1001, <makesets.aset object at 0x10dd96208>)]
+[(4, 'kilometer', '10'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '10')]
+kilometers-6
+DISTANCE-None
+gallons-8
+[(4, 'kilometer', '10'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '10')]
+[(4, 'kilometer', '10'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '10')]
+[(4, 'kilometer', '10'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '10')]
+[(4, <makesets.aset object at 0x10dd962b0>), (1001, <makesets.aset object at 0x10dd96208>), (1006, <makesets.aset object at 0x10dd96358>)]
+
+ Top 3 equations: 
+-0.2 10 = x
+
+ INCORRECT
+Guess :  10 
+Answer : 100.0 
+
+
+16
+ each cup contains 8 ounces . how many ounces are in 33 cups ? 
+[(0, <makesets.aset object at 0x11119d978>), (3, <makesets.aset object at 0x11119dfd0>), (1005, <makesets.aset object at 0x1111c9518>), (1002, <makesets.aset object at 0x11119db70>)]
+[(0, 'cup', 'each'), (3, 'ounce', '8'), (1002, 'ounce', 'x'), (1005, 'cup', '33')]
+cup-2
+ounces-5
+ounces-3
+cups-7
+[(0, 'cup', 'each'), (3, 'ounce', '8'), (1002, 'ounce', 'x'), (1005, 'cup', '33')]
+[(0, 'cup', 'each'), (3, 'ounce', '8'), (1002, 'ounce', 'x'), (1005, 'cup', '33')]
+[(4, 'cup', '33'), (3, 'ounce', '8'), (1002, 'ounce', 'x'), (1005, 'cup', 'USED')]
+[(3, <makesets.aset object at 0x11119dfd0>), (4, <makesets.aset object at 0x11119d978>), (1002, <makesets.aset object at 0x11119db70>), (1005, <makesets.aset object at 0x1111c9518>)]
+
+ Top 3 equations: 
+0.7657842722328436 8 = 33 / x
+0.5174384525916795 8 / 33 = x
+0.1451495863150537 8 - 33 = x
+
+ INCORRECT
+Guess :  25 
+Answer : 264.0 
+
+
+17
+ a chocolate chip cookie recipe calls for 2 cups of chocolate chips . you want to make 23 recipes for a bake sale . how many cups of chocolate chips will be needed to make all the cookie recipes ? 
+[(0, <makesets.aset object at 0x10dd23fd0>), (7, <makesets.aset object at 0x1111cb198>), (1004, <makesets.aset object at 0x10dd990b8>), (1007, <makesets.aset object at 0x10dd99160>), (2012, <makesets.aset object at 0x10dd990f0>), (2002, <makesets.aset object at 0x111158ba8>)]
+[(0, 'recipe', 'a'), (7, 'cup', '2'), (1004, 'recipe', '23'), (1007, 'sale', 'a'), (2002, 'cup', 'x'), (2012, 'recipe', 'the')]
+recipe-5
+cups-9
+recipes-6
+sale-10
+cups-3
+recipes-15
+[(0, 'recipe', 'a'), (7, 'cup', '2'), (1004, 'recipe', '23'), (1007, 'sale', 'a'), (2002, 'cup', 'x'), (2012, 'recipe', 'the')]
+the
+[(0, 'recipe', 'a'), (7, 'cup', '2'), (1004, 'recipe', '23'), (1007, 'sale', 'a'), (2002, 'cup', 'x'), (2012, 'recipe', 'the')]
+[(0, 'recipe', 'a'), (7, 'cup', '2'), (1004, 'recipe', 'USED'), (1007, 'sale', '1'), (2002, 'cup', 'x'), (2012, 'recipe', '23')]
+[(0, <makesets.aset object at 0x10dd23fd0>), (7, <makesets.aset object at 0x1111cb198>), (1004, <makesets.aset object at 0x10dd990b8>), (1007, <makesets.aset object at 0x10dd99160>), (2002, <makesets.aset object at 0x111158ba8>), (2012, <makesets.aset object at 0x10dd990f0>)]
+
+ Top 3 equations: 
+1.3224797781625732 2 = 1 / ( x / 23 )
+1.3151225176298464 ( 2 / 1 ) / x = 23
+1.2891836868820237 2 = ( 1 / x ) / 23
+
+ CORRECT
+Guess :  46 
+Answer : 46.0 
+
+
+18
+ i have a pet golden retriever . each year he gains 11 pounds . he is 8 years old . how many pounds does he weigh ? 
+[(2, <makesets.aset object at 0x10dd23b70>), (1000, <makesets.aset object at 0x10dd99748>), (1004, <makesets.aset object at 0x10dd995f8>), (2002, <makesets.aset object at 0x10dd997b8>), (3002, <makesets.aset object at 0x10dd23b00>)]
+[(2, 'retriever', 'a'), (1000, 'year', 'each'), (1004, 'pound', '11'), (2002, 'year', '8'), (3002, 'pound', 'x')]
+retriever-6
+year-2
+pounds-6
+years-4
+pounds-3
+[(2, 'retriever', 'a'), (1000, 'year', 'each'), (1004, 'pound', '11'), (2002, 'year', '8'), (3002, 'pound', 'x')]
+[(2, 'retriever', 'a'), (1000, 'year', 'each'), (1004, 'pound', '11'), (2002, 'year', '8'), (3002, 'pound', 'x')]
+[(2, 'retriever', 'a'), (1005, 'year', '8'), (1004, 'pound', '11'), (2002, 'year', 'USED'), (3002, 'pound', 'x')]
+[(2, <makesets.aset object at 0x10dd23b70>), (1004, <makesets.aset object at 0x10dd995f8>), (1005, <makesets.aset object at 0x10dd99748>), (2002, <makesets.aset object at 0x10dd997b8>), (3002, <makesets.aset object at 0x10dd23b00>)]
+
+ Top 3 equations: 
+0.7976703723277033 11 = 8 / x
+0.5174384525916795 11 / 8 = x
+0.1451495863150537 11 - 8 = x
+
+ INCORRECT
+Guess :  3 
+Answer : 88.0 
+
+
+19
+ mary’s car gets 20 miles per gallon of gas . how far can she drive on 14 gallons of gas ? 
+[(4, <makesets.aset object at 0x10ddec128>), (1006, <makesets.aset object at 0x10ddec1d0>), (1001, <makesets.aset object at 0x10ddec048>)]
+[(4, 'mile', '20'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '14')]
+miles-6
+DISTANCE-None
+gallons-8
+[(4, 'mile', '20'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '14')]
+[(4, 'mile', '20'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '14')]
+[(4, 'mile', '20'), (1001, 'DISTANCE', 'x'), (1006, 'gallon', '14')]
+[(4, <makesets.aset object at 0x10ddec128>), (1001, <makesets.aset object at 0x10ddec048>), (1006, <makesets.aset object at 0x10ddec1d0>)]
+
+ Top 3 equations: 
+0.5393875673334536 20 = x / 14
+0.5174384525916795 20 / x = 14
+-0.05485041368494631 20 - x = 14
+
+ CORRECT
+Guess :  280 
+Answer : 280.0 
+
+
+20
+ i walked 2 miles in 1 hour for relay for life . if i maintained this pace for the 8 hours i walk , how many miles total will i walk ? 
+[(2, <makesets.aset object at 0x1111cbeb8>), (5, <makesets.aset object at 0x1111cb048>), (1003, <makesets.aset object at 0x1111cb1d0>), (1006, <makesets.aset object at 0x1111cb208>), (1007, <makesets.aset object at 0x1111cb160>), (1014, <makesets.aset object at 0x1111cb198>)]
+[(2, 'mile', '2'), (5, 'hour', '1'), (1003, 'pace', 'this'), (1007, 'hour', '8'), (1014, 'mile', 'x')]
+miles-4
+hour-7
+pace-5
+hours-9
+miles-15
+[(2, 'mile', '2'), (5, 'hour', '1'), (1003, 'pace', 'this'), (1007, 'hour', '8'), (1014, 'mile', 'x')]
+this
+[(2, 'mile', '2'), (5, 'hour', '1'), (1003, 'pace', 'this'), (1007, 'hour', '8'), (1014, 'mile', 'x')]
+[(2, 'mile', '2'), (5, 'hour', '1'), (1003, 'pace', 'this'), (1007, 'hour', '8'), (1014, 'mile', 'x')]
+[(2, <makesets.aset object at 0x1111cbeb8>), (5, <makesets.aset object at 0x1111cb048>), (1003, <makesets.aset object at 0x1111cb1d0>), (1007, <makesets.aset object at 0x1111cb160>), (1014, <makesets.aset object at 0x1111cb198>)]
+
+ Top 3 equations: 
+1.905291317210474 2 = 1 / ( 8 / x )
+1.4197731959469744 2 = ( 1 / 8 ) / x
+1.328735632449481 2 = ( 1 * 8 ) / x
+
+ CORRECT
+Guess :  16 
+Answer : 16.0 
+
+
+21
+ i walk 1 mile every 15 minutes . i walked 3 miles . how many minutes did it take me to walk 3 miles ? 
+[(2, <makesets.aset object at 0x10ddc95c0>), (5, <makesets.aset object at 0x10ddda1d0>), (1002, <makesets.aset object at 0x10ddda048>), (2009, <makesets.aset object at 0x10ddda668>), (2002, <makesets.aset object at 0x10ddc9fd0>)]
+[(2, 'mile', '1'), (5, 'minute', '15'), (1002, 'mile', '3'), (2002, 'minute', 'x'), (2009, 'mile', '3')]
+mile-4
+minutes-7
+miles-4
+minutes-3
+miles-11
+[(2, 'mile', '1'), (5, 'minute', '15'), (1002, 'mile', '3'), (2002, 'minute', 'x'), (2009, 'mile', '3')]
+[(2, 'mile', '1'), (5, 'minute', '15'), (1002, 'mile', '3'), (2002, 'minute', 'x'), (2009, 'mile', '3')]
+[(2, 'mile', '1'), (5, 'minute', '15'), (1002, 'mile', '3'), (2002, 'minute', 'x'), (2009, 'mile', '3')]
+[(2, <makesets.aset object at 0x10ddc95c0>), (5, <makesets.aset object at 0x10ddda1d0>), (1002, <makesets.aset object at 0x10ddda048>), (2002, <makesets.aset object at 0x10ddc9fd0>), (2009, <makesets.aset object at 0x10ddda668>)]
+
+ Top 3 equations: 
+1.2714973135533807 1 = ( 15 / 3 ) / x
+1.2395975207480574 ( 1 / 15 ) / 3 = x
+1.0009390841303223 1 = 15 + ( 3 / x )
+
+ INCORRECT
+Guess :  5 
+Answer : 45.0 
+
+
+22
+ there are 365 days in one year . how many days are in 12 years ? 
+[(2, <makesets.aset object at 0x10ddf44a8>), (5, <makesets.aset object at 0x10ddf4550>), (1005, <makesets.aset object at 0x10ddf45f8>), (1002, <makesets.aset object at 0x10ddf4400>)]
+[(2, 'day', '365'), (5, 'year', 'one'), (1002, 'day', 'x'), (1005, 'year', '12')]
+days-4
+year-7
+days-3
+years-7
+[(2, 'day', '365'), (5, 'year', 'one'), (1002, 'day', 'x'), (1005, 'year', '12')]
+CONVERTING
+year day
+CONVERTING
+year day
+[(2, 'day', '365'), (5, 'day', 'one 365.0'), (1002, 'day', 'x'), (1005, 'day', '4380.0')]
+[(2, 'day', '365'), (5, 'day', 'one 365.0'), (1002, 'day', 'x'), (1005, 'day', '4380.0')]
+[(2, <makesets.aset object at 0x10ddf44a8>), (5, <makesets.aset object at 0x10ddf4550>), (1002, <makesets.aset object at 0x10ddf4400>), (1005, <makesets.aset object at 0x10ddf45f8>)]
+
+ Top 3 equations: 
+0.9699787352541664 ( 365 - 365.0 ) - x = 4380.0
+0.9347247120086484 365 = 365.0 + ( x + 4380.0 )
+0.9312942569429294 365 - ( 365.0 + x ) = 4380.0
+
+ INCORRECT
+Guess :  0.0 
+Answer : 4380.0 
+
+
+23
+ lansing has 25 elementary schools . there are 247 students in each school . how many elementary students are there altogether in lansing ? 
+[(2, <makesets.aset object at 0x10ddec780>), (1002, <makesets.aset object at 0x10ddec8d0>), (1005, <makesets.aset object at 0x10ddec9e8>), (2003, <makesets.aset object at 0x10ddec438>)]
+[(2, 'school', '25'), (1002, 'student', '247'), (1005, 'school', 'each'), (2003, 'student', 'x')]
+schools-5
+students-4
+school-7
+students-4
+[(2, 'school', '25'), (1002, 'student', '247'), (1005, 'school', 'each'), (2003, 'student', 'x')]
+[(2, 'school', '25'), (1002, 'student', '247'), (1005, 'school', 'each'), (2003, 'student', 'x')]
+[(2, 'school', 'USED'), (1002, 'student', '247'), (2004, 'school', '25'), (2003, 'student', 'x')]
+[(2, <makesets.aset object at 0x10ddec780>), (1002, <makesets.aset object at 0x10ddec8d0>), (2003, <makesets.aset object at 0x10ddec438>), (2004, <makesets.aset object at 0x10ddec9e8>)]
+
+ Top 3 equations: 
+0.5657842722328437 247 = x / 25
+0.24895784172091034 247 - x = 25
+0.11608541615162485 247 = x - 25
+
+ CORRECT
+Guess :  6175 
+Answer : 6175.0 
+
+
+24
+ one pencil weighs 28.3 grams . how much do 5 pencils weigh ? 
+[(0, <makesets.aset object at 0x10de15748>), (3, <makesets.aset object at 0x10de156a0>), (1003, <makesets.aset object at 0x10de15358>), (1005, <makesets.aset object at 0x10de15710>)]
+[(0, 'pencil', 'one'), (3, 'gram', '28.3'), (1003, 'pencil', '5'), (1005, 'pencil', 'x')]
+pencil-2
+grams-5
+pencils-5
+pencils-None
+[(0, 'pencil', 'one'), (3, 'gram', '28.3'), (1003, 'pencil', '5'), (1005, 'pencil', 'x')]
+[(0, 'pencil', 'one'), (3, 'gram', '28.3'), (1003, 'pencil', '5'), (1005, 'pencil', 'x')]
+[(0, 'pencil', 'one'), (3, 'gram', '28.3'), (1003, 'pencil', '5'), (1005, 'pencil', 'x')]
+[(0, <makesets.aset object at 0x10de15748>), (3, <makesets.aset object at 0x10de156a0>), (1003, <makesets.aset object at 0x10de15358>), (1005, <makesets.aset object at 0x10de15710>)]
+
+ Top 3 equations: 
+0.5085119312429547 28.3 / 5 = x
+0.28312387327532884 28.3 = 5 + x
+0.10722527402113424 28.3 = 5 - x
+
+ INCORRECT
+Guess :  5.66000000000000 
+Answer : 141.5 
+
+
+25
+ andrew spent three day working on his science report . he worked for 2.5 hours each day . how many hours did he work ? 
+[(2, <makesets.aset object at 0x10ddef5c0>), (1003, <makesets.aset object at 0x10ddefc18>), (1005, <makesets.aset object at 0x10ddef390>), (2002, <makesets.aset object at 0x1111cdfd0>)]
+[(2, 'day', '3'), (1003, 'hour', '2.5'), (1005, 'day', 'each'), (2002, 'hour', 'x')]
+day-4
+hours-5
+day-7
+hours-3
+[(2, 'day', '3'), (1003, 'hour', '2.5'), (1005, 'day', 'each'), (2002, 'hour', 'x')]
+CONVERTING
+day hour
+CONVERTING
+day hour
+[(2, 'hour', '72.0'), (1003, 'hour', '2.5'), (1005, 'hour', 'each 24.0'), (2002, 'hour', 'x')]
+[(2, 'hour', '72.0'), (1003, 'hour', '2.5'), (1005, 'hour', 'x'), (2002, 'hour', 'x')]
+[(2, <makesets.aset object at 0x10ddef5c0>), (1003, <makesets.aset object at 0x10ddefc18>), (1005, <makesets.aset object at 0x10ddef390>), (2002, <makesets.aset object at 0x1111cdfd0>)]
+
+ Top 3 equations: 
+0.4849973429462081 72.0 = 2.5 + x
+0.4849973429462081 72.0 + 2.5 = x
+0.30508988130870623 72.0 = 2.5 - x
+
+ INCORRECT
+Guess :  74.5000000000000 
+Answer : 7.5 
+
+
+26
+ robin has 3 packages of gum . there are 18 pieces in each package . how many pieces of gum does robin have ? 
+[(2, <makesets.aset object at 0x10ddda668>), (1002, <makesets.aset object at 0x10ddda780>), (1005, <makesets.aset object at 0x10ddda518>), (2002, <makesets.aset object at 0x10dddac18>)]
+[(2, 'package', '3'), (1002, 'piece', '18'), (1005, 'package', 'each'), (2002, 'piece', 'x')]
+packages-4
+pieces-4
+package-7
+pieces-3
+[(2, 'package', '3'), (1002, 'piece', '18'), (1005, 'package', 'each'), (2002, 'piece', 'x')]
+[(2, 'package', '3'), (1002, 'piece', '18'), (1005, 'package', 'each'), (2002, 'piece', 'x')]
+[(2, 'package', 'USED'), (1002, 'piece', '18'), (2003, 'package', '3'), (2002, 'piece', 'x')]
+[(2, <makesets.aset object at 0x10ddda668>), (1002, <makesets.aset object at 0x10ddda780>), (2002, <makesets.aset object at 0x10dddac18>), (2003, <makesets.aset object at 0x10ddda518>)]
+
+ Top 3 equations: 
+0.5493382453970028 18 = x / 3
+0.18288278191107105 18 / x = 3
+0.1319070650143261 18 = x - 3
+
+ CORRECT
+Guess :  54 
+Answer : 54.0 
+
+
+27
+ arthur baked 115 muffins . james baked 12 times as many . how many muffins did james bake ? 
+[(2, <makesets.aset object at 0x1111a10b8>), (1002, <makesets.aset object at 0x1111a1eb8>), (1003, <makesets.aset object at 0x1111a15f8>), (2002, <makesets.aset object at 0x10dde5cf8>)]
+[(2, 'muffin', '115'), (1002, 'time', '12'), (1003, 'jame', 'times'), (2002, 'muffin', 'x')]
+muffins-4
+times-4
+james-1
+muffins-3
+[(2, 'muffin', '115'), (1002, 'time', '12'), (1003, 'jame', 'times'), (2002, 'muffin', 'x')]
+times
+[(2, 'muffin', '115'), (1002, 'time', '12'), (1003, 'jame', 'times'), (2002, 'muffin', 'x')]
+[(2, 'muffin', '115'), (1002, 'time', '12'), (1003, 'jame', 'times'), (2002, 'muffin', 'x')]
+[(2, <makesets.aset object at 0x1111a10b8>), (1002, <makesets.aset object at 0x1111a1eb8>), (1003, <makesets.aset object at 0x1111a15f8>), (2002, <makesets.aset object at 0x10dde5cf8>)]
+
+ Top 3 equations: 
+0.7631054745756459 115 = 12 / x
+0.5667357847348693 115 / 12 = x
+0.11468448762330641 115 - 12 = x
+
+ INCORRECT
+Guess :  103 
+Answer : 1380.0 
+
+
+28
+ joan went to 4 football games this year . she went to 9 games last year . how many football games did joan go to in all  ? 
+[(3, <makesets.aset object at 0x10de1cb00>), (6, <makesets.aset object at 0x10de1ca90>), (1003, <makesets.aset object at 0x10de1c4a8>), (2003, <makesets.aset object at 0x10de1cda0>)]
+[(3, 'game', '4'), (6, 'year', 'this'), (1003, 'game', '9'), (2003, 'game', 'x')]
+games-6
+year-8
+games-5
+games-4
+[(3, 'game', '4'), (6, 'year', 'this'), (1003, 'game', '9'), (2003, 'game', 'x')]
+this
+[(3, 'game', '4'), (6, 'year', 'this'), (1003, 'game', '9'), (2003, 'game', 'x')]
+[(3, 'game', '4'), (6, 'year', 'this'), (1003, 'game', '9'), (2003, 'game', 'x')]
+[(3, <makesets.aset object at 0x10de1cb00>), (6, <makesets.aset object at 0x10de1ca90>), (1003, <makesets.aset object at 0x10de1c4a8>), (2003, <makesets.aset object at 0x10de1cda0>)]
+
+ Top 3 equations: 
+0.6414880262633846 4 + 9 = x
+0.6091344757279081 4 = 9 + x
+0.18568399370963568 4 = 9 * x
+
+ CORRECT
+Guess :  13 
+Answer : 13.0 
+
+
+29
+ tom has 9 yellow balloons sara has 8 yellow balloons . how many yellow balloons do they have in total  ? 
+[(2, <makesets.aset object at 0x10dd99390>), (7, <makesets.aset object at 0x10dd99630>), (1003, <makesets.aset object at 0x10dd99668>)]
+[(2, 'balloon', '9'), (7, 'balloon', '8'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-10
+balloons-4
+[(2, 'balloon', '9'), (7, 'balloon', '8'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '9'), (7, 'balloon', '8'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '9'), (7, 'balloon', '8'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x10dd99390>), (7, <makesets.aset object at 0x10dd99630>), (1003, <makesets.aset object at 0x10dd99668>)]
+
+ Top 3 equations: 
+0.6833255743422426 9 + 8 = x
+0.5078564169077711 9 = 8 / x
+0.43090579254708367 9 = 8 * x
+
+ CORRECT
+Guess :  17 
+Answer : 17.0 
+
+
+30
+ there are 4 walnut trees currently in the park . park workers will plant 6 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+[(2, <makesets.aset object at 0x10ddf76d8>), (7, <makesets.aset object at 0x10ddf7400>), (1004, <makesets.aset object at 0x10ddf7710>), (2005, <makesets.aset object at 0x10ddf79b0>), (2009, <makesets.aset object at 0x10ddf7438>), (2002, <makesets.aset object at 0x10ddf79e8>)]
+[(2, 'tree', '4'), (7, 'park', 'the'), (1004, 'tree', '6'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+trees-5
+park-9
+trees-8
+walnut-3
+park-7
+workers-11
+[(2, 'tree', '4'), (7, 'park', 'the'), (1004, 'tree', '6'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+the
+the
+the
+the
+the
+the
+[(2, 'tree', '4'), (7, 'park', 'the'), (1004, 'tree', '6'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, 'tree', '4'), (7, 'park', 'the'), (1004, 'tree', '6'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, <makesets.aset object at 0x10ddf76d8>), (7, <makesets.aset object at 0x10ddf7400>), (1004, <makesets.aset object at 0x10ddf7710>), (2002, <makesets.aset object at 0x10ddf79e8>), (2005, <makesets.aset object at 0x10ddf79b0>), (2009, <makesets.aset object at 0x10ddf7438>)]
+
+ Top 3 equations: 
+0.5758749860307959 4 + 6 = x
+0.4451059033112255 4 = 6 / x
+0.2140580402213291 4 = 6 - x
+
+ CORRECT
+Guess :  10 
+Answer : 10.0 
+
+
+31
+ sam had 9 dimes in his bank . his dad gave him 7 more dimes . how many dimes does sam have now  ? 
+[(2, <makesets.aset object at 0x1111cb128>), (1004, <makesets.aset object at 0x1111cbd30>), (2002, <makesets.aset object at 0x1111cba58>)]
+[(2, 'dime', '9'), (1004, 'dime', '7'), (2002, 'dime', 'x')]
+dimes-4
+dimes-7
+dimes-3
+[(2, 'dime', '9'), (1004, 'dime', '7'), (2002, 'dime', 'x')]
+[(2, 'dime', '9'), (1004, 'dime', '7'), (2002, 'dime', 'x')]
+[(2, 'dime', '9'), (1004, 'dime', '7'), (2002, 'dime', 'x')]
+[(2, <makesets.aset object at 0x1111cb128>), (1004, <makesets.aset object at 0x1111cbd30>), (2002, <makesets.aset object at 0x1111cba58>)]
+
+ Top 3 equations: 
+0.8142401779786073 9 + 7 = x
+0.4771679856341465 9 = 7 + x
+0.32889157137006764 9 = 7 * x
+
+ CORRECT
+Guess :  16 
+Answer : 16.0 
+
+
+32
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+[(0, <makesets.aset object at 0x10ddec898>), (3, <makesets.aset object at 0x10ddecac8>), (1004, <makesets.aset object at 0x10ddecf28>), (8, <makesets.aset object at 0x10ddecda0>)]
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+restaurant-2
+pizzas-5
+pizzas-None
+pizzas-None
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+[(0, <makesets.aset object at 0x10ddec898>), (3, <makesets.aset object at 0x10ddecac8>), (8, <makesets.aset object at 0x10ddecda0>), (1004, <makesets.aset object at 0x10ddecf28>)]
+
+ Top 3 equations: 
+0.4849973429462081 9 + 6 = x
+0.48312387327532885 9 = 6 + x
+0.30722527402113425 9 = 6 - x
+
+ CORRECT
+Guess :  15 
+Answer : 15.0 
+
+
+33
+ there are 2 pencils in the drawer . tim placed 3 more pencils in the drawer . how many pencils are now there in total  ? 
+[(2, <makesets.aset object at 0x10dddadd8>), (5, <makesets.aset object at 0x10dd86320>), (1002, <makesets.aset object at 0x10dd86278>), (1006, <makesets.aset object at 0x10ddf46a0>), (2002, <makesets.aset object at 0x10dddab38>)]
+[(2, 'pencil', '2'), (5, 'drawer', 'the'), (1002, 'pencil', '3'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+[(2, 'pencil', '2'), (5, 'drawer', 'the'), (1002, 'pencil', '3'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+the
+the
+[(2, 'pencil', '2'), (5, 'drawer', 'the'), (1002, 'pencil', '3'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, 'pencil', '2'), (5, 'drawer', 'the'), (1002, 'pencil', '3'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, <makesets.aset object at 0x10dddadd8>), (5, <makesets.aset object at 0x10dd86320>), (1002, <makesets.aset object at 0x10dd86278>), (1006, <makesets.aset object at 0x10ddf46a0>), (2002, <makesets.aset object at 0x10dddab38>)]
+
+ Top 3 equations: 
+0.7343770298533744 2 + 3 = x
+0.620087899666994 2 = 3 * x
+0.2830538707363268 2 = 3 / x
+
+ CORRECT
+Guess :  5 
+Answer : 5.0 
+
+
+34
+ joan found 6 seashells and jessica found 8 seashells on the beach . how many seashells did they find together  ? 
+[(2, <makesets.aset object at 0x10ddf4be0>), (7, <makesets.aset object at 0x10ddf49b0>), (10, <makesets.aset object at 0x10ddf4e48>), (1003, <makesets.aset object at 0x10ddf4e10>)]
+[(2, 'seashell', '6'), (7, 'seashell', '8'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+seashells-4
+seashells-9
+beach-12
+seashells-None
+[(2, 'seashell', '6'), (7, 'seashell', '8'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '6'), (7, 'seashell', '8'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '6'), (7, 'seashell', '8'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10ddf4be0>), (7, <makesets.aset object at 0x10ddf49b0>), (10, <makesets.aset object at 0x10ddf4e48>), (1003, <makesets.aset object at 0x10ddf4e10>)]
+
+ Top 3 equations: 
+0.7232504744353128 6 + 8 = x
+0.7107830282229196 6 = 8 + x
+0.21584096750067658 6 = 8 - x
+
+ CORRECT
+Guess :  14 
+Answer : 14.0 
+
+
+35
+ sandy grew 6 carrots . sam grew 3 carrots . how many carrots did they grow in total  ? 
+[(2, <makesets.aset object at 0x10de36048>), (1002, <makesets.aset object at 0x10de360b8>), (2002, <makesets.aset object at 0x10ddb5c50>)]
+[(2, 'carrot', '6'), (1002, 'carrot', '3'), (2002, 'carrot', 'x')]
+carrots-4
+carrots-4
+carrots-3
+[(2, 'carrot', '6'), (1002, 'carrot', '3'), (2002, 'carrot', 'x')]
+[(2, 'carrot', '6'), (1002, 'carrot', '3'), (2002, 'carrot', 'x')]
+[(2, 'carrot', '6'), (1002, 'carrot', '3'), (2002, 'carrot', 'x')]
+[(2, <makesets.aset object at 0x10de36048>), (1002, <makesets.aset object at 0x10de360b8>), (2002, <makesets.aset object at 0x10ddb5c50>)]
+
+ Top 3 equations: 
+0.641480192656922 6 + 3 = x
+0.46614526084070124 6 = 3 / x
+0.3633605269427602 6 = 3 * x
+
+ CORRECT
+Guess :  9 
+Answer : 9.0 
+
+
+36
+ benny picked 2 apples and dan picked 9 apples from the apple tree . how many apples were picked in total  ? 
+[(2, <makesets.aset object at 0x10de1cd68>), (7, <makesets.aset object at 0x10de1cda0>), (10, <makesets.aset object at 0x10ddf7a20>), (1002, <makesets.aset object at 0x10de1cb00>)]
+[(2, 'apple', '2'), (7, 'apple', '9'), (10, 'tree', 'the'), (1002, 'apple', 'x')]
+apples-4
+apples-9
+tree-13
+apples-3
+[(2, 'apple', '2'), (7, 'apple', '9'), (10, 'tree', 'the'), (1002, 'apple', 'x')]
+the
+[(2, 'apple', '2'), (7, 'apple', '9'), (10, 'tree', 'the'), (1002, 'apple', 'x')]
+[(2, 'apple', '2'), (7, 'apple', '9'), (10, 'tree', 'the'), (1002, 'apple', 'x')]
+[(2, <makesets.aset object at 0x10de1cd68>), (7, <makesets.aset object at 0x10de1cda0>), (10, <makesets.aset object at 0x10ddf7a20>), (1002, <makesets.aset object at 0x10de1cb00>)]
+
+ Top 3 equations: 
+0.6883421856881684 2 + 9 = x
+0.46614526084070124 2 = 9 / x
+0.3633605269427602 2 = 9 * x
+
+ CORRECT
+Guess :  11 
+Answer : 11.0 
+
+
+37
+ sam found 18 seashells and mary found 47 seashells on the beach . how many seashells did they find together  ? 
+[(2, <makesets.aset object at 0x10de91a58>), (7, <makesets.aset object at 0x10de91ac8>), (10, <makesets.aset object at 0x10de91be0>), (1003, <makesets.aset object at 0x10de919e8>)]
+[(2, 'seashell', '18'), (7, 'seashell', '47'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+seashells-4
+seashells-9
+beach-12
+seashells-None
+[(2, 'seashell', '18'), (7, 'seashell', '47'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '18'), (7, 'seashell', '47'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '18'), (7, 'seashell', '47'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10de91a58>), (7, <makesets.aset object at 0x10de91ac8>), (10, <makesets.aset object at 0x10de91be0>), (1003, <makesets.aset object at 0x10de919e8>)]
+
+ Top 3 equations: 
+0.5834586011859394 18 + 47 = x
+0.5225787753403908 18 = 47 + x
+0.3947271155909485 18 = 47 - x
+
+ CORRECT
+Guess :  65 
+Answer : 65.0 
+
+
+38
+ sara picked 45 pears and sally picked 11 pears from the pear tree . how many pears were picked in total  ? 
+[(2, <makesets.aset object at 0x10de91048>), (7, <makesets.aset object at 0x10de91128>), (10, <makesets.aset object at 0x10de91198>), (1002, <makesets.aset object at 0x10de913c8>)]
+[(2, 'pear', '45'), (7, 'pear', '11'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+pears-4
+pears-9
+tree-13
+pears-3
+[(2, 'pear', '45'), (7, 'pear', '11'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+the
+[(2, 'pear', '45'), (7, 'pear', '11'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+[(2, 'pear', '45'), (7, 'pear', '11'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+[(2, <makesets.aset object at 0x10de91048>), (7, <makesets.aset object at 0x10de91128>), (10, <makesets.aset object at 0x10de91198>), (1002, <makesets.aset object at 0x10de913c8>)]
+
+ Top 3 equations: 
+0.6591907310319363 45 + 11 = x
+0.46614526084070124 45 = 11 / x
+0.3633605269427602 45 = 11 * x
+
+ CORRECT
+Guess :  56 
+Answer : 56.0 
+
+
+39
+ keith has 20 books . jason has 21 books .  how many books do they have together  ? 
+[(2, <makesets.aset object at 0x10dd993c8>), (1002, <makesets.aset object at 0x10deb8048>), (2002, <makesets.aset object at 0x10dd99828>)]
+[(2, 'book', '20'), (1002, 'book', '21'), (2002, 'book', 'x')]
+books-4
+books-4
+books-3
+[(2, 'book', '20'), (1002, 'book', '21'), (2002, 'book', 'x')]
+[(2, 'book', '20'), (1002, 'book', '21'), (2002, 'book', 'x')]
+[(2, 'book', '20'), (1002, 'book', '21'), (2002, 'book', 'x')]
+[(2, <makesets.aset object at 0x10dd993c8>), (1002, <makesets.aset object at 0x10deb8048>), (2002, <makesets.aset object at 0x10dd99828>)]
+
+ Top 3 equations: 
+0.7312407911766341 20 + 21 = x
+0.513579165013644 20 = 21 + x
+0.21959544253279148 20 = 21 * x
+
+ CORRECT
+Guess :  41 
+Answer : 41.0 
+
+
+40
+ jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+[(2, <makesets.aset object at 0x10de36a20>), (1004, <makesets.aset object at 0x10de362b0>), (2002, <makesets.aset object at 0x10ddf4e10>)]
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+quarters-4
+quarters-7
+quarters-3
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x10de36a20>), (1004, <makesets.aset object at 0x10de362b0>), (2002, <makesets.aset object at 0x10ddf4e10>)]
+
+ Top 3 equations: 
+0.6719110976085749 49 + 25 = x
+0.4771679856341465 49 = 25 + x
+0.32889157137006764 49 = 25 * x
+
+ CORRECT
+Guess :  74 
+Answer : 74.0 
+
+
+41
+ joan picked 37 oranges and sara picked 10 oranges . how many oranges were picked in total  ? 
+[(2, <makesets.aset object at 0x1111a1ef0>), (7, <makesets.aset object at 0x10de91240>), (1002, <makesets.aset object at 0x1111a1e48>)]
+[(2, 'orange', '37'), (7, 'orange', '10'), (1002, 'orange', 'x')]
+oranges-4
+oranges-9
+oranges-3
+[(2, 'orange', '37'), (7, 'orange', '10'), (1002, 'orange', 'x')]
+[(2, 'orange', '37'), (7, 'orange', '10'), (1002, 'orange', 'x')]
+[(2, 'orange', '37'), (7, 'orange', '10'), (1002, 'orange', 'x')]
+[(2, <makesets.aset object at 0x1111a1ef0>), (7, <makesets.aset object at 0x10de91240>), (1002, <makesets.aset object at 0x1111a1e48>)]
+
+ Top 3 equations: 
+0.6883421856881684 37 + 10 = x
+0.46614526084070124 37 = 10 / x
+0.3633605269427602 37 = 10 * x
+
+ CORRECT
+Guess :  47 
+Answer : 47.0 
+
+
+42
+ fred went to 36 basketball games this year . he went to  11 games last year . how many basketball games did fred go to in total  ? 
+[(3, <makesets.aset object at 0x10ddb5780>), (6, <makesets.aset object at 0x10ddda048>), (1003, <makesets.aset object at 0x10dddab38>), (2003, <makesets.aset object at 0x10ddb5dd8>)]
+[(3, 'game', '36'), (6, 'year', 'this'), (1003, 'game', '11'), (2003, 'game', 'x')]
+games-6
+year-8
+games-5
+games-4
+[(3, 'game', '36'), (6, 'year', 'this'), (1003, 'game', '11'), (2003, 'game', 'x')]
+this
+[(3, 'game', '36'), (6, 'year', 'this'), (1003, 'game', '11'), (2003, 'game', 'x')]
+[(3, 'game', '36'), (6, 'year', 'this'), (1003, 'game', '11'), (2003, 'game', 'x')]
+[(3, <makesets.aset object at 0x10ddb5780>), (6, <makesets.aset object at 0x10ddda048>), (1003, <makesets.aset object at 0x10dddab38>), (2003, <makesets.aset object at 0x10ddb5dd8>)]
+
+ Top 3 equations: 
+0.5177317676808652 36 + 11 = x
+0.48156820002281 36 = 11 / x
+0.35377809342945615 36 = 11 * x
+
+ INCORRECT
+Guess :  47 
+Answer : 37.0 
+
+
+43
+ there are 33 pencils in the drawer . joan placed  27 more pencils in the drawer . how many pencils are now there in total  ? 
+[(2, <makesets.aset object at 0x10ddec6a0>), (5, <makesets.aset object at 0x10ddec748>), (1002, <makesets.aset object at 0x10ddec080>), (1006, <makesets.aset object at 0x10ddecbe0>), (2002, <makesets.aset object at 0x10ddec5f8>)]
+[(2, 'pencil', '33'), (5, 'drawer', 'the'), (1002, 'pencil', '27'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+[(2, 'pencil', '33'), (5, 'drawer', 'the'), (1002, 'pencil', '27'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+the
+the
+[(2, 'pencil', '33'), (5, 'drawer', 'the'), (1002, 'pencil', '27'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, 'pencil', '33'), (5, 'drawer', 'the'), (1002, 'pencil', '27'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, <makesets.aset object at 0x10ddec6a0>), (5, <makesets.aset object at 0x10ddec748>), (1002, <makesets.aset object at 0x10ddec080>), (1006, <makesets.aset object at 0x10ddecbe0>), (2002, <makesets.aset object at 0x10ddec5f8>)]
+
+ Top 3 equations: 
+0.7343770298533744 33 + 27 = x
+0.620087899666994 33 = 27 * x
+0.2830538707363268 33 = 27 / x
+
+ CORRECT
+Guess :  60 
+Answer : 60.0 
+
+
+44
+ anna starts with 5 candies . she gets 86 more from larry . how many candies does anna end with ? 
+[(3, <makesets.aset object at 0x10dd99160>), (2002, <makesets.aset object at 0x10dd99978>), (1002, <makesets.aset object at 0x10dd99198>)]
+[(3, 'candy', '5'), (1002, 'candy', '86'), (2002, 'candy', 'x')]
+candies-5
+candies-None
+candies-3
+[(3, 'candy', '5'), (1002, 'candy', '86'), (2002, 'candy', 'x')]
+[(3, 'candy', '5'), (1002, 'candy', '86'), (2002, 'candy', 'x')]
+[(3, 'candy', '5'), (1002, 'candy', '86'), (2002, 'candy', 'x')]
+[(3, <makesets.aset object at 0x10dd99160>), (1002, <makesets.aset object at 0x10dd99198>), (2002, <makesets.aset object at 0x10dd99978>)]
+
+ Top 3 equations: 
+0.7713104658434603 5 + 86 = x
+0.47435478089889543 5 = 86 + x
+0.32277475202793554 5 = 86 * x
+
+ CORRECT
+Guess :  91 
+Answer : 91.0 
+
+
+45
+ if there are 4 crayons in a box and harold puts 15 more crayons inside , how many crayons are in the box ? 
+[(3, <makesets.aset object at 0x1111cb7b8>), (6, <makesets.aset object at 0x1111cbf60>), (11, <makesets.aset object at 0x10de15e48>), (21, <makesets.aset object at 0x10deb8dd8>), (19, <makesets.aset object at 0x1111cb630>)]
+[(3, 'crayon', '4'), (6, 'box', 'a'), (11, 'crayon', '15'), (19, 'crayon', 'x'), (21, 'box', 'the')]
+crayons-5
+box-8
+crayons-14
+crayons-None
+box-23
+[(3, 'crayon', '4'), (6, 'box', 'a'), (11, 'crayon', '15'), (19, 'crayon', 'x'), (21, 'box', 'the')]
+the
+[(3, 'crayon', '4'), (6, 'box', 'a'), (11, 'crayon', '15'), (19, 'crayon', 'x'), (21, 'box', 'the')]
+[(3, 'crayon', '4'), (12, 'box', 'USED'), (11, 'crayon', '15'), (19, 'crayon', 'x'), (21, 'box', '1')]
+[(3, <makesets.aset object at 0x1111cb7b8>), (11, <makesets.aset object at 0x10de15e48>), (12, <makesets.aset object at 0x1111cbf60>), (19, <makesets.aset object at 0x1111cb630>), (21, <makesets.aset object at 0x10deb8dd8>)]
+
+ Top 3 equations: 
+1.1769754465158997 4 = 15 / ( x / 1 )
+0.944625400455785 4 = ( 15 + x ) / 1
+0.8486442993557828 ( 4 + 15 ) + x = 1
+
+ INCORRECT
+Guess :  11 
+Answer : 19.0 
+
+
+46
+ martha has 2 peanuts . joyce has 26 peanuts . if joyce gives all of her peanuts to martha , how many peanuts will martha have ? 
+[(2, <makesets.aset object at 0x10deb8b00>), (1002, <makesets.aset object at 0x10deb8f28>), (2012, <makesets.aset object at 0x10deb8940>)]
+[(2, 'peanut', '2'), (1002, 'peanut', '26'), (2012, 'peanut', 'x')]
+peanuts-4
+peanuts-4
+peanuts-13
+[(2, 'peanut', '2'), (1002, 'peanut', '26'), (2012, 'peanut', 'x')]
+[(2, 'peanut', '2'), (1002, 'peanut', '26'), (2012, 'peanut', 'x')]
+[(2, 'peanut', '2'), (1002, 'peanut', '26'), (2012, 'peanut', 'x')]
+[(2, <makesets.aset object at 0x10deb8b00>), (1002, <makesets.aset object at 0x10deb8f28>), (2012, <makesets.aset object at 0x10deb8940>)]
+
+ Top 3 equations: 
+0.46451188367265117 2 + 26 = x
+0.44733606270024107 2 = 26 + x
+0.30636913323469567 2 = 26 - x
+
+ CORRECT
+Guess :  28 
+Answer : 28.0 
+
+
+47
+ kevin starts with 7 cards . he finds another 47 . how many cards does kevin end with ? 
+[(3, <makesets.aset object at 0x1111f90f0>), (2002, <makesets.aset object at 0x1111f9080>), (1003, <makesets.aset object at 0x1111f9198>)]
+[(3, 'card', '7'), (1003, 'card', '47'), (2002, 'card', 'x')]
+cards-5
+cards-None
+cards-3
+[(3, 'card', '7'), (1003, 'card', '47'), (2002, 'card', 'x')]
+[(3, 'card', '7'), (1003, 'card', '47'), (2002, 'card', 'x')]
+[(3, 'card', '7'), (1003, 'card', '47'), (2002, 'card', 'x')]
+[(3, <makesets.aset object at 0x1111f90f0>), (1003, <makesets.aset object at 0x1111f9198>), (2002, <makesets.aset object at 0x1111f9080>)]
+
+ Top 3 equations: 
+0.6903342822405215 7 + 47 = x
+0.6344550528463161 7 = 47 + x
+0.1682035391323589 7 = 47 * x
+
+ CORRECT
+Guess :  54 
+Answer : 54.0 
+
+
+48
+ nicholas starts with 8 bottle caps . he gets 85 more from catherine . how many bottle caps does nicholas end with ? 
+[(3, <makesets.aset object at 0x10ddda048>), (2003, <makesets.aset object at 0x10ddec828>), (1002, <makesets.aset object at 0x1111c99e8>)]
+[(3, 'cap', '8'), (1002, 'cap', '85'), (2003, 'cap', 'x')]
+caps-6
+caps-None
+caps-4
+[(3, 'cap', '8'), (1002, 'cap', '85'), (2003, 'cap', 'x')]
+[(3, 'cap', '8'), (1002, 'cap', '85'), (2003, 'cap', 'x')]
+[(3, 'cap', '8'), (1002, 'cap', '85'), (2003, 'cap', 'x')]
+[(3, <makesets.aset object at 0x10ddda048>), (1002, <makesets.aset object at 0x1111c99e8>), (2003, <makesets.aset object at 0x10ddec828>)]
+
+ Top 3 equations: 
+0.7713104658434603 8 + 85 = x
+0.47435478089889543 8 = 85 + x
+0.32277475202793554 8 = 85 * x
+
+ CORRECT
+Guess :  93 
+Answer : 93.0 
+
+
+49
+ janet has 57 apples . she finds another 95 . how many apples does janet have in all ? 
+[(2, <makesets.aset object at 0x1111f9a90>), (2002, <makesets.aset object at 0x1111f99e8>), (1003, <makesets.aset object at 0x1111f9b38>)]
+[(2, 'apple', '57'), (1003, 'apple', '95'), (2002, 'apple', 'x')]
+apples-4
+apples-None
+apples-3
+[(2, 'apple', '57'), (1003, 'apple', '95'), (2002, 'apple', 'x')]
+[(2, 'apple', '57'), (1003, 'apple', '95'), (2002, 'apple', 'x')]
+[(2, 'apple', '57'), (1003, 'apple', '95'), (2002, 'apple', 'x')]
+[(2, <makesets.aset object at 0x1111f9a90>), (1003, <makesets.aset object at 0x1111f9b38>), (2002, <makesets.aset object at 0x1111f99e8>)]
+
+ Top 3 equations: 
+0.6414594885719286 57 + 95 = x
+0.4100986350957255 57 = 95 * x
+0.3499573816098377 57 = 95 + x
+
+ CORRECT
+Guess :  152 
+Answer : 152.0 
+
+
+50
+ nancy starts with 91 bottle caps . she finds another 88 . how many bottle caps does nancy end with ? 
+[(3, <makesets.aset object at 0x1111ef198>), (2003, <makesets.aset object at 0x1111efbe0>), (1003, <makesets.aset object at 0x1111ef240>)]
+[(3, 'cap', '91'), (1003, 'cap', '88'), (2003, 'cap', 'x')]
+caps-6
+caps-None
+caps-4
+[(3, 'cap', '91'), (1003, 'cap', '88'), (2003, 'cap', 'x')]
+[(3, 'cap', '91'), (1003, 'cap', '88'), (2003, 'cap', 'x')]
+[(3, 'cap', '91'), (1003, 'cap', '88'), (2003, 'cap', 'x')]
+[(3, <makesets.aset object at 0x1111ef198>), (1003, <makesets.aset object at 0x1111ef240>), (2003, <makesets.aset object at 0x1111efbe0>)]
+
+ Top 3 equations: 
+0.6903342822405215 91 + 88 = x
+0.6344550528463161 91 = 88 + x
+0.1682035391323589 91 = 88 * x
+
+ INCORRECT
+Guess :  179 
+Answer : 178.0 
+
+
+51
+ there are 4 oranges . 73 oranges more are added . how many are there total ? 
+[(2, <makesets.aset object at 0x10dd99978>), (1000, <makesets.aset object at 0x10dd99cc0>), (2004, <makesets.aset object at 0x10dd99ef0>)]
+[(2, 'orange', '4'), (1000, 'orange', '73'), (2004, 'orange', 'x')]
+oranges-4
+oranges-2
+oranges-None
+[(2, 'orange', '4'), (1000, 'orange', '73'), (2004, 'orange', 'x')]
+[(2, 'orange', '4'), (1000, 'orange', '73'), (2004, 'orange', 'x')]
+[(2, 'orange', '4'), (1000, 'orange', '73'), (2004, 'orange', 'x')]
+[(2, <makesets.aset object at 0x10dd99978>), (1000, <makesets.aset object at 0x10dd99cc0>), (2004, <makesets.aset object at 0x10dd99ef0>)]
+
+ Top 3 equations: 
+0.6415833277997799 4 + 73 = x
+0.5151305253857508 4 = 73 / x
+0.408858991399379 4 = 73 * x
+
+ CORRECT
+Guess :  77 
+Answer : 77.0 
+
+
+52
+ dan grew 42 turnips and 38 cantelopes . jessica grew  47 turnips . how many turnips did they grow in total  ? 
+[(2, <makesets.aset object at 0x10ddefc88>), (5, <makesets.aset object at 0x10ddef588>), (1002, <makesets.aset object at 0x1111cba58>), (2002, <makesets.aset object at 0x10de24080>)]
+[(2, 'turnip', '42'), (5, 'cantelope', '38'), (1002, 'turnip', '47'), (2002, 'turnip', 'x')]
+turnips-4
+cantelopes-7
+turnips-4
+turnips-3
+[(2, 'turnip', '42'), (5, 'cantelope', '38'), (1002, 'turnip', '47'), (2002, 'turnip', 'x')]
+[(2, 'turnip', '42'), (5, 'cantelope', '38'), (1002, 'turnip', '47'), (2002, 'turnip', 'x')]
+[(2, 'turnip', '42'), (5, 'cantelope', '38'), (1002, 'turnip', '47'), (2002, 'turnip', 'x')]
+[(2, <makesets.aset object at 0x10ddefc88>), (5, <makesets.aset object at 0x10ddef588>), (1002, <makesets.aset object at 0x1111cba58>), (2002, <makesets.aset object at 0x10de24080>)]
+
+ Top 3 equations: 
+1.38798457599475 42 = 38 / ( 47 / x )
+1.3015272972307137 42 = ( 38 - 47 ) / x
+1.2851998420968092 42 = 38 / ( 47 * x )
+
+ INCORRECT
+Guess :  127 
+Answer : 89.0 
+
+
+53
+ there are 33 walnut trees currently in the park . park workers will plant  44 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+[(2, <makesets.aset object at 0x10de36780>), (7, <makesets.aset object at 0x10dd99ac8>), (1004, <makesets.aset object at 0x10dd99a58>), (2005, <makesets.aset object at 0x10dd995c0>), (2009, <makesets.aset object at 0x10ddf7438>), (2002, <makesets.aset object at 0x10de36b00>)]
+[(2, 'tree', '33'), (7, 'park', 'the'), (1004, 'tree', '44'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+trees-5
+park-9
+trees-8
+walnut-3
+park-7
+workers-11
+[(2, 'tree', '33'), (7, 'park', 'the'), (1004, 'tree', '44'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+the
+the
+the
+the
+the
+the
+[(2, 'tree', '33'), (7, 'park', 'the'), (1004, 'tree', '44'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, 'tree', '33'), (7, 'park', 'the'), (1004, 'tree', '44'), (2002, 'walnut', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, <makesets.aset object at 0x10de36780>), (7, <makesets.aset object at 0x10dd99ac8>), (1004, <makesets.aset object at 0x10dd99a58>), (2002, <makesets.aset object at 0x10de36b00>), (2005, <makesets.aset object at 0x10dd995c0>), (2009, <makesets.aset object at 0x10ddf7438>)]
+
+ Top 3 equations: 
+0.5758749860307959 33 + 44 = x
+0.4451059033112255 33 = 44 / x
+0.2140580402213291 33 = 44 - x
+
+ CORRECT
+Guess :  77 
+Answer : 77.0 
+
+
+54
+ sara had 21 quarters in her bank . her dad gave her 49 more quarters . how many quarters does she have now  ? 
+[(2, <makesets.aset object at 0x1112160f0>), (2002, <makesets.aset object at 0x111216048>), (1004, <makesets.aset object at 0x111216128>)]
+[(2, 'quarter', '21'), (1004, 'quarter', '49'), (2002, 'quarter', 'x')]
+quarters-4
+quarters-None
+quarters-3
+[(2, 'quarter', '21'), (1004, 'quarter', '49'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '21'), (1004, 'quarter', '49'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '21'), (1004, 'quarter', '49'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x1112160f0>), (1004, <makesets.aset object at 0x111216128>), (2002, <makesets.aset object at 0x111216048>)]
+
+ Top 3 equations: 
+0.6963719715874407 21 + 49 = x
+0.4870630468882901 21 = 49 + x
+0.31899684620286145 21 = 49 * x
+
+ CORRECT
+Guess :  70 
+Answer : 70.0 
+
+
+55
+ there are 41 pencils in the drawer . mike placed 30 more  pencils in the drawer . how many pencils are now there in total  ? 
+[(2, <makesets.aset object at 0x10ddeca20>), (5, <makesets.aset object at 0x10ddec6d8>), (1002, <makesets.aset object at 0x10ddec7b8>), (1006, <makesets.aset object at 0x10ddec8d0>), (2002, <makesets.aset object at 0x10ddf7e48>)]
+[(2, 'pencil', '41'), (5, 'drawer', 'the'), (1002, 'pencil', '30'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+[(2, 'pencil', '41'), (5, 'drawer', 'the'), (1002, 'pencil', '30'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+the
+the
+[(2, 'pencil', '41'), (5, 'drawer', 'the'), (1002, 'pencil', '30'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, 'pencil', '41'), (5, 'drawer', 'the'), (1002, 'pencil', '30'), (1006, 'drawer', 'the'), (2002, 'pencil', 'x')]
+[(2, <makesets.aset object at 0x10ddeca20>), (5, <makesets.aset object at 0x10ddec6d8>), (1002, <makesets.aset object at 0x10ddec7b8>), (1006, <makesets.aset object at 0x10ddec8d0>), (2002, <makesets.aset object at 0x10ddf7e48>)]
+
+ Top 3 equations: 
+0.7343770298533744 41 + 30 = x
+0.620087899666994 41 = 30 * x
+0.2830538707363268 41 = 30 / x
+
+ CORRECT
+Guess :  71 
+Answer : 71.0 
+
+
+56
+ joan has 10 books . tom has 38 books .  how many books do they have together  ? 
+[(2, <makesets.aset object at 0x10de119b0>), (1002, <makesets.aset object at 0x1111e85f8>), (2002, <makesets.aset object at 0x10de112b0>)]
+[(2, 'book', '10'), (1002, 'book', '38'), (2002, 'book', 'x')]
+books-4
+books-4
+books-3
+[(2, 'book', '10'), (1002, 'book', '38'), (2002, 'book', 'x')]
+[(2, 'book', '10'), (1002, 'book', '38'), (2002, 'book', 'x')]
+[(2, 'book', '10'), (1002, 'book', '38'), (2002, 'book', 'x')]
+[(2, <makesets.aset object at 0x10de119b0>), (1002, <makesets.aset object at 0x1111e85f8>), (2002, <makesets.aset object at 0x10de112b0>)]
+
+ Top 3 equations: 
+0.7312407911766341 10 + 38 = x
+0.513579165013644 10 = 38 + x
+0.21959544253279148 10 = 38 * x
+
+ CORRECT
+Guess :  48 
+Answer : 48.0 
+
+
+57
+ joan has 40 blue balloons melanie has 41 blue balloons . how many blue balloons do they have in total  ? 
+[(2, <makesets.aset object at 0x10deb8828>), (7, <makesets.aset object at 0x10deb8278>), (1003, <makesets.aset object at 0x10deb85c0>)]
+[(2, 'balloon', '40'), (7, 'balloon', '41'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-10
+balloons-4
+[(2, 'balloon', '40'), (7, 'balloon', '41'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '40'), (7, 'balloon', '41'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '40'), (7, 'balloon', '41'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x10deb8828>), (7, <makesets.aset object at 0x10deb8278>), (1003, <makesets.aset object at 0x10deb85c0>)]
+
+ Top 3 equations: 
+0.6833255743422426 40 + 41 = x
+0.5078564169077711 40 = 41 / x
+0.43090579254708367 40 = 41 * x
+
+ CORRECT
+Guess :  81 
+Answer : 81.0 
+
+
+58
+ fred grew 38 cantelopes . tim grew 44 cantelopes . how many cantelopes did they grow in total  ? 
+[(2, <makesets.aset object at 0x10de15e48>), (1002, <makesets.aset object at 0x10de11358>), (2002, <makesets.aset object at 0x10de91f28>)]
+[(2, 'cantelope', '38'), (1002, 'cantelope', '44'), (2002, 'cantelope', 'x')]
+cantelopes-4
+cantelopes-4
+cantelopes-3
+[(2, 'cantelope', '38'), (1002, 'cantelope', '44'), (2002, 'cantelope', 'x')]
+[(2, 'cantelope', '38'), (1002, 'cantelope', '44'), (2002, 'cantelope', 'x')]
+[(2, 'cantelope', '38'), (1002, 'cantelope', '44'), (2002, 'cantelope', 'x')]
+[(2, <makesets.aset object at 0x10de15e48>), (1002, <makesets.aset object at 0x10de11358>), (2002, <makesets.aset object at 0x10de91f28>)]
+
+ Top 3 equations: 
+0.641480192656922 38 + 44 = x
+0.46614526084070124 38 = 44 / x
+0.3633605269427602 38 = 44 * x
+
+ CORRECT
+Guess :  82 
+Answer : 82.0 
+
+
+59
+ sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+[(3, <makesets.aset object at 0x10de91fd0>), (6, <makesets.aset object at 0x10de917b8>), (1003, <makesets.aset object at 0x10de91780>), (2003, <makesets.aset object at 0x10de91b38>)]
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+games-6
+year-8
+games-5
+games-4
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+this
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+[(3, <makesets.aset object at 0x10de91fd0>), (6, <makesets.aset object at 0x10de917b8>), (1003, <makesets.aset object at 0x10de91780>), (2003, <makesets.aset object at 0x10de91b38>)]
+
+ Top 3 equations: 
+0.6414880262633846 14 + 29 = x
+0.6091344757279081 14 = 29 + x
+0.18568399370963568 14 = 29 * x
+
+ CORRECT
+Guess :  43 
+Answer : 43.0 
+
+
+60
+ mary found 18 seashells and jessica found 41 seashells on the beach . how many seashells did they find together  ? 
+[(2, <makesets.aset object at 0x10ddb5588>), (7, <makesets.aset object at 0x1111c99e8>), (10, <makesets.aset object at 0x1111c9ac8>), (1003, <makesets.aset object at 0x10dd99780>)]
+[(2, 'seashell', '18'), (7, 'seashell', '41'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+seashells-4
+seashells-9
+beach-12
+seashells-None
+[(2, 'seashell', '18'), (7, 'seashell', '41'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '18'), (7, 'seashell', '41'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '18'), (7, 'seashell', '41'), (10, 'beach', 'the'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10ddb5588>), (7, <makesets.aset object at 0x1111c99e8>), (10, <makesets.aset object at 0x1111c9ac8>), (1003, <makesets.aset object at 0x10dd99780>)]
+
+ Top 3 equations: 
+0.7107830282229196 18 = 41 + x
+0.6889887018920443 18 + 41 = x
+0.21584096750067658 18 = 41 - x
+
+ CORRECT
+Guess :  59 
+Answer : 59.0 
+
+
+61
+ denise removes 5 bananas from a jar . there were originally 46 bananas in the jar . how many bananas are left in the jar ? 
+[(2, <makesets.aset object at 0x10de24668>), (5, <makesets.aset object at 0x10de247f0>), (1003, <makesets.aset object at 0x10de240f0>), (1006, <makesets.aset object at 0x10de24198>), (2006, <makesets.aset object at 0x10de24eb8>), (2002, <makesets.aset object at 0x10de24240>)]
+[(2, 'banana', '5'), (5, 'jar', 'a'), (1003, 'banana', '46'), (1006, 'jar', 'the'), (2002, 'banana', 'x'), (2006, 'jar', 'the')]
+bananas-4
+jar-7
+bananas-5
+jar-8
+bananas-3
+jar-8
+[(2, 'banana', '5'), (5, 'jar', 'a'), (1003, 'banana', '46'), (1006, 'jar', 'the'), (2002, 'banana', 'x'), (2006, 'jar', 'the')]
+the
+the
+[(2, 'banana', '5'), (5, 'jar', 'a'), (1003, 'banana', '46'), (1006, 'jar', 'the'), (2002, 'banana', 'x'), (2006, 'jar', 'the')]
+[(2, 'banana', '5'), (1004, 'jar', 'USED'), (1003, 'banana', '46'), (1006, 'jar', 'USED'), (2002, 'banana', 'x'), (2006, 'jar', '1')]
+[(2, <makesets.aset object at 0x10de24668>), (1003, <makesets.aset object at 0x10de240f0>), (1004, <makesets.aset object at 0x10de247f0>), (1006, <makesets.aset object at 0x10de24198>), (2002, <makesets.aset object at 0x10de24240>), (2006, <makesets.aset object at 0x10de24eb8>)]
+
+ Top 3 equations: 
+1.1386684951287052 5 = 46 / ( x / 1 )
+1.0146905050564123 5 + ( 46 + x ) = 1
+0.9998120715523156 5 = ( 46 + x ) / 1
+
+ CORRECT
+Guess :  41 
+Answer : 41.0 
+
+
+62
+ joyce starts with 75 apples . she gives 52 to larry . how many apples does joyce end with ? 
+[(3, <makesets.aset object at 0x111213940>), (2002, <makesets.aset object at 0x1112139b0>), (1002, <makesets.aset object at 0x111216400>)]
+[(3, 'apple', '75'), (1002, 'apple', '52'), (2002, 'apple', 'x')]
+apples-5
+apples-None
+apples-3
+[(3, 'apple', '75'), (1002, 'apple', '52'), (2002, 'apple', 'x')]
+[(3, 'apple', '75'), (1002, 'apple', '52'), (2002, 'apple', 'x')]
+[(3, 'apple', '75'), (1002, 'apple', '52'), (2002, 'apple', 'x')]
+[(3, <makesets.aset object at 0x111213940>), (1002, <makesets.aset object at 0x111216400>), (2002, <makesets.aset object at 0x1112139b0>)]
+
+ Top 3 equations: 
+0.6903342822405215 75 + 52 = x
+0.6344550528463161 75 = 52 + x
+0.1682035391323589 75 = 52 * x
+
+ INCORRECT
+Guess :  127 
+Answer : 23.0 
+
+
+63
+ anne weighs 67 pounds . douglas weighs 52 pounds . how much heavier is anne than douglas ? 
+[(2, <makesets.aset object at 0x11121e048>), (1002, <makesets.aset object at 0x11121e0f0>), (2003, <makesets.aset object at 0x10de91470>)]
+[(2, 'pound', '67'), (1002, 'pound', '52'), (2003, 'pound', 'x')]
+pounds-4
+pounds-4
+pounds-None
+[(2, 'pound', '67'), (1002, 'pound', '52'), (2003, 'pound', 'x')]
+[(2, 'pound', '67'), (1002, 'pound', '52'), (2003, 'pound', 'x')]
+[(2, 'pound', '67'), (1002, 'pound', '52'), (2003, 'pound', 'x')]
+[(2, <makesets.aset object at 0x11121e048>), (1002, <makesets.aset object at 0x11121e0f0>), (2003, <makesets.aset object at 0x10de91470>)]
+
+ Top 3 equations: 
+0.4849973429462081 67 = 52 + x
+0.30508988130870623 67 = 52 - x
+0.3033206840195559 67 - 52 = x
+
+ CORRECT
+Guess :  15 
+Answer : 15.0 
+
+
+64
+ carlos starts with 39 bananas . 3 are eaten by a hippopotamus . how many bananas does carlos end with ? 
+[(3, <makesets.aset object at 0x10de36d68>), (1004, <makesets.aset object at 0x11117ebe0>), (2002, <makesets.aset object at 0x10de36240>), (1000, <makesets.aset object at 0x10dde5908>)]
+[(3, 'banana', '39'), (1000, 'banana', '3'), (1004, 'hippopotamus', 'a'), (2002, 'banana', 'x')]
+bananas-5
+bananas-None
+hippopotamus-6
+bananas-3
+[(3, 'banana', '39'), (1000, 'banana', '3'), (1004, 'hippopotamus', 'a'), (2002, 'banana', 'x')]
+[(3, 'banana', '39'), (1000, 'banana', '3'), (1004, 'hippopotamus', 'a'), (2002, 'banana', 'x')]
+[(3, 'banana', '39'), (1000, 'banana', '3'), (2003, 'hippopotamus', '1'), (2002, 'banana', 'x')]
+[(3, <makesets.aset object at 0x10de36d68>), (1000, <makesets.aset object at 0x10dde5908>), (2002, <makesets.aset object at 0x10de36240>), (2003, <makesets.aset object at 0x11117ebe0>)]
+
+ Top 3 equations: 
+1.1798036503000782 ( 39 + 3 ) + x = 1
+1.0955738323183741 39 + ( 3 + x ) = 1
+1.0686607828300358 39 = ( 3 + x ) / 1
+
+ CORRECT
+Guess :  36 
+Answer : 36.0 
+
+
+65
+ patricia starts with 76 candies . albert takes 5 away . how many candies does patricia end with ? 
+[(3, <makesets.aset object at 0x11121e860>), (2002, <makesets.aset object at 0x11121e7b8>), (1002, <makesets.aset object at 0x11121e978>)]
+[(3, 'candy', '76'), (1002, 'candy', '5'), (2002, 'candy', 'x')]
+candies-5
+candies-None
+candies-3
+[(3, 'candy', '76'), (1002, 'candy', '5'), (2002, 'candy', 'x')]
+[(3, 'candy', '76'), (1002, 'candy', '5'), (2002, 'candy', 'x')]
+[(3, 'candy', '76'), (1002, 'candy', '5'), (2002, 'candy', 'x')]
+[(3, <makesets.aset object at 0x11121e860>), (1002, <makesets.aset object at 0x11121e978>), (2002, <makesets.aset object at 0x11121e7b8>)]
+
+ Top 3 equations: 
+0.6903342822405215 76 + 5 = x
+0.6344550528463161 76 = 5 + x
+0.1682035391323589 76 = 5 * x
+
+ INCORRECT
+Guess :  81 
+Answer : 71.0 
+
+
+66
+ there are 13 oranges in a box . victor takes 3 oranges . how many are left ? 
+[(2, <makesets.aset object at 0x10de91710>), (5, <makesets.aset object at 0x10de91198>), (1002, <makesets.aset object at 0x10de91940>), (2003, <makesets.aset object at 0x11121edd8>)]
+[(2, 'orange', '13'), (5, 'box', 'a'), (1002, 'orange', '3'), (2003, 'orange', 'x')]
+oranges-4
+box-7
+oranges-4
+oranges-None
+[(2, 'orange', '13'), (5, 'box', 'a'), (1002, 'orange', '3'), (2003, 'orange', 'x')]
+[(2, 'orange', '13'), (5, 'box', 'a'), (1002, 'orange', '3'), (2003, 'orange', 'x')]
+[(2, 'orange', '13'), (1003, 'box', '1'), (1002, 'orange', '3'), (2003, 'orange', 'x')]
+[(2, <makesets.aset object at 0x10de91710>), (1002, <makesets.aset object at 0x10de91940>), (1003, <makesets.aset object at 0x10de91198>), (2003, <makesets.aset object at 0x11121edd8>)]
+
+ Top 3 equations: 
+1.208707689292365 13 = 3 + ( 1 / x )
+1.1601671310555643 13 = ( 3 / 1 ) / x
+1.118435985081317 13 / ( 3 / 1 ) = x
+
+ INCORRECT
+Guess :  16 
+Answer : 10.0 
+
+
+67
+ ruby has 63 apples . emily takes 55 away . how many apples will ruby have ? 
+[(2, <makesets.aset object at 0x10deb89e8>), (2002, <makesets.aset object at 0x10deb8828>), (1002, <makesets.aset object at 0x10deb8dd8>)]
+[(2, 'apple', '63'), (1002, 'apple', '55'), (2002, 'apple', 'x')]
+apples-4
+apples-None
+apples-3
+[(2, 'apple', '63'), (1002, 'apple', '55'), (2002, 'apple', 'x')]
+[(2, 'apple', '63'), (1002, 'apple', '55'), (2002, 'apple', 'x')]
+[(2, 'apple', '63'), (1002, 'apple', '55'), (2002, 'apple', 'x')]
+[(2, <makesets.aset object at 0x10deb89e8>), (1002, <makesets.aset object at 0x10deb8dd8>), (2002, <makesets.aset object at 0x10deb8828>)]
+
+ Top 3 equations: 
+0.4849973429462081 63 + 55 = x
+0.45160083873331947 63 = 55 + x
+0.3144344380668054 63 = 55 - x
+
+ INCORRECT
+Guess :  118 
+Answer : 8.0 
+
+
+68
+ ellen had 2,080 legos , but she lost 17 legos . how many legos does she have now ? 
+[(2, <makesets.aset object at 0x11120aef0>), (8, <makesets.aset object at 0x11120a630>), (1002, <makesets.aset object at 0x10ddb5748>)]
+[(2, 'lego', '2,080'), (8, 'lego', '17'), (1002, 'lego', 'x')]
+legos-4
+legos-10
+legos-3
+[(2, 'lego', '2,080'), (8, 'lego', '17'), (1002, 'lego', 'x')]
+[(2, 'lego', '2,080'), (8, 'lego', '17'), (1002, 'lego', 'x')]
+[(2, 'lego', '2,080'), (8, 'lego', '17'), (1002, 'lego', 'x')]
+[(2, <makesets.aset object at 0x11120aef0>), (8, <makesets.aset object at 0x11120a630>), (1002, <makesets.aset object at 0x10ddb5748>)]
+
+ Top 3 equations: 
+0.8024122799738225 2080 + 17 = x
+0.6414851643741382 2080 = 17 + x
+0.17010880851228524 2080 = 17 * x
+
+ INCORRECT
+Guess :  2097 
+Answer : 2053.0 
+
+
+69
+ meredith picked 347 apples . phil ate 198 of the apples . how many apples are left ? 
+[(2, <makesets.aset object at 0x10deb8e80>), (1004, <makesets.aset object at 0x10deb8a58>), (1002, <makesets.aset object at 0x111206198>), (2002, <makesets.aset object at 0x10deb8198>)]
+[(2, 'apple', '347'), (1002, 'apple', '198'), (2002, 'apple', 'x')]
+apples-4
+apples-6
+apples-3
+[(2, 'apple', '347'), (1002, 'apple', '198'), (2002, 'apple', 'x')]
+[(2, 'apple', '347'), (1002, 'apple', '198'), (2002, 'apple', 'x')]
+[(2, 'apple', '347'), (1002, 'apple', '198'), (2002, 'apple', 'x')]
+[(2, <makesets.aset object at 0x10deb8e80>), (1002, <makesets.aset object at 0x111206198>), (2002, <makesets.aset object at 0x10deb8198>)]
+
+ Top 3 equations: 
+0.6993363742459828 347 = 198 + x
+0.6493981706222898 347 + 198 = x
+0.16238082077259383 347 = 198 - x
+
+ CORRECT
+Guess :  149 
+Answer : 149.0 
+
+
+70
+ beka flew 873 miles to visit her aunt . jackson flew 563 miles to visit his aunt . how many more miles did beka fly than jackson ? 
+[(2, <makesets.aset object at 0x10de24ef0>), (1002, <makesets.aset object at 0x10de24a90>), (2003, <makesets.aset object at 0x10de24898>)]
+[(2, 'mile', '873'), (1002, 'mile', '563'), (2003, 'mile', 'x')]
+miles-4
+miles-4
+miles-4
+[(2, 'mile', '873'), (1002, 'mile', '563'), (2003, 'mile', 'x')]
+[(2, 'mile', '873'), (1002, 'mile', '563'), (2003, 'mile', 'x')]
+[(2, 'mile', '873'), (1002, 'mile', '563'), (2003, 'mile', 'x')]
+[(2, <makesets.aset object at 0x10de24ef0>), (1002, <makesets.aset object at 0x10de24a90>), (2003, <makesets.aset object at 0x10de24898>)]
+
+ Top 3 equations: 
+0.6748140881552704 873 + 563 = x
+0.6414211117740173 873 = 563 + x
+0.17012260163528978 873 = 563 * x
+
+ INCORRECT
+Guess :  1436 
+Answer : 310.0 
+
+
+71
+ mrs . hilt looked at her car's odometer before a trip . the odometer showed that she had traveled 212.3 miles . when she stopped for lunch , the odometer read 372.0 . how many miles had she traveled ? 
+[(1008, <makesets.aset object at 0x10de240f0>), (2000, <makesets.aset object at 0x10de24780>), (2007, <makesets.aset object at 0x10de24128>), (3006, <makesets.aset object at 0x10de95400>), (4002, <makesets.aset object at 0x10de24e48>), (3009, <makesets.aset object at 0x10de95e80>)]
+[(1008, 'trip', 'a'), (2000, 'odometer', 'the'), (2007, 'mile', '212.3'), (3006, 'odometer', 'the'), (3009, 'odometer', '372.0'), (4002, 'mile', 'x')]
+trip-10
+odometer-2
+miles-9
+odometer-8
+odometer-None
+miles-3
+[(1008, 'trip', 'a'), (2000, 'odometer', 'the'), (2007, 'mile', '212.3'), (3006, 'odometer', 'the'), (3009, 'odometer', '372.0'), (4002, 'mile', 'x')]
+the
+the
+[(1008, 'trip', 'a'), (2000, 'odometer', 'the'), (2007, 'mile', '212.3'), (3006, 'odometer', 'the'), (3009, 'odometer', '372.0'), (4002, 'mile', 'x')]
+[(1008, 'trip', 'a'), (2000, 'odometer', 'USED'), (2007, 'mile', '212.3'), (3006, 'odometer', '372.0'), (3009, 'odometer', 'USED'), (4002, 'mile', 'x')]
+[(1008, <makesets.aset object at 0x10de240f0>), (2000, <makesets.aset object at 0x10de24780>), (2007, <makesets.aset object at 0x10de24128>), (3006, <makesets.aset object at 0x10de95400>), (3009, <makesets.aset object at 0x10de95e80>), (4002, <makesets.aset object at 0x10de24e48>)]
+
+ Top 3 equations: 
+0.565853930371553 212.3 = 372.0 / x
+0.5174384525916795 212.3 / 372.0 = x
+0.1451495863150537 212.3 - 372.0 = x
+
+ INCORRECT
+Guess :  1.75223739990579 
+Answer : 159.7 
+
+
+72
+ hilt read that north america covered an area of 9,365,290 square miles and europe covered 3,837,082 square miles . how much bigger is north america than europe ? 
+[(6, <makesets.aset object at 0x1111cb630>), (9, <makesets.aset object at 0x1111cb320>), (15, <makesets.aset object at 0x1112134e0>), (1005, <makesets.aset object at 0x1111cbf60>)]
+[(6, 'area', 'an'), (9, 'mile', '9,365,290'), (15, 'mile', '3,837,082'), (1005, 'mile', 'x')]
+area-8
+miles-12
+miles-18
+miles-None
+[(6, 'area', 'an'), (9, 'mile', '9,365,290'), (15, 'mile', '3,837,082'), (1005, 'mile', 'x')]
+[(6, 'area', 'an'), (9, 'mile', '9,365,290'), (15, 'mile', '3,837,082'), (1005, 'mile', 'x')]
+[(6, 'area', 'an'), (9, 'mile', '9,365,290'), (15, 'mile', '3,837,082'), (1005, 'mile', 'x')]
+[(6, <makesets.aset object at 0x1111cb630>), (9, <makesets.aset object at 0x1111cb320>), (15, <makesets.aset object at 0x1112134e0>), (1005, <makesets.aset object at 0x1111cbf60>)]
+
+ Top 3 equations: 
+0.567400574045676 9365290 + 3837082 = x
+0.44733606270024107 9365290 = 3837082 + x
+0.30636913323469567 9365290 = 3837082 - x
+
+ INCORRECT
+Guess :  13202372 
+Answer : 5528208.0 
+
+
+73
+ mary is baking a cake . the recipe wants 8 cups of flour . she already put in 2 cups . how many more cups does she need to add  ? 
+[(3, <makesets.aset object at 0x11120a630>), (1000, <makesets.aset object at 0x11120aef0>), (1003, <makesets.aset object at 0x11120a6d8>), (2004, <makesets.aset object at 0x11120a9b0>), (3003, <makesets.aset object at 0x11120aac8>)]
+[(3, 'cake', 'a'), (1000, 'recipe', 'the'), (1003, 'cup', '8'), (2004, 'cup', '2'), (3003, 'cup', 'x')]
+cake-5
+recipe-2
+cups-5
+cups-6
+cups-4
+[(3, 'cake', 'a'), (1000, 'recipe', 'the'), (1003, 'cup', '8'), (2004, 'cup', '2'), (3003, 'cup', 'x')]
+the
+[(3, 'cake', 'a'), (1000, 'recipe', 'the'), (1003, 'cup', '8'), (2004, 'cup', '2'), (3003, 'cup', 'x')]
+[(3, 'cake', 'a'), (1000, 'recipe', 'the'), (1003, 'cup', '8'), (2004, 'cup', '2'), (3003, 'cup', 'x')]
+[(3, <makesets.aset object at 0x11120a630>), (1000, <makesets.aset object at 0x11120aef0>), (1003, <makesets.aset object at 0x11120a6d8>), (2004, <makesets.aset object at 0x11120a9b0>), (3003, <makesets.aset object at 0x11120aac8>)]
+
+ Top 3 equations: 
+0.6416518438736384 8 = 2 + x
+0.5534618472835516 8 + 2 = x
+0.2472136971422721 8 - 2 = x
+
+ CORRECT
+Guess :  6 
+Answer : 6.0 
+
+
+74
+ tom found 7 seashells , but 4 seashells were broken .  how many unbroken seashells did tom find  ? 
+[(2, <makesets.aset object at 0x10ddc99b0>), (6, <makesets.aset object at 0x10ddc9ba8>), (1002, <makesets.aset object at 0x1111cb550>)]
+[(2, 'seashell', '7'), (6, 'seashell', '4'), (1002, 'seashell', 'x')]
+seashells-4
+seashells-8
+seashells-None
+[(2, 'seashell', '7'), (6, 'seashell', '4'), (1002, 'seashell', 'x')]
+[(2, 'seashell', '7'), (6, 'seashell', '4'), (1002, 'seashell', 'x')]
+[(2, 'seashell', '7'), (6, 'seashell', '4'), (1002, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10ddc99b0>), (6, <makesets.aset object at 0x10ddc9ba8>), (1002, <makesets.aset object at 0x1111cb550>)]
+
+ Top 3 equations: 
+0.4849973429462081 7 + 4 = x
+0.48312387327532885 7 = 4 + x
+0.30722527402113425 7 = 4 - x
+
+ INCORRECT
+Guess :  11 
+Answer : 3.0 
+
+
+75
+ joan has 8 orange balloons , but lost 2 of them . how many orange balloons does joan have now  ? 
+[(2, <makesets.aset object at 0x1111e8c88>), (1003, <makesets.aset object at 0x1111e8748>), (8, <makesets.aset object at 0x10de95b70>)]
+[(2, 'balloon', '8'), (8, 'balloon', '2'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-None
+balloons-4
+[(2, 'balloon', '8'), (8, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '8'), (8, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '8'), (8, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x1111e8c88>), (8, <makesets.aset object at 0x10de95b70>), (1003, <makesets.aset object at 0x1111e8748>)]
+
+ Top 3 equations: 
+0.6467309796035249 8 = 2 + x
+0.6414851643741382 8 + 2 = x
+0.17010880851228524 8 * 2 = x
+
+ CORRECT
+Guess :  6 
+Answer : 6.0 
+
+
+76
+ fred had 7 dimes in his bank . his sister borrowed 3 of his dimes . how many dimes does fred have now  ? 
+[(2, <makesets.aset object at 0x10dd99160>), (1003, <makesets.aset object at 0x10dd99ac8>), (2002, <makesets.aset object at 0x10dd99ba8>)]
+[(2, 'dime', '7'), (1003, 'dime', '3'), (2002, 'dime', 'x')]
+dimes-4
+dimes-7
+dimes-3
+[(2, 'dime', '7'), (1003, 'dime', '3'), (2002, 'dime', 'x')]
+[(2, 'dime', '7'), (1003, 'dime', '3'), (2002, 'dime', 'x')]
+[(2, 'dime', '7'), (1003, 'dime', '3'), (2002, 'dime', 'x')]
+[(2, <makesets.aset object at 0x10dd99160>), (1003, <makesets.aset object at 0x10dd99ac8>), (2002, <makesets.aset object at 0x10dd99ba8>)]
+
+ Top 3 equations: 
+0.6467309796035249 7 = 3 + x
+0.5593741087064784 7 + 3 = x
+0.2969120929005767 7 - 3 = x
+
+ CORRECT
+Guess :  4 
+Answer : 4.0 
+
+
+77
+ joan's cat had 8 kittens . she gave 2 to her friends .  how many kittens does she have now  ? 
+[(4, <makesets.aset object at 0x1111efcc0>), (2002, <makesets.aset object at 0x1111ef748>), (1002, <makesets.aset object at 0x1111ef0f0>)]
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+kittens-6
+kittens-None
+kittens-3
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+[(4, <makesets.aset object at 0x1111efcc0>), (1002, <makesets.aset object at 0x1111ef0f0>), (2002, <makesets.aset object at 0x1111ef748>)]
+
+ Top 3 equations: 
+0.708339446042023 8 + 2 = x
+0.6467309796035249 8 = 2 + x
+0.16479759547620942 8 = 2 * x
+
+ INCORRECT
+Guess :  10 
+Answer : 6.0 
+
+
+78
+ benny's high school played 39 baseball games this year . he attended  14 games . how many baseball games did benny miss  ? 
+[(5, <makesets.aset object at 0x1111f9358>), (8, <makesets.aset object at 0x1111f9be0>), (1002, <makesets.aset object at 0x1111f9048>), (2003, <makesets.aset object at 0x1111f9780>)]
+[(5, 'game', '39'), (8, 'year', 'this'), (1002, 'game', '14'), (2003, 'game', 'x')]
+games-8
+year-10
+games-4
+games-4
+[(5, 'game', '39'), (8, 'year', 'this'), (1002, 'game', '14'), (2003, 'game', 'x')]
+this
+[(5, 'game', '39'), (8, 'year', 'this'), (1002, 'game', '14'), (2003, 'game', 'x')]
+[(5, 'game', '39'), (8, 'year', 'this'), (1002, 'game', '14'), (2003, 'game', 'x')]
+[(5, <makesets.aset object at 0x1111f9358>), (8, <makesets.aset object at 0x1111f9be0>), (1002, <makesets.aset object at 0x1111f9048>), (2003, <makesets.aset object at 0x1111f9780>)]
+
+ Top 3 equations: 
+0.5778348369245557 39 = 14 + x
+0.39518627025977693 39 - 14 = x
+0.39518627025977693 39 + 14 = x
+
+ CORRECT
+Guess :  25 
+Answer : 25.0 
+
+
+79
+ sam found 35 seashells on the beach , he gave joan 18 of the seashells . how many seashells does he now have  ? 
+[(2, <makesets.aset object at 0x11121e9e8>), (5, <makesets.aset object at 0x11121eda0>), (13, <makesets.aset object at 0x11121efd0>), (11, <makesets.aset object at 0x11137f048>), (1003, <makesets.aset object at 0x11121e080>)]
+[(2, 'seashell', '35'), (5, 'beach', 'the'), (11, 'seashell', '18'), (1003, 'seashell', 'x')]
+seashells-4
+beach-7
+seashells-15
+seashells-None
+[(2, 'seashell', '35'), (5, 'beach', 'the'), (11, 'seashell', '18'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '35'), (5, 'beach', 'the'), (11, 'seashell', '18'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '35'), (5, 'beach', 'the'), (11, 'seashell', '18'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x11121e9e8>), (5, <makesets.aset object at 0x11121eda0>), (11, <makesets.aset object at 0x11137f048>), (1003, <makesets.aset object at 0x11121e080>)]
+
+ Top 3 equations: 
+0.708339446042023 35 = 18 + x
+0.708339446042023 35 + 18 = x
+0.1474725311835867 35 = 18 - x
+
+ INCORRECT
+Guess :  53 
+Answer : 17.0 
+
+
+80
+ mike has 87 baseball cards . sam bought 13 of mike's  baseball cards . how many baseball cards does mike have now  ? 
+[(2, <makesets.aset object at 0x11137f9b0>), (1002, <makesets.aset object at 0x11137fa58>), (2003, <makesets.aset object at 0x11137f908>)]
+[(2, 'card', '87'), (1002, 'card', '13'), (2003, 'card', 'x')]
+cards-5
+cards-8
+cards-4
+[(2, 'card', '87'), (1002, 'card', '13'), (2003, 'card', 'x')]
+[(2, 'card', '87'), (1002, 'card', '13'), (2003, 'card', 'x')]
+[(2, 'card', '87'), (1002, 'card', '13'), (2003, 'card', 'x')]
+[(2, <makesets.aset object at 0x11137f9b0>), (1002, <makesets.aset object at 0x11137fa58>), (2003, <makesets.aset object at 0x11137f908>)]
+
+ Top 3 equations: 
+0.708339446042023 87 + 13 = x
+0.6467309796035249 87 = 13 + x
+0.16479759547620942 87 = 13 * x
+
+ INCORRECT
+Guess :  100 
+Answer : 74.0 
+
+
+81
+ dan has 64 violet marbles , he gave mary 14 of the marbles . how many violet marbles does he now have  ? 
+[(2, <makesets.aset object at 0x11137f208>), (11, <makesets.aset object at 0x11137f390>), (9, <makesets.aset object at 0x11137f240>), (1003, <makesets.aset object at 0x11121ec18>)]
+[(2, 'marble', '64'), (9, 'marble', '14'), (1003, 'marble', 'x')]
+marbles-5
+marbles-13
+marbles-4
+[(2, 'marble', '64'), (9, 'marble', '14'), (1003, 'marble', 'x')]
+[(2, 'marble', '64'), (9, 'marble', '14'), (1003, 'marble', 'x')]
+[(2, 'marble', '64'), (9, 'marble', '14'), (1003, 'marble', 'x')]
+[(2, <makesets.aset object at 0x11137f208>), (9, <makesets.aset object at 0x11137f240>), (1003, <makesets.aset object at 0x11121ec18>)]
+
+ Top 3 equations: 
+0.708339446042023 64 + 14 = x
+0.6467309796035249 64 = 14 + x
+0.16479759547620942 64 = 14 * x
+
+ INCORRECT
+Guess :  78 
+Answer : 50.0 
+
+
+82
+ sam had 98 pennies in his bank . he spent 93 of his pennies . how many pennies does he have now  ? 
+[(2, <makesets.aset object at 0x11121eb70>), (1002, <makesets.aset object at 0x11121e908>), (2002, <makesets.aset object at 0x11121e9e8>)]
+[(2, 'penny', '98'), (1002, 'penny', '93'), (2002, 'penny', 'x')]
+pennies-4
+pennies-6
+pennies-3
+[(2, 'penny', '98'), (1002, 'penny', '93'), (2002, 'penny', 'x')]
+[(2, 'penny', '98'), (1002, 'penny', '93'), (2002, 'penny', 'x')]
+[(2, 'penny', '98'), (1002, 'penny', '93'), (2002, 'penny', 'x')]
+[(2, <makesets.aset object at 0x11121eb70>), (1002, <makesets.aset object at 0x11121e908>), (2002, <makesets.aset object at 0x11121e9e8>)]
+
+ Top 3 equations: 
+0.6467309796035249 98 = 93 + x
+0.5480254299431815 98 + 93 = x
+0.29206254675396676 98 - 93 = x
+
+ CORRECT
+Guess :  5 
+Answer : 5.0 
+
+
+83
+ joan found 79 seashells on the beach , she gave mike 63 of the seashells . how many seashells does she now have  ? 
+[(2, <makesets.aset object at 0x11137fdd8>), (5, <makesets.aset object at 0x11137fbe0>), (13, <makesets.aset object at 0x11137ff60>), (11, <makesets.aset object at 0x11137f898>), (1003, <makesets.aset object at 0x11137f4a8>)]
+[(2, 'seashell', '79'), (5, 'beach', 'the'), (11, 'seashell', '63'), (1003, 'seashell', 'x')]
+seashells-4
+beach-7
+seashells-15
+seashells-None
+[(2, 'seashell', '79'), (5, 'beach', 'the'), (11, 'seashell', '63'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '79'), (5, 'beach', 'the'), (11, 'seashell', '63'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '79'), (5, 'beach', 'the'), (11, 'seashell', '63'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x11137fdd8>), (5, <makesets.aset object at 0x11137fbe0>), (11, <makesets.aset object at 0x11137f898>), (1003, <makesets.aset object at 0x11137f4a8>)]
+
+ Top 3 equations: 
+0.708339446042023 79 = 63 + x
+0.708339446042023 79 + 63 = x
+0.1474725311835867 79 = 63 - x
+
+ INCORRECT
+Guess :  142 
+Answer : 16.0 
+
+
+84
+ melanie's high school played 64 soccer games this year . she attended  32 games . how many soccer games did melanie miss  ? 
+[(5, <makesets.aset object at 0x111382438>), (8, <makesets.aset object at 0x111382588>), (1002, <makesets.aset object at 0x111382b00>), (2003, <makesets.aset object at 0x111382518>)]
+[(5, 'game', '64'), (8, 'year', 'this'), (1002, 'game', '32'), (2003, 'game', 'x')]
+games-8
+year-10
+games-4
+games-4
+[(5, 'game', '64'), (8, 'year', 'this'), (1002, 'game', '32'), (2003, 'game', 'x')]
+this
+[(5, 'game', '64'), (8, 'year', 'this'), (1002, 'game', '32'), (2003, 'game', 'x')]
+[(5, 'game', '64'), (8, 'year', 'this'), (1002, 'game', '32'), (2003, 'game', 'x')]
+[(5, <makesets.aset object at 0x111382438>), (8, <makesets.aset object at 0x111382588>), (1002, <makesets.aset object at 0x111382b00>), (2003, <makesets.aset object at 0x111382518>)]
+
+ Top 3 equations: 
+0.5778348369245557 64 = 32 + x
+0.39518627025977693 64 - 32 = x
+0.39518627025977693 64 + 32 = x
+
+ CORRECT
+Guess :  32 
+Answer : 32.0 
+
+
+85
+ sally had 760 quarters in her bank . she spent 418 of her quarters . how many quarters does she have now  ? 
+[(2, <makesets.aset object at 0x111347080>), (1002, <makesets.aset object at 0x1113477b8>), (2002, <makesets.aset object at 0x111347a90>)]
+[(2, 'quarter', '760'), (1002, 'quarter', '418'), (2002, 'quarter', 'x')]
+quarters-4
+quarters-6
+quarters-3
+[(2, 'quarter', '760'), (1002, 'quarter', '418'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '760'), (1002, 'quarter', '418'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '760'), (1002, 'quarter', '418'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x111347080>), (1002, <makesets.aset object at 0x1113477b8>), (2002, <makesets.aset object at 0x111347a90>)]
+
+ Top 3 equations: 
+0.6467309796035249 760 = 418 + x
+0.5480254299431815 760 + 418 = x
+0.29206254675396676 760 - 418 = x
+
+ CORRECT
+Guess :  342 
+Answer : 342.0 
+
+
+86
+ fred's high school played 616 baseball games this year . he attended  147 games . how many baseball games did fred miss  ? 
+[(5, <makesets.aset object at 0x1111f9d30>), (8, <makesets.aset object at 0x1111f96d8>), (1002, <makesets.aset object at 0x1111f9ef0>), (2003, <makesets.aset object at 0x1111f9c88>)]
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+games-8
+year-10
+games-4
+games-4
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+this
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+[(5, <makesets.aset object at 0x1111f9d30>), (8, <makesets.aset object at 0x1111f96d8>), (1002, <makesets.aset object at 0x1111f9ef0>), (2003, <makesets.aset object at 0x1111f9c88>)]
+
+ Top 3 equations: 
+0.5778348369245557 616 = 147 + x
+0.39518627025977693 616 - 147 = x
+0.39518627025977693 616 + 147 = x
+
+ CORRECT
+Guess :  469 
+Answer : 469.0 
+
+
+87
+ jason has 676 pokemon cards . alyssa bought 224 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+[(2, <makesets.aset object at 0x111332198>), (1002, <makesets.aset object at 0x111332630>), (2002, <makesets.aset object at 0x111332080>)]
+[(2, 'card', '676'), (1002, 'card', '224'), (2002, 'pokemon', 'x')]
+cards-5
+cards-8
+pokemon-3
+[(2, 'card', '676'), (1002, 'card', '224'), (2002, 'pokemon', 'x')]
+[(2, 'card', '676'), (1002, 'card', '224'), (2002, 'pokemon', 'x')]
+[(2, 'card', '676'), (1002, 'card', '224'), (2002, 'pokemon', 'x')]
+[(2, <makesets.aset object at 0x111332198>), (1002, <makesets.aset object at 0x111332630>), (2002, <makesets.aset object at 0x111332080>)]
+
+ Top 3 equations: 
+0.508339446042023 676 + 224 = x
+0.3808753230623076 676 = 224 / x
+0.11746197066653576 676 = 224 - x
+
+ INCORRECT
+Guess :  900 
+Answer : 452.0 
+
+
+88
+ fred has 709 green balloons , he gave sandy 221 of the balloons . how many green balloons does he now have  ? 
+[(2, <makesets.aset object at 0x111332978>), (11, <makesets.aset object at 0x111332710>), (9, <makesets.aset object at 0x111332a58>), (1003, <makesets.aset object at 0x10de15e48>)]
+[(2, 'balloon', '709'), (9, 'balloon', '221'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-13
+balloons-4
+[(2, 'balloon', '709'), (9, 'balloon', '221'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '709'), (9, 'balloon', '221'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '709'), (9, 'balloon', '221'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x111332978>), (9, <makesets.aset object at 0x111332a58>), (1003, <makesets.aset object at 0x10de15e48>)]
+
+ Top 3 equations: 
+0.6467309796035249 709 = 221 + x
+0.6467309796035249 709 + 221 = x
+0.16479759547620942 709 = 221 * x
+
+ INCORRECT
+Guess :  930 
+Answer : 488.0 
+
+
+89
+ jason has 3 pokemon cards . benny bought 2 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+[(2, <makesets.aset object at 0x11137f710>), (1002, <makesets.aset object at 0x11137f780>), (2002, <makesets.aset object at 0x11137f668>)]
+[(2, 'card', '3'), (1002, 'card', '2'), (2002, 'pokemon', 'x')]
+cards-5
+cards-8
+pokemon-3
+[(2, 'card', '3'), (1002, 'card', '2'), (2002, 'pokemon', 'x')]
+[(2, 'card', '3'), (1002, 'card', '2'), (2002, 'pokemon', 'x')]
+[(2, 'card', '3'), (1002, 'card', '2'), (2002, 'pokemon', 'x')]
+[(2, <makesets.aset object at 0x11137f710>), (1002, <makesets.aset object at 0x11137f780>), (2002, <makesets.aset object at 0x11137f668>)]
+
+ Top 3 equations: 
+0.508339446042023 3 + 2 = x
+0.3808753230623076 3 = 2 / x
+0.11746197066653576 3 = 2 - x
+
+ INCORRECT
+Guess :  5 
+Answer : 1.0 
+
+
+90
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+[(2, <makesets.aset object at 0x111213d68>), (11, <makesets.aset object at 0x111213240>), (9, <makesets.aset object at 0x1112137b8>), (1003, <makesets.aset object at 0x1112136d8>)]
+[(2, 'marble', '8'), (9, 'marble', '4'), (1003, 'marble', 'x')]
+marbles-5
+marbles-13
+marbles-4
+[(2, 'marble', '8'), (9, 'marble', '4'), (1003, 'marble', 'x')]
+[(2, 'marble', '8'), (9, 'marble', '4'), (1003, 'marble', 'x')]
+[(2, 'marble', '8'), (9, 'marble', '4'), (1003, 'marble', 'x')]
+[(2, <makesets.aset object at 0x111213d68>), (9, <makesets.aset object at 0x1112137b8>), (1003, <makesets.aset object at 0x1112136d8>)]
+
+ Top 3 equations: 
+0.6467309796035249 8 = 4 + x
+0.6414851643741382 8 + 4 = x
+0.17010880851228524 8 * 4 = x
+
+ CORRECT
+Guess :  4 
+Answer : 4.0 
+
+
+91
+ joan had 5 dimes in her bank . she spent 2 of her dimes . how many dimes does she have now  ? 
+[(2, <makesets.aset object at 0x1113827b8>), (1002, <makesets.aset object at 0x111382828>), (2002, <makesets.aset object at 0x111382668>)]
+[(2, 'dime', '5'), (1002, 'dime', '2'), (2002, 'dime', 'x')]
+dimes-4
+dimes-6
+dimes-3
+[(2, 'dime', '5'), (1002, 'dime', '2'), (2002, 'dime', 'x')]
+[(2, 'dime', '5'), (1002, 'dime', '2'), (2002, 'dime', 'x')]
+[(2, 'dime', '5'), (1002, 'dime', '2'), (2002, 'dime', 'x')]
+[(2, <makesets.aset object at 0x1113827b8>), (1002, <makesets.aset object at 0x111382828>), (2002, <makesets.aset object at 0x111382668>)]
+
+ Top 3 equations: 
+0.6467309796035249 5 = 2 + x
+0.5480254299431815 5 + 2 = x
+0.29206254675396676 5 - 2 = x
+
+ CORRECT
+Guess :  3 
+Answer : 3.0 
+
+
+92
+ sam grew 4 watermelons , but the rabbits ate 3 watermelons . how many watermelons does sam have left  ? 
+[(2, <makesets.aset object at 0x1113822e8>), (6, <makesets.aset object at 0x111382da0>), (9, <makesets.aset object at 0x111382fd0>), (1002, <makesets.aset object at 0x111382b70>)]
+[(2, 'watermelon', '4'), (6, 'rabbit', 'the'), (9, 'watermelon', '3'), (1002, 'watermelon', 'x')]
+watermelons-4
+rabbits-8
+watermelons-11
+watermelons-3
+[(2, 'watermelon', '4'), (6, 'rabbit', 'the'), (9, 'watermelon', '3'), (1002, 'watermelon', 'x')]
+the
+[(2, 'watermelon', '4'), (6, 'rabbit', 'the'), (9, 'watermelon', '3'), (1002, 'watermelon', 'x')]
+[(2, 'watermelon', '4'), (6, 'rabbit', 'the'), (9, 'watermelon', '3'), (1002, 'watermelon', 'x')]
+[(2, <makesets.aset object at 0x1113822e8>), (6, <makesets.aset object at 0x111382da0>), (9, <makesets.aset object at 0x111382fd0>), (1002, <makesets.aset object at 0x111382b70>)]
+
+ Top 3 equations: 
+0.6720712482761269 4 + 3 = x
+0.635968555936974 4 = 3 + x
+0.1782528164268992 4 * 3 = x
+
+ INCORRECT
+Guess :  7 
+Answer : 1.0 
+
+
+93
+ tom found 5 seashells on the beach . he gave jessica 2 of the seashells . how many seashells does he now have  ? 
+[(2, <makesets.aset object at 0x10dd99198>), (5, <makesets.aset object at 0x10dd99c88>), (1005, <makesets.aset object at 0x10de95d68>), (1003, <makesets.aset object at 0x10de95a90>), (2003, <makesets.aset object at 0x10dd99cc0>)]
+[(2, 'seashell', '5'), (5, 'beach', 'the'), (1003, 'seashell', '2'), (2003, 'seashell', 'x')]
+seashells-4
+beach-7
+seashells-7
+seashells-None
+[(2, 'seashell', '5'), (5, 'beach', 'the'), (1003, 'seashell', '2'), (2003, 'seashell', 'x')]
+the
+[(2, 'seashell', '5'), (5, 'beach', 'the'), (1003, 'seashell', '2'), (2003, 'seashell', 'x')]
+[(2, 'seashell', '5'), (5, 'beach', 'the'), (1003, 'seashell', '2'), (2003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10dd99198>), (5, <makesets.aset object at 0x10dd99c88>), (1003, <makesets.aset object at 0x10de95a90>), (2003, <makesets.aset object at 0x10dd99cc0>)]
+
+ Top 3 equations: 
+0.708339446042023 5 + 2 = x
+0.706050957233688 5 = 2 + x
+0.1474725311835867 5 - 2 = x
+
+ INCORRECT
+Guess :  7 
+Answer : 3.0 
+
+
+94
+ fred has 5 baseball cards . melanie bought 3 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+[(2, <makesets.aset object at 0x1111f9f28>), (2003, <makesets.aset object at 0x1111f9be0>), (1002, <makesets.aset object at 0x1111f9828>)]
+[(2, 'card', '5'), (1002, 'card', '3'), (2003, 'card', 'x')]
+cards-5
+cards-None
+cards-4
+[(2, 'card', '5'), (1002, 'card', '3'), (2003, 'card', 'x')]
+[(2, 'card', '5'), (1002, 'card', '3'), (2003, 'card', 'x')]
+[(2, 'card', '5'), (1002, 'card', '3'), (2003, 'card', 'x')]
+[(2, <makesets.aset object at 0x1111f9f28>), (1002, <makesets.aset object at 0x1111f9828>), (2003, <makesets.aset object at 0x1111f9be0>)]
+
+ Top 3 equations: 
+0.706050957233688 5 + 3 = x
+0.6467309796035249 5 = 3 + x
+0.16479759547620942 5 = 3 * x
+
+ INCORRECT
+Guess :  8 
+Answer : 2.0 
+
+
+95
+ here are 9 oak trees currently in the park . park workers had to cut down 2  oak trees that were damaged . how many oak trees will the park have when the workers are finished  ? 
+[(2, <makesets.aset object at 0x10ddec898>), (7, <makesets.aset object at 0x10ddec080>), (1006, <makesets.aset object at 0x10ddecf28>), (2005, <makesets.aset object at 0x10ddec160>), (2009, <makesets.aset object at 0x10ddec978>), (2002, <makesets.aset object at 0x10ddec748>)]
+[(2, 'tree', '9'), (7, 'park', 'the'), (1006, 'tree', '2'), (2002, 'oak', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+trees-5
+park-9
+trees-9
+oak-3
+park-7
+workers-11
+[(2, 'tree', '9'), (7, 'park', 'the'), (1006, 'tree', '2'), (2002, 'oak', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+the
+the
+the
+the
+the
+the
+[(2, 'tree', '9'), (7, 'park', 'the'), (1006, 'tree', '2'), (2002, 'oak', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, 'tree', '9'), (7, 'park', 'the'), (1006, 'tree', '2'), (2002, 'oak', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+[(2, <makesets.aset object at 0x10ddec898>), (7, <makesets.aset object at 0x10ddec080>), (1006, <makesets.aset object at 0x10ddecf28>), (2002, <makesets.aset object at 0x10ddec748>), (2005, <makesets.aset object at 0x10ddec160>), (2009, <makesets.aset object at 0x10ddec978>)]
+
+ Top 3 equations: 
+0.3598186634509635 9 = 2 / x
+0.3061803756003959 9 = 2 - x
+0.19955424293099777 9 - 2 = x
+
+ CORRECT
+Guess :  7 
+Answer : 7.0 
+
+
+96
+ jessica had 8 quarters in her bank . her sister borrowed 3 of her quarters . how many quarters does jessica have now  ? 
+[(2, <makesets.aset object at 0x1111ef5f8>), (1003, <makesets.aset object at 0x1111efd68>), (2002, <makesets.aset object at 0x1111ef278>)]
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+quarters-4
+quarters-7
+quarters-3
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x1111ef5f8>), (1003, <makesets.aset object at 0x1111efd68>), (2002, <makesets.aset object at 0x1111ef278>)]
+
+ Top 3 equations: 
+0.6467309796035249 8 = 3 + x
+0.5480254299431815 8 + 3 = x
+0.29206254675396676 8 - 3 = x
+
+ CORRECT
+Guess :  5 
+Answer : 5.0 
+
+
+97
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+[(0, <makesets.aset object at 0x1112ca0b8>), (3, <makesets.aset object at 0x1112ca080>), (2002, <makesets.aset object at 0x10dd995c0>), (1001, <makesets.aset object at 0x1112ca128>)]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '9'), (1001, 'hamburger', '3'), (2002, 'hamburger', 'x')]
+restaurant-2
+hamburgers-5
+hamburgers-None
+hamburgers-3
+[(0, 'restaurant', 'a'), (3, 'hamburger', '9'), (1001, 'hamburger', '3'), (2002, 'hamburger', 'x')]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '9'), (1001, 'hamburger', '3'), (2002, 'hamburger', 'x')]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '9'), (1001, 'hamburger', '3'), (2002, 'hamburger', 'x')]
+[(0, <makesets.aset object at 0x1112ca0b8>), (3, <makesets.aset object at 0x1112ca080>), (1001, <makesets.aset object at 0x1112ca128>), (2002, <makesets.aset object at 0x10dd995c0>)]
+
+ Top 3 equations: 
+0.6993363742459828 9 = 3 + x
+0.6493981706222898 9 + 3 = x
+0.16238082077259383 9 = 3 - x
+
+ CORRECT
+Guess :  6 
+Answer : 6.0 
+
+
+98
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+[(2, <makesets.aset object at 0x1111efef0>), (5, <makesets.aset object at 0x111332ba8>), (1002, <makesets.aset object at 0x111332978>), (1006, <makesets.aset object at 0x1113325f8>), (2002, <makesets.aset object at 0x1111ef7b8>)]
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+crayons-4
+drawer-7
+crayons-4
+drawer-8
+crayons-3
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+the
+the
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+[(2, <makesets.aset object at 0x1111efef0>), (5, <makesets.aset object at 0x111332ba8>), (1002, <makesets.aset object at 0x111332978>), (1006, <makesets.aset object at 0x1113325f8>), (2002, <makesets.aset object at 0x1111ef7b8>)]
+
+ Top 3 equations: 
+0.6414851643741382 7 = 3 + x
+0.5645991139186706 7 + 3 = x
+0.29521256345973884 7 - 3 = x
+
+ CORRECT
+Guess :  4 
+Answer : 4.0 
+
+
+99
+ dan picked 9 limes and gave sara 4 of the limes .  how many limes does dan have now  ? 
+[(2, <makesets.aset object at 0x10ddece80>), (9, <makesets.aset object at 0x10ddecb00>), (7, <makesets.aset object at 0x10ddeca20>), (1002, <makesets.aset object at 0x1111ef6d8>)]
+[(2, 'lime', '9'), (7, 'lime', '4'), (1002, 'lime', 'x')]
+limes-4
+limes-11
+limes-3
+[(2, 'lime', '9'), (7, 'lime', '4'), (1002, 'lime', 'x')]
+[(2, 'lime', '9'), (7, 'lime', '4'), (1002, 'lime', 'x')]
+[(2, 'lime', '9'), (7, 'lime', '4'), (1002, 'lime', 'x')]
+[(2, <makesets.aset object at 0x10ddece80>), (7, <makesets.aset object at 0x10ddeca20>), (1002, <makesets.aset object at 0x1111ef6d8>)]
+
+ Top 3 equations: 
+0.708339446042023 9 + 4 = x
+0.6467309796035249 9 = 4 + x
+0.16479759547620942 9 = 4 * x
+
+ INCORRECT
+Guess :  13 
+Answer : 5.0 
+
+
+100
+ dan found 7 seashells , but 3 were broken .  how many unbroken seashells did dan find  ? 
+[(2, <makesets.aset object at 0x11123a710>), (1002, <makesets.aset object at 0x11123a048>), (6, <makesets.aset object at 0x11123a5c0>)]
+[(2, 'seashell', '7'), (6, 'seashell', '3'), (1002, 'seashell', 'x')]
+seashells-4
+seashells-None
+seashells-None
+[(2, 'seashell', '7'), (6, 'seashell', '3'), (1002, 'seashell', 'x')]
+[(2, 'seashell', '7'), (6, 'seashell', '3'), (1002, 'seashell', 'x')]
+[(2, 'seashell', '7'), (6, 'seashell', '3'), (1002, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x11123a710>), (6, <makesets.aset object at 0x11123a5c0>), (1002, <makesets.aset object at 0x11123a048>)]
+
+ Top 3 equations: 
+0.4849973429462081 7 + 3 = x
+0.48312387327532885 7 = 3 + x
+0.30722527402113425 7 = 3 - x
+
+ INCORRECT
+Guess :  10 
+Answer : 4.0 
+
+
+101
+ joan has 9 blue balloons  but lost 2 of them . how many blue balloons does joan have now  ? 
+[(2, <makesets.aset object at 0x11120a6d8>), (1003, <makesets.aset object at 0x11120a588>), (7, <makesets.aset object at 0x1112ca160>)]
+[(2, 'balloon', '9'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-None
+balloons-4
+[(2, 'balloon', '9'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '9'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '9'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x11120a6d8>), (7, <makesets.aset object at 0x1112ca160>), (1003, <makesets.aset object at 0x11120a588>)]
+
+ Top 3 equations: 
+0.6467309796035249 9 = 2 + x
+0.6414851643741382 9 + 2 = x
+0.17010880851228524 9 * 2 = x
+
+ CORRECT
+Guess :  7 
+Answer : 7.0 
+
+
+102
+ joan picked 43 apples from the orchard , and gave 27 apples  to  melanie . how many apples does joan have now  ? 
+[(2, <makesets.aset object at 0x111250198>), (5, <makesets.aset object at 0x111250128>), (10, <makesets.aset object at 0x111250208>), (1002, <makesets.aset object at 0x1112500b8>)]
+[(2, 'apple', '43'), (5, 'orchard', 'the'), (10, 'apple', '27'), (1002, 'apple', 'x')]
+apples-4
+orchard-7
+apples-12
+apples-3
+[(2, 'apple', '43'), (5, 'orchard', 'the'), (10, 'apple', '27'), (1002, 'apple', 'x')]
+the
+[(2, 'apple', '43'), (5, 'orchard', 'the'), (10, 'apple', '27'), (1002, 'apple', 'x')]
+[(2, 'apple', '43'), (5, 'orchard', 'the'), (10, 'apple', '27'), (1002, 'apple', 'x')]
+[(2, <makesets.aset object at 0x111250198>), (5, <makesets.aset object at 0x111250128>), (10, <makesets.aset object at 0x111250208>), (1002, <makesets.aset object at 0x1112500b8>)]
+
+ Top 3 equations: 
+0.7673833459439473 43 + 27 = x
+0.6414851643741382 43 = 27 + x
+0.17010880851228524 43 = 27 * x
+
+ INCORRECT
+Guess :  70 
+Answer : 16.0 
+
+
+103
+ alyssa's high school played 31 hockey games this year . she attended  13 games . how many hockey games did alyssa miss  ? 
+[(5, <makesets.aset object at 0x111250c18>), (8, <makesets.aset object at 0x111250be0>), (1002, <makesets.aset object at 0x111250cf8>), (2003, <makesets.aset object at 0x111250f98>)]
+[(5, 'game', '31'), (8, 'year', 'this'), (1002, 'game', '13'), (2003, 'game', 'x')]
+games-8
+year-10
+games-4
+games-4
+[(5, 'game', '31'), (8, 'year', 'this'), (1002, 'game', '13'), (2003, 'game', 'x')]
+this
+[(5, 'game', '31'), (8, 'year', 'this'), (1002, 'game', '13'), (2003, 'game', 'x')]
+[(5, 'game', '31'), (8, 'year', 'this'), (1002, 'game', '13'), (2003, 'game', 'x')]
+[(5, <makesets.aset object at 0x111250c18>), (8, <makesets.aset object at 0x111250be0>), (1002, <makesets.aset object at 0x111250cf8>), (2003, <makesets.aset object at 0x111250f98>)]
+
+ Top 3 equations: 
+0.44733606270024107 31 = 13 + x
+0.39518627025977693 31 - 13 = x
+0.39518627025977693 31 + 13 = x
+
+ CORRECT
+Guess :  18 
+Answer : 18.0 
+
+
+104
+ tom has 30 violet balloons , he gave fred 16 of the balloons . how many violet balloons does he now have  ? 
+[(2, <makesets.aset object at 0x111332be0>), (11, <makesets.aset object at 0x111332dd8>), (9, <makesets.aset object at 0x111332550>), (1003, <makesets.aset object at 0x1113329b0>)]
+[(2, 'balloon', '30'), (9, 'balloon', '16'), (1003, 'balloon', 'x')]
+balloons-5
+balloons-13
+balloons-4
+[(2, 'balloon', '30'), (9, 'balloon', '16'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '30'), (9, 'balloon', '16'), (1003, 'balloon', 'x')]
+[(2, 'balloon', '30'), (9, 'balloon', '16'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x111332be0>), (9, <makesets.aset object at 0x111332550>), (1003, <makesets.aset object at 0x1113329b0>)]
+
+ Top 3 equations: 
+0.708339446042023 30 + 16 = x
+0.6467309796035249 30 = 16 + x
+0.16479759547620942 30 = 16 * x
+
+ INCORRECT
+Guess :  46 
+Answer : 14.0 
+
+
+105
+ fred has 40 baseball cards . keith bought 22 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+[(2, <makesets.aset object at 0x1113822e8>), (2003, <makesets.aset object at 0x111382668>), (1002, <makesets.aset object at 0x111382f28>)]
+[(2, 'card', '40'), (1002, 'card', '22'), (2003, 'card', 'x')]
+cards-5
+cards-None
+cards-4
+[(2, 'card', '40'), (1002, 'card', '22'), (2003, 'card', 'x')]
+[(2, 'card', '40'), (1002, 'card', '22'), (2003, 'card', 'x')]
+[(2, 'card', '40'), (1002, 'card', '22'), (2003, 'card', 'x')]
+[(2, <makesets.aset object at 0x1113822e8>), (1002, <makesets.aset object at 0x111382f28>), (2003, <makesets.aset object at 0x111382668>)]
+
+ Top 3 equations: 
+0.706050957233688 40 + 22 = x
+0.6467309796035249 40 = 22 + x
+0.16479759547620942 40 = 22 * x
+
+ INCORRECT
+Guess :  62 
+Answer : 18.0 
+
+
+106
+ fred found 47 seashells on the beach , he gave jessica 25 of the seashells . how many seashells does he now have  ? 
+[(2, <makesets.aset object at 0x10de155f8>), (5, <makesets.aset object at 0x10ddec5f8>), (13, <makesets.aset object at 0x10ddec710>), (11, <makesets.aset object at 0x10ddecf28>), (1003, <makesets.aset object at 0x10ddb5c50>)]
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (1003, 'seashell', 'x')]
+seashells-4
+beach-7
+seashells-15
+seashells-None
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (1003, 'seashell', 'x')]
+the
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (1003, 'seashell', 'x')]
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (1003, 'seashell', 'x')]
+[(2, <makesets.aset object at 0x10de155f8>), (5, <makesets.aset object at 0x10ddec5f8>), (11, <makesets.aset object at 0x10ddecf28>), (1003, <makesets.aset object at 0x10ddb5c50>)]
+
+ Top 3 equations: 
+0.708339446042023 47 = 25 + x
+0.5480254299431815 47 + 25 = x
+0.29206254675396676 47 - 25 = x
+
+ CORRECT
+Guess :  22 
+Answer : 22.0 
+
+
+107
+ sara grew 43 pumpkins , but the rabbits ate 23 pumpkins . how many pumpkins does sara have left  ? 
+[(2, <makesets.aset object at 0x1111f9048>), (6, <makesets.aset object at 0x1111f9a90>), (9, <makesets.aset object at 0x1111f9358>), (1002, <makesets.aset object at 0x1111f9780>)]
+[(2, 'pumpkin', '43'), (6, 'rabbit', 'the'), (9, 'pumpkin', '23'), (1002, 'pumpkin', 'x')]
+pumpkins-4
+rabbits-8
+pumpkins-11
+pumpkins-3
+[(2, 'pumpkin', '43'), (6, 'rabbit', 'the'), (9, 'pumpkin', '23'), (1002, 'pumpkin', 'x')]
+the
+[(2, 'pumpkin', '43'), (6, 'rabbit', 'the'), (9, 'pumpkin', '23'), (1002, 'pumpkin', 'x')]
+[(2, 'pumpkin', '43'), (6, 'rabbit', 'the'), (9, 'pumpkin', '23'), (1002, 'pumpkin', 'x')]
+[(2, <makesets.aset object at 0x1111f9048>), (6, <makesets.aset object at 0x1111f9a90>), (9, <makesets.aset object at 0x1111f9358>), (1002, <makesets.aset object at 0x1111f9780>)]
+
+ Top 3 equations: 
+0.6720712482761269 43 + 23 = x
+0.635968555936974 43 = 23 + x
+0.1782528164268992 43 * 23 = x
+
+ INCORRECT
+Guess :  66 
+Answer : 20.0 
+
+
+108
+ joan decided to sell all of her old books . she gathered up 33 books to sell . she sold 26 books in a yard sale . how many books does joan now have  ? 
+[(1003, <makesets.aset object at 0x111347550>), (2002, <makesets.aset object at 0x1113473c8>), (2005, <makesets.aset object at 0x111332ba8>), (3002, <makesets.aset object at 0x111347748>)]
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+books-5
+books-4
+sale-8
+books-3
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+[(1003, 'book', '33'), (2002, 'book', '26'), (3003, 'sale', '1'), (3002, 'book', 'x')]
+[(1003, <makesets.aset object at 0x111347550>), (2002, <makesets.aset object at 0x1113473c8>), (3002, <makesets.aset object at 0x111347748>), (3003, <makesets.aset object at 0x111332ba8>)]
+
+ Top 3 equations: 
+1.0829703287482764 33 + ( 26 + x ) = 1
+1.0764840928062263 ( 33 + 26 ) + x = 1
+1.0223604874364458 33 = ( 26 + x ) / 1
+
+ CORRECT
+Guess :  7 
+Answer : 7.0 
+
+
+109
+ there are 46 rulers in the drawer . tim took 25  rulers from the drawer . how many rulers are now in the drawer  ? 
+[(2, <makesets.aset object at 0x1113471d0>), (5, <makesets.aset object at 0x111347710>), (1002, <makesets.aset object at 0x111347630>), (1005, <makesets.aset object at 0x1113470b8>), (2006, <makesets.aset object at 0x1113472e8>), (2002, <makesets.aset object at 0x111347588>)]
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+rulers-4
+drawer-7
+rulers-4
+drawer-7
+rulers-3
+drawer-8
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+the
+the
+the
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+[(2, <makesets.aset object at 0x1113471d0>), (5, <makesets.aset object at 0x111347710>), (1002, <makesets.aset object at 0x111347630>), (1005, <makesets.aset object at 0x1113470b8>), (2002, <makesets.aset object at 0x111347588>), (2006, <makesets.aset object at 0x1113472e8>)]
+
+ Top 3 equations: 
+0.6400791863360402 46 = 25 + x
+0.5676464808348585 46 + 25 = x
+0.22275166157550344 46 - 25 = x
+
+ CORRECT
+Guess :  21 
+Answer : 21.0 
+
+
+110
+ there are 33 oak trees currently in the park . park workers had to cut down  18 oak trees that were damaged . how many oak trees will be in the park when the workers are finished  ? 
+[(2, <makesets.aset object at 0x1112d9780>), (7, <makesets.aset object at 0x1112d9828>), (1006, <makesets.aset object at 0x1112d98d0>), (2007, <makesets.aset object at 0x1112d99b0>), (2010, <makesets.aset object at 0x1112d99e8>), (2005, <makesets.aset object at 0x1112d96d8>)]
+[(2, 'tree', '33'), (7, 'park', 'the'), (1006, 'tree', '18'), (2005, 'tree', 'x'), (2007, 'park', 'the'), (2010, 'worker', 'the')]
+trees-5
+park-9
+trees-9
+trees-None
+park-9
+workers-12
+[(2, 'tree', '33'), (7, 'park', 'the'), (1006, 'tree', '18'), (2005, 'tree', 'x'), (2007, 'park', 'the'), (2010, 'worker', 'the')]
+the
+the
+the
+the
+the
+the
+[(2, 'tree', '33'), (7, 'park', 'the'), (1006, 'tree', '18'), (2005, 'tree', 'x'), (2007, 'park', 'the'), (2010, 'worker', 'the')]
+[(2, 'tree', '33'), (7, 'park', 'the'), (1006, 'tree', '18'), (2005, 'tree', 'x'), (2007, 'park', 'the'), (2010, 'worker', 'the')]
+[(2, <makesets.aset object at 0x1112d9780>), (7, <makesets.aset object at 0x1112d9828>), (1006, <makesets.aset object at 0x1112d98d0>), (2005, <makesets.aset object at 0x1112d96d8>), (2007, <makesets.aset object at 0x1112d99b0>), (2010, <makesets.aset object at 0x1112d99e8>)]
+
+ Top 3 equations: 
+0.566632429746339 33 + 18 = x
+0.4849973429462081 33 = 18 + x
+0.30508988130870623 33 = 18 - x
+
+ INCORRECT
+Guess :  51 
+Answer : 15.0 
+
+
+111
+ first museum she went to was the metropolitan museum in new york . she donated 46 medieval art pieces from the 70 she originally has . how many medieval art pieces were left with her ? 
+[(6, <makesets.aset object at 0x111347a90>), (1002, <makesets.aset object at 0x111347668>), (2003, <makesets.aset object at 0x111347c88>), (1008, <makesets.aset object at 0x111347748>)]
+[(6, 'museum', 'the'), (1002, 'piece', '46'), (1008, 'piece', '70'), (2003, 'art', 'x')]
+museum-9
+pieces-6
+pieces-None
+art-4
+[(6, 'museum', 'the'), (1002, 'piece', '46'), (1008, 'piece', '70'), (2003, 'art', 'x')]
+the
+[(6, 'museum', 'the'), (1002, 'piece', '46'), (1008, 'piece', '70'), (2003, 'art', 'x')]
+[(6, 'museum', 'the'), (1002, 'piece', '46'), (1008, 'piece', '70'), (2003, 'art', 'x')]
+[(6, <makesets.aset object at 0x111347a90>), (1002, <makesets.aset object at 0x111347668>), (1008, <makesets.aset object at 0x111347748>), (2003, <makesets.aset object at 0x111347c88>)]
+
+ Top 3 equations: 
+0.435968555936974 46 + 70 = x
+0.37502374720972215 46 = 70 / x
+0.1602527265039321 46 = 70 - x
+
+ INCORRECT
+Guess :  116 
+Answer : 24.0 
+
+
+112
+ the next museum on her list is the guggenheim in new york as well . there she gave 51 sets of egyptian mask from her collection of 90 . how many sets of masks were left in alicia’s collection ? 
+[(0, <makesets.aset object at 0x1112fe278>), (7, <makesets.aset object at 0x1112fe2e8>), (1003, <makesets.aset object at 0x1112fe390>), (2002, <makesets.aset object at 0x11123e9e8>), (1012, <makesets.aset object at 0x1112fe748>)]
+[(0, 'museum', 'the'), (7, 'guggenheim', 'the'), (1003, 'set', '51'), (1012, 'set', '90'), (2002, 'set', 'x')]
+museum-3
+guggenheim-9
+sets-5
+sets-None
+sets-3
+[(0, 'museum', 'the'), (7, 'guggenheim', 'the'), (1003, 'set', '51'), (1012, 'set', '90'), (2002, 'set', 'x')]
+the
+the
+[(0, 'museum', 'the'), (7, 'guggenheim', 'the'), (1003, 'set', '51'), (1012, 'set', '90'), (2002, 'set', 'x')]
+[(0, 'museum', 'the'), (7, 'guggenheim', 'the'), (1003, 'set', '51'), (1012, 'set', '90'), (2002, 'set', 'x')]
+[(0, <makesets.aset object at 0x1112fe278>), (7, <makesets.aset object at 0x1112fe2e8>), (1003, <makesets.aset object at 0x1112fe390>), (1012, <makesets.aset object at 0x1112fe748>), (2002, <makesets.aset object at 0x11123e9e8>)]
+
+ Top 3 equations: 
+0.6993363742459828 51 = 90 + x
+0.6493981706222898 51 + 90 = x
+0.16238082077259383 51 = 90 - x
+
+ INCORRECT
+Guess :  141 
+Answer : 39.0 
+
+
+113
+ after new york , she decided to visit the smithsonian in washington dc . if she has 63 miniature aircrafts and she gave away 49 to the national air and space museum , how many are left with her ? 
+[(8, <makesets.aset object at 0x11123a160>), (1003, <makesets.aset object at 0x11123a710>), (1012, <makesets.aset object at 0x11123a3c8>), (1022, <makesets.aset object at 0x11123a128>), (1010, <makesets.aset object at 0x1112d8400>)]
+[(8, 'smithsonian', 'the'), (1003, 'aircraft', '63'), (1010, 'air', '49'), (1012, 'air', 'the'), (1022, 'air', 'x')]
+smithsonian-10
+aircrafts-6
+air-None
+air-15
+air-None
+[(8, 'smithsonian', 'the'), (1003, 'aircraft', '63'), (1010, 'air', '49'), (1012, 'air', 'the'), (1022, 'air', 'x')]
+the
+[(8, 'smithsonian', 'the'), (1003, 'aircraft', '63'), (1010, 'air', '49'), (1012, 'air', 'the'), (1022, 'air', 'x')]
+[(8, 'smithsonian', 'the'), (1003, 'aircraft', '63'), (1010, 'air', '49'), (1012, 'air', 'x'), (1022, 'air', 'x')]
+[(8, <makesets.aset object at 0x11123a160>), (1003, <makesets.aset object at 0x11123a710>), (1010, <makesets.aset object at 0x1112d8400>), (1012, <makesets.aset object at 0x11123a3c8>), (1022, <makesets.aset object at 0x11123a128>)]
+
+ Top 3 equations: 
+0.6008576123854892 63 / 49 = x
+0.4993363742459828 63 = 49 + x
+0.2310429222294198 63 * 49 = x
+
+ CORRECT
+Guess :  14 
+Answer : 14.0 
+
+
+114
+ you have 24 cookies and want to share them equally with 6 people . how many cookies would each person get ? 
+[(2, <makesets.aset object at 0x1112e00f0>), (11, <makesets.aset object at 0x1112e0128>), (1004, <makesets.aset object at 0x1112e0208>), (1002, <makesets.aset object at 0x1112e0048>)]
+[(2, 'cookie', '24'), (11, 'people', '6'), (1002, 'cookie', 'x'), (1004, 'person', 'each')]
+cookies-4
+people-13
+cookies-3
+person-6
+[(2, 'cookie', '24'), (11, 'people', '6'), (1002, 'cookie', 'x'), (1004, 'person', 'each')]
+[(2, 'cookie', '24'), (11, 'people', '6'), (1002, 'cookie', 'x'), (1004, 'person', 'each')]
+[(2, 'cookie', '24'), (11, 'people', '6'), (1002, 'cookie', 'x'), (1004, 'person', '1')]
+[(2, <makesets.aset object at 0x1112e00f0>), (11, <makesets.aset object at 0x1112e0128>), (1002, <makesets.aset object at 0x1112e0048>), (1004, <makesets.aset object at 0x1112e0208>)]
+
+ Top 3 equations: 
+1.4949031928570353 ( 24 / 6 ) / x = 1
+1.388579308076154 24 = 6 / ( x / 1 )
+1.3222187092830284 24 = ( 6 / x ) / 1
+
+ CORRECT
+Guess :  4 
+Answer : 4.0 
+
+
+115
+ you are reading a book with 120 pages . if you want to read the same number of pages each night , how many would you have to read each night to finish in 10 days ? 
+[(3, <makesets.aset object at 0x1111f9a90>), (6, <makesets.aset object at 0x1111f9358>), (1005, <makesets.aset object at 0x1111f9d30>), (1010, <makesets.aset object at 0x1111f9cc0>), (1020, <makesets.aset object at 0x1111f9048>), (1025, <makesets.aset object at 0x1111efd30>), (1017, <makesets.aset object at 0x1111f9780>)]
+[(3, 'book', 'a'), (6, 'page', '120'), (1005, 'number', 'the'), (1010, 'night', 'each'), (1017, 'night', 'x'), (1020, 'night', 'each'), (1025, 'day', '10')]
+book-5
+pages-8
+number-8
+night-12
+night-None
+night-22
+days-27
+[(3, 'book', 'a'), (6, 'page', '120'), (1005, 'number', 'the'), (1010, 'night', 'each'), (1017, 'night', 'x'), (1020, 'night', 'each'), (1025, 'day', '10')]
+the
+the
+the
+[(3, 'book', 'a'), (6, 'page', '120'), (1005, 'number', 'the'), (1010, 'night', 'each'), (1017, 'night', 'x'), (1020, 'night', 'each'), (1025, 'day', '10')]
+[(3, 'book', 'a'), (6, 'page', '120'), (1005, 'number', 'the'), (1018, 'night', 'x'), (1017, 'night', 'x'), (1026, 'night', 'x'), (1025, 'day', '10')]
+[(3, <makesets.aset object at 0x1111f9a90>), (6, <makesets.aset object at 0x1111f9358>), (1005, <makesets.aset object at 0x1111f9d30>), (1017, <makesets.aset object at 0x1111f9780>), (1018, <makesets.aset object at 0x1111f9cc0>), (1025, <makesets.aset object at 0x1111efd30>), (1026, <makesets.aset object at 0x1111f9048>)]
+
+ Top 3 equations: 
+0.5491164038165932 120 = x / 10
+0.5174384525916795 120 / x = 10
+-0.05485041368494631 120 - x = 10
+
+ INCORRECT
+Guess :  1200 
+Answer : 12.0 
+
+
+116
+ a cereal box holds 18 cups of cereal . each serving is 2 cups . how many servings are in the whole box ? 
+[(0, <makesets.aset object at 0x1112cafd0>), (4, <makesets.aset object at 0x1112caa90>), (1003, <makesets.aset object at 0x1112cab38>), (1000, <makesets.aset object at 0x1112cae48>), (2005, <makesets.aset object at 0x1112ca668>), (2003, <makesets.aset object at 0x1112caa20>)]
+[(0, 'box', 'a'), (4, 'cup', '18'), (1000, 'serve', 'each'), (1003, 'cup', '2'), (2003, 'serving', 'x'), (2005, 'box', 'the')]
+box-3
+cups-6
+serving-2
+cups-5
+servings-None
+box-8
+[(0, 'box', 'a'), (4, 'cup', '18'), (1000, 'serve', 'each'), (1003, 'cup', '2'), (2003, 'serving', 'x'), (2005, 'box', 'the')]
+the
+[(0, 'box', 'a'), (4, 'cup', '18'), (1000, 'serve', 'each'), (1003, 'cup', '2'), (2003, 'serving', 'x'), (2005, 'box', 'the')]
+[(0, 'box', 'a'), (4, 'cup', '18'), (1004, 'serve', '1'), (1003, 'cup', '2'), (2003, 'serving', 'x'), (2005, 'box', 'the')]
+[(0, <makesets.aset object at 0x1112cafd0>), (4, <makesets.aset object at 0x1112caa90>), (1003, <makesets.aset object at 0x1112cab38>), (1004, <makesets.aset object at 0x1112cae48>), (2003, <makesets.aset object at 0x1112caa20>), (2005, <makesets.aset object at 0x1112ca668>)]
+
+ Top 3 equations: 
+1.234876905183359 18 = 2 / ( 1 / x )
+1.234876905183359 18 = ( 2 / 1 ) / x
+1.234876905183359 18 / ( 2 / 1 ) = x
+
+ CORRECT
+Guess :  9 
+Answer : 9.0 
+
+
+117
+ a box of books weighs 42 pounds . each book weights 3 pounds . how many books are there in the box ? 
+[(0, <makesets.aset object at 0x10de95c18>), (5, <makesets.aset object at 0x10de956a0>), (1000, <makesets.aset object at 0x10de959e8>), (1003, <makesets.aset object at 0x10de95080>), (2006, <makesets.aset object at 0x10de950f0>), (2002, <makesets.aset object at 0x10de95588>)]
+[(0, 'box', 'a'), (5, 'pound', '42'), (1000, 'weight', 'each'), (1003, 'pound', '3'), (2002, 'book', 'x'), (2006, 'box', 'the')]
+box-2
+pounds-7
+weights-3
+pounds-5
+books-3
+box-8
+[(0, 'box', 'a'), (5, 'pound', '42'), (1000, 'weight', 'each'), (1003, 'pound', '3'), (2002, 'book', 'x'), (2006, 'box', 'the')]
+the
+[(0, 'box', 'a'), (5, 'pound', '42'), (1000, 'weight', 'each'), (1003, 'pound', '3'), (2002, 'book', 'x'), (2006, 'box', 'the')]
+[(0, 'box', 'a'), (5, 'pound', '42'), (1004, 'weight', '1'), (1003, 'pound', '3'), (2002, 'book', 'x'), (2006, 'box', 'the')]
+[(0, <makesets.aset object at 0x10de95c18>), (5, <makesets.aset object at 0x10de956a0>), (1003, <makesets.aset object at 0x10de95080>), (1004, <makesets.aset object at 0x10de959e8>), (2002, <makesets.aset object at 0x10de95588>), (2006, <makesets.aset object at 0x10de950f0>)]
+
+ Top 3 equations: 
+1.2986764907940056 42 = 3 / ( 1 / x )
+1.2667766979886823 42 = ( 3 / 1 ) / x
+1.234876905183359 42 / ( 3 / 1 ) = x
+
+ CORRECT
+Guess :  14 
+Answer : 14.0 
+
+
+118
+ sue's mother made 75 cookies . she put the cookies in bags , with 3 cookies in each bag . how many bags could she fill up ? 
+[(4, <makesets.aset object at 0x1112ff128>), (1002, <makesets.aset object at 0x1112ff1d0>), (1008, <makesets.aset object at 0x1112ff208>), (1011, <makesets.aset object at 0x1112ff2e8>), (2002, <makesets.aset object at 0x1112ff080>)]
+[(4, 'cookie', '75'), (1002, 'cookie', 'the'), (1008, 'cookie', '3'), (1011, 'bag', 'each'), (2002, 'bag', 'x')]
+cookies-6
+cookies-4
+cookies-10
+bag-13
+bags-3
+[(4, 'cookie', '75'), (1002, 'cookie', 'the'), (1008, 'cookie', '3'), (1011, 'bag', 'each'), (2002, 'bag', 'x')]
+the
+[(4, 'cookie', '75'), (1002, 'cookie', 'the'), (1008, 'cookie', '3'), (1011, 'bag', 'each'), (2002, 'bag', 'x')]
+[(4, 'cookie', 'USED'), (1002, 'cookie', '75'), (1008, 'cookie', '3'), (1011, 'bag', 'x'), (2002, 'bag', 'x')]
+[(4, <makesets.aset object at 0x1112ff128>), (1002, <makesets.aset object at 0x1112ff1d0>), (1008, <makesets.aset object at 0x1112ff208>), (1011, <makesets.aset object at 0x1112ff2e8>), (2002, <makesets.aset object at 0x1112ff080>)]
+
+ Top 3 equations: 
+0.5847838506110481 75 = 3 / x
+0.27148258609173553 75 - 3 = x
+0.1522677362375758 75 = 3 - x
+
+ INCORRECT
+Guess :  72 
+Answer : 25.0 
+
+
+119
+ an airplane hangar is 300 feet long . how many planes can fit into it , end to end , if each plane is 40 feet long ? 
+[(0, <makesets.aset object at 0x10de245c0>), (4, <makesets.aset object at 0x111213d68>), (1013, <makesets.aset object at 0x1113470b8>), (1016, <makesets.aset object at 0x111347a20>), (1002, <makesets.aset object at 0x10de24ef0>)]
+[(0, 'hangar', 'an'), (4, 'foot', '300'), (1002, 'plane', 'x'), (1013, 'plane', 'each'), (1016, 'foot', '40')]
+hangar-3
+feet-6
+planes-3
+plane-15
+feet-18
+[(0, 'hangar', 'an'), (4, 'foot', '300'), (1002, 'plane', 'x'), (1013, 'plane', 'each'), (1016, 'foot', '40')]
+[(0, 'hangar', 'an'), (4, 'foot', '300'), (1002, 'plane', 'x'), (1013, 'plane', 'each'), (1016, 'foot', '40')]
+[(0, 'hangar', 'an'), (4, 'foot', '300'), (1002, 'plane', 'x'), (1017, 'plane', 'x'), (1016, 'foot', '40')]
+[(0, <makesets.aset object at 0x10de245c0>), (4, <makesets.aset object at 0x111213d68>), (1002, <makesets.aset object at 0x10de24ef0>), (1016, <makesets.aset object at 0x111347a20>), (1017, <makesets.aset object at 0x1113470b8>)]
+
+ Top 3 equations: 
+0.7493382453970028 300 = x / 40
+0.5657842722328437 300 / x = 40
+0.11608541615162485 300 - x = 40
+
+ INCORRECT
+Guess :  12000 
+Answer : 7.0 
+
+
+120
+ it takes 3 eggs to make a cake . how many cakes can you make with 37 eggs ? 
+[(2, <makesets.aset object at 0x10de956a0>), (6, <makesets.aset object at 0x10de951d0>), (1007, <makesets.aset object at 0x10de95470>), (1002, <makesets.aset object at 0x10de95080>)]
+[(2, 'egg', '3'), (6, 'cake', 'a'), (1002, 'cake', 'x'), (1007, 'egg', '37')]
+eggs-4
+cake-8
+cakes-3
+eggs-9
+[(2, 'egg', '3'), (6, 'cake', 'a'), (1002, 'cake', 'x'), (1007, 'egg', '37')]
+[(2, 'egg', '3'), (6, 'cake', 'a'), (1002, 'cake', 'x'), (1007, 'egg', '37')]
+[(2, 'egg', '3'), (6, 'cake', 'x'), (1002, 'cake', 'x'), (1007, 'egg', '37')]
+[(2, <makesets.aset object at 0x10de956a0>), (6, <makesets.aset object at 0x10de951d0>), (1002, <makesets.aset object at 0x10de95080>), (1007, <makesets.aset object at 0x10de95470>)]
+
+ Top 3 equations: 
+0.7393875673334536 3 = x / 37
+0.4072240401504306 3 / x = 37
+0.1869559693024512 3 - x = 37
+
+ INCORRECT
+Guess :  111 
+Answer : 12.0 
+
+
+121
+ 105 people are going to a movie . 6 people can ride in each car . how many cars are needed to get all 105 people to the movie ? 
+[(0, <makesets.aset object at 0x10ddec518>), (5, <makesets.aset object at 0x10ddec5f8>), (1000, <makesets.aset object at 0x10ddec7b8>), (1005, <makesets.aset object at 0x10ddece80>), (2007, <makesets.aset object at 0x10ddecd30>), (2008, <makesets.aset object at 0x10ddeca90>), (2011, <makesets.aset object at 0x111347400>), (2002, <makesets.aset object at 0x10ddec710>)]
+[(0, 'people', '105'), (5, 'movie', 'a'), (1000, 'people', '6'), (1005, 'car', 'each'), (2002, 'car', 'x'), (2008, 'people', '105'), (2011, 'movie', 'the')]
+people-2
+movie-7
+people-2
+car-7
+cars-3
+people-10
+movie-13
+[(0, 'people', '105'), (5, 'movie', 'a'), (1000, 'people', '6'), (1005, 'car', 'each'), (2002, 'car', 'x'), (2008, 'people', '105'), (2011, 'movie', 'the')]
+the
+the
+[(0, 'people', '105'), (5, 'movie', 'a'), (1000, 'people', '6'), (1005, 'car', 'each'), (2002, 'car', 'x'), (2008, 'people', '105'), (2011, 'movie', 'the')]
+[(0, 'people', '105'), (5, 'movie', 'a'), (1000, 'people', '6'), (1005, 'car', 'x'), (2002, 'car', 'x'), (2008, 'people', '105'), (2011, 'movie', 'the')]
+[(0, <makesets.aset object at 0x10ddec518>), (5, <makesets.aset object at 0x10ddec5f8>), (1000, <makesets.aset object at 0x10ddec7b8>), (1005, <makesets.aset object at 0x10ddece80>), (2002, <makesets.aset object at 0x10ddec710>), (2008, <makesets.aset object at 0x10ddeca90>), (2011, <makesets.aset object at 0x111347400>)]
+
+ Top 3 equations: 
+0.5174384525916795 105 = 6 / x
+0.2849973429462081 105 + 6 = x
+0.1451495863150537 105 = 6 - x
+
+ INCORRECT
+Guess :  111 
+Answer : 17.0 
+
+
+122
+ 89 cookies are being shared equally among 4 people . how many does each person get ? 
+[(0, <makesets.aset object at 0x1112ff748>), (7, <makesets.aset object at 0x1112ff710>), (1003, <makesets.aset object at 0x1112ff780>), (1005, <makesets.aset object at 0x1112ff5f8>)]
+[(0, 'cookie', '89'), (7, 'people', '4'), (1003, 'person', 'each'), (1005, 'person', 'x')]
+cookies-2
+people-9
+person-5
+person-None
+[(0, 'cookie', '89'), (7, 'people', '4'), (1003, 'person', 'each'), (1005, 'person', 'x')]
+[(0, 'cookie', '89'), (7, 'people', '4'), (1003, 'person', 'each'), (1005, 'person', 'x')]
+[(0, 'cookie', '89'), (7, 'people', '4'), (1006, 'person', 'x'), (1005, 'person', 'x')]
+[(0, <makesets.aset object at 0x1112ff748>), (7, <makesets.aset object at 0x1112ff710>), (1005, <makesets.aset object at 0x1112ff5f8>), (1006, <makesets.aset object at 0x1112ff780>)]
+
+ Top 3 equations: 
+0.7222087484713509 89 / 4 = x
+0.6288254123450383 89 = 4 / x
+-0.1083185924109105 89 = 4 * x
+
+ INCORRECT
+Guess :  356 
+Answer : 22.25 
+
+
+123
+ deborah is running a marathon . she can run 4 miles in an hour . how long will it take her to run 26 miles ? 
+[(3, <makesets.aset object at 0x111347780>), (1003, <makesets.aset object at 0x1113472e8>), (1006, <makesets.aset object at 0x1113470b8>), (2008, <makesets.aset object at 0x111347978>), (2001, <makesets.aset object at 0x111347128>)]
+[(3, 'marathon', 'a'), (1003, 'mile', '4'), (1006, 'hour', 'an'), (2001, 'LENGTH', 'x'), (2008, 'mile', '26')]
+marathon-5
+miles-5
+hour-8
+LENGTH-None
+miles-10
+[(3, 'marathon', 'a'), (1003, 'mile', '4'), (1006, 'hour', 'an'), (2001, 'LENGTH', 'x'), (2008, 'mile', '26')]
+[(3, 'marathon', 'a'), (1003, 'mile', '4'), (1006, 'hour', 'an'), (2001, 'LENGTH', 'x'), (2008, 'mile', '26')]
+[(3, 'marathon', 'a'), (1003, 'mile', '4'), (1006, 'hour', '1'), (2001, 'LENGTH', 'x'), (2008, 'mile', '26')]
+[(3, <makesets.aset object at 0x111347780>), (1003, <makesets.aset object at 0x1113472e8>), (1006, <makesets.aset object at 0x1113470b8>), (2001, <makesets.aset object at 0x111347128>), (2008, <makesets.aset object at 0x111347978>)]
+
+ Top 3 equations: 
+1.3241714179445017 4 / ( 1 / x ) = 26
+1.3241714179445017 ( 4 / 1 ) / x = 26
+1.0386653818960165 4 = 1 / ( x - 26 )
+
+ INCORRECT
+Guess :  22 
+Answer : 8.5 
+
+
+124
+ 256 students are going to the zoo . they have to be divided into groups so that each teacher has one group . there are 8 teachers . how many students will be in each group ? 
+[(0, <makesets.aset object at 0x11121efd0>), (5, <makesets.aset object at 0x11121ee10>), (1009, <makesets.aset object at 0x11121ed68>), (1012, <makesets.aset object at 0x11121e710>), (2002, <makesets.aset object at 0x11121ecc0>), (3006, <makesets.aset object at 0x1111f9780>), (3002, <makesets.aset object at 0x11121e8d0>)]
+[(0, 'student', '256'), (5, 'zoo', 'the'), (1009, 'teacher', 'each'), (1012, 'group', 'one'), (2002, 'teacher', '8'), (3002, 'student', 'x'), (3006, 'group', 'each')]
+students-2
+zoo-7
+teacher-11
+group-14
+teachers-4
+students-3
+group-8
+[(0, 'student', '256'), (5, 'zoo', 'the'), (1009, 'teacher', 'each'), (1012, 'group', 'one'), (2002, 'teacher', '8'), (3002, 'student', 'x'), (3006, 'group', 'each')]
+the
+the
+[(0, 'student', '256'), (5, 'zoo', 'the'), (1009, 'teacher', 'each'), (1012, 'group', 'one'), (2002, 'teacher', '8'), (3002, 'student', 'x'), (3006, 'group', 'each')]
+[(0, 'student', '256'), (5, 'zoo', 'the'), (1013, 'teacher', '8'), (1012, 'group', 'one'), (2002, 'teacher', 'USED'), (3002, 'student', 'x'), (3006, 'group', '1')]
+[(0, <makesets.aset object at 0x11121efd0>), (5, <makesets.aset object at 0x11121ee10>), (1012, <makesets.aset object at 0x11121e710>), (1013, <makesets.aset object at 0x11121ed68>), (2002, <makesets.aset object at 0x11121ecc0>), (3002, <makesets.aset object at 0x11121e8d0>), (3006, <makesets.aset object at 0x1111f9780>)]
+
+ Top 3 equations: 
+1.2986764907940056 256 = ( 8 / x ) / 1
+1.2887258127304564 256 = 8 / ( x / 1 )
+1.2667766979886823 ( 256 / 8 ) / x = 1
+
+ CORRECT
+Guess :  32 
+Answer : 32.0 
+
+
+125
+ a fruit farm packs oranges in boxes that hold 10 each . one day it packs 2650 oranges . how many boxes did they use ? 
+[(0, <makesets.aset object at 0x1113d30b8>), (10, <makesets.aset object at 0x10ddec518>), (1000, <makesets.aset object at 0x1113d3198>), (1004, <makesets.aset object at 0x1113d3240>), (2002, <makesets.aset object at 0x1113d30f0>), (9, <makesets.aset object at 0x1113d32e8>)]
+[(0, 'farm', 'a'), (9, 'farm', '10'), (10, 'box', 'each'), (1000, 'day', 'one'), (1004, 'orange', '2650'), (2002, 'box', 'x')]
+farm-3
+farm-None
+boxes-12
+day-2
+oranges-6
+boxes-3
+[(0, 'farm', 'a'), (9, 'farm', '10'), (10, 'box', 'each'), (1000, 'day', 'one'), (1004, 'orange', '2650'), (2002, 'box', 'x')]
+[(0, 'farm', 'a'), (9, 'farm', '10'), (10, 'box', 'each'), (1000, 'day', 'one'), (1004, 'orange', '2650'), (2002, 'box', 'x')]
+[(0, 'farm', 'a'), (9, 'farm', '10'), (10, 'box', 'x'), (1000, 'day', 'one'), (1004, 'orange', '2650'), (2002, 'box', 'x')]
+[(0, <makesets.aset object at 0x1113d30b8>), (9, <makesets.aset object at 0x1113d32e8>), (10, <makesets.aset object at 0x10ddec518>), (1000, <makesets.aset object at 0x1113d3198>), (1004, <makesets.aset object at 0x1113d3240>), (2002, <makesets.aset object at 0x1113d30f0>)]
+
+ Top 3 equations: 
+0.5174384525916795 10 / x = 2650
+0.30556998327749446 10 = x / 2650
+0.11211600790132364 10 = x - 2650
+
+ INCORRECT
+Guess :  26500 
+Answer : 265.0 
+
+
+126
+ julia has been collecting pennies since she was 3 years old . she used a machine at the bank to count her pennies . she had 4,380 pennies . how many dimes would that be ? 
+[(8, <makesets.aset object at 0x1112d8e80>), (1002, <makesets.aset object at 0x1112d8a20>), (1005, <makesets.aset object at 0x1112d8a90>), (2002, <makesets.aset object at 0x1112d8ef0>), (3003, <makesets.aset object at 0x1112d80f0>)]
+[(8, 'year', '3'), (1002, 'machine', 'a'), (1005, 'bank', 'the'), (2002, 'penny', '4,380'), (3003, 'dime', 'x')]
+years-10
+machine-4
+bank-7
+pennies-4
+dimes-None
+[(8, 'year', '3'), (1002, 'machine', 'a'), (1005, 'bank', 'the'), (2002, 'penny', '4,380'), (3003, 'dime', 'x')]
+the
+CONVERTING
+penny dime
+[(8, 'year', '3'), (1002, 'machine', 'a'), (1005, 'bank', 'the'), (2002, 'dime', '438.0'), (3003, 'dime', 'x')]
+[(8, 'year', '3'), (1002, 'machine', 'a'), (1005, 'bank', 'the'), (2002, 'dime', '438.0'), (3003, 'dime', 'x')]
+[(8, <makesets.aset object at 0x1112d8e80>), (1002, <makesets.aset object at 0x1112d8a20>), (1005, <makesets.aset object at 0x1112d8a90>), (2002, <makesets.aset object at 0x1112d8ef0>), (3003, <makesets.aset object at 0x1112d80f0>)]
+
+ Top 3 equations: 
+0.33192753935024016 3 / 438.0 = x
+0.2868226849480927 3 - 438.0 = x
+0.2849973429462081 3 = 438.0 + x
+127
+ you want to give your baseball cards to your 5 best friends . you have 455 baseball cards . how many would each get , if you share them equally ? 
+[(9, <makesets.aset object at 0x10de24ef0>), (1002, <makesets.aset object at 0x10de95588>), (2003, <makesets.aset object at 0x10de242b0>), (2004, <makesets.aset object at 0x10de954e0>)]
+[(9, 'friend', '5'), (1002, 'card', '455'), (2003, 'get', 'each'), (2004, 'get', 'x')]
+friends-12
+cards-5
+get-5
+get-None
+[(9, 'friend', '5'), (1002, 'card', '455'), (2003, 'get', 'each'), (2004, 'get', 'x')]
+[(9, 'friend', '5'), (1002, 'card', '455'), (2003, 'get', 'each'), (2004, 'get', 'x')]
+[(9, 'friend', '5'), (1002, 'card', '455'), (2005, 'get', 'x'), (2004, 'get', 'x')]
+[(9, <makesets.aset object at 0x10de24ef0>), (1002, <makesets.aset object at 0x10de95588>), (2004, <makesets.aset object at 0x10de954e0>), (2005, <makesets.aset object at 0x10de242b0>)]
+
+ Top 3 equations: 
+0.6864548393319709 5 = 455 / x
+0.36272818350708785 5 / 455 = x
+0.11185028905407779 5 - 455 = x
+
+ CORRECT
+Guess :  91 
+Answer : 91.0 
+
+
+128
+ mike has 45 dollars in five dollar bills .  how many five dollars bills does  he have  ? 
+[(2, <makesets.aset object at 0x111382668>), (5, <makesets.aset object at 0x1113827b8>), (1002, <makesets.aset object at 0x111382a90>), (1003, <makesets.aset object at 0x111382b70>)]
+[(2, 'dollar', '45'), (5, 'bill', '5'), (1002, 'dollar', '5')]
+dollars-4
+bills-8
+dollars-4
+[(2, 'dollar', '45'), (5, 'bill', '5'), (1002, 'dollar', '5')]
+[(2, 'dollar', '45'), (5, 'bill', '5'), (1002, 'dollar', '5')]
+[(2, 'dollar', '45'), (5, 'bill', '5'), (1002, 'dollar', '5')]
+[(2, <makesets.aset object at 0x111382668>), (5, <makesets.aset object at 0x1113827b8>), (1002, <makesets.aset object at 0x111382a90>)]
+129
+ nancy goes fishing with joan . they catch 18 trout .  if they equally split up the trout , how may will each one get  ? 
+[(1002, <makesets.aset object at 0x111347f98>), (2005, <makesets.aset object at 0x1113478d0>), (2011, <makesets.aset object at 0x10de155f8>), (2012, <makesets.aset object at 0x111347a58>)]
+[(1002, 'trout', '18'), (2005, 'trout', 'the'), (2011, 'one', 'each'), (2012, 'one', 'one')]
+trout-4
+trout-7
+one-13
+one-None
+[(1002, 'trout', '18'), (2005, 'trout', 'the'), (2011, 'one', 'each'), (2012, 'one', 'one')]
+[(1002, 'trout', '18'), (2005, 'trout', 'the'), (2011, 'one', 'each'), (2012, 'one', 'one')]
+[(1002, 'trout', 'USED'), (2005, 'trout', '18'), (2013, 'one', '1'), (2012, 'one', 'one')]
+[(1002, <makesets.aset object at 0x111347f98>), (2005, <makesets.aset object at 0x1113478d0>), (2012, <makesets.aset object at 0x111347a58>), (2013, <makesets.aset object at 0x10de155f8>)]
+130
+ a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+[(0, <makesets.aset object at 0x11123a160>), (3, <makesets.aset object at 0x11121eb00>), (1007, <makesets.aset object at 0x1112ff780>), (1002, <makesets.aset object at 0x11123a9b0>)]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+restaurant-2
+hamburgers-5
+hamburgers-3
+day-9
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', '1')]
+[(0, <makesets.aset object at 0x11123a160>), (3, <makesets.aset object at 0x11121eb00>), (1002, <makesets.aset object at 0x11123a9b0>), (1007, <makesets.aset object at 0x1112ff780>)]
+
+ Top 3 equations: 
+0.6198017638368867 63 = x / 1
+0.24895784172091034 63 - x = 1
+0.12560995140568815 63 = x - 1
+
+ INCORRECT
+Guess :  63 
+Answer : 9.0 
+
+
+131
+ dan was at the beach for five days and found 36 seashells . he plans to give all of his seashells equally to his four friends . how many seashells will each friend get  ? 
+[(3, <makesets.aset object at 0x111347710>), (6, <makesets.aset object at 0x111347ac8>), (10, <makesets.aset object at 0x111347400>), (1011, <makesets.aset object at 0x111347588>), (2004, <makesets.aset object at 0x111347cc0>), (2002, <makesets.aset object at 0x111382a58>)]
+[(3, 'beach', 'the'), (6, 'day', '5'), (10, 'seashell', '36'), (1011, 'friend', '4'), (2002, 'seashell', 'x'), (2004, 'friend', 'each')]
+beach-5
+days-8
+seashells-12
+friends-13
+seashells-3
+friend-6
+[(3, 'beach', 'the'), (6, 'day', '5'), (10, 'seashell', '36'), (1011, 'friend', '4'), (2002, 'seashell', 'x'), (2004, 'friend', 'each')]
+the
+the
+[(3, 'beach', 'the'), (6, 'day', '5'), (10, 'seashell', '36'), (1011, 'friend', '4'), (2002, 'seashell', 'x'), (2004, 'friend', 'each')]
+[(3, 'beach', 'the'), (6, 'day', '5'), (10, 'seashell', '36'), (1011, 'friend', 'USED'), (2002, 'seashell', 'x'), (2004, 'friend', '4')]
+[(3, <makesets.aset object at 0x111347710>), (6, <makesets.aset object at 0x111347ac8>), (10, <makesets.aset object at 0x111347400>), (1011, <makesets.aset object at 0x111347588>), (2002, <makesets.aset object at 0x111382a58>), (2004, <makesets.aset object at 0x111347cc0>)]
+
+ Top 3 equations: 
+1.2887258127304564 5 = 36 / ( x / 4 )
+0.996674308097244 5 = ( 36 + x ) / 4
+0.996674308097244 5 / ( 36 + x ) = 4
+
+ INCORRECT
+Guess :  16 
+Answer : 9.0 
+
+
+132
+ sandy worked 45 hours in the last five days . assuming that she worked the same amount of hours each day , how long did she work each day  ? 
+[(2, <makesets.aset object at 0x1112fd710>), (5, <makesets.aset object at 0x1112fdcc0>), (7, <makesets.aset object at 0x1112fdf60>), (1004, <makesets.aset object at 0x1112fd240>), (1009, <makesets.aset object at 0x1112fd208>), (1017, <makesets.aset object at 0x11123eda0>), (1013, <makesets.aset object at 0x10dd23fd0>)]
+[(2, 'hour', '45'), (7, 'day', '5'), (1004, 'amount', 'the'), (1009, 'day', 'each'), (1013, 'LENGTH', 'x'), (1017, 'day', 'each')]
+hours-4
+days-9
+amount-7
+day-11
+LENGTH-None
+day-19
+[(2, 'hour', '45'), (7, 'day', '5'), (1004, 'amount', 'the'), (1009, 'day', 'each'), (1013, 'LENGTH', 'x'), (1017, 'day', 'each')]
+the
+CONVERTING
+hour day
+the
+[(2, 'day', '1.875'), (7, 'day', '5'), (1004, 'amount', 'the'), (1009, 'day', 'each'), (1013, 'LENGTH', 'x'), (1017, 'day', 'each')]
+[(2, 'day', '1.875'), (7, 'day', 'USED'), (1004, 'amount', 'the'), (1014, 'day', 'USED'), (1013, 'LENGTH', 'x'), (1017, 'day', '5')]
+[(2, <makesets.aset object at 0x1112fd710>), (7, <makesets.aset object at 0x1112fdf60>), (1004, <makesets.aset object at 0x1112fd240>), (1013, <makesets.aset object at 0x10dd23fd0>), (1014, <makesets.aset object at 0x1112fd208>), (1017, <makesets.aset object at 0x11123eda0>)]
+
+ Top 3 equations: 
+0.7174384525916795 1.875 = x / 5
+0.5174384525916795 1.875 / x = 5
+0.1451495863150537 1.875 - x = 5
+
+ INCORRECT
+Guess :  9.37500000000000 
+Answer : 9.0 
+
+
+133
+ there were a total of 27 soccer games during the three month season .  if the games are equally divided , how many soccer games are played a month  ? 
+[(2, <makesets.aset object at 0x1111ef5f8>), (5, <makesets.aset object at 0x1111efd30>), (9, <makesets.aset object at 0x10ddec160>), (10, <makesets.aset object at 0x10ddec710>), (1001, <makesets.aset object at 0x111410048>), (1013, <makesets.aset object at 0x111410080>), (1010, <makesets.aset object at 0x1111ef908>)]
+[(2, 'total', 'a'), (5, 'game', '27'), (10, 'season', '3'), (1001, 'game', 'the'), (1010, 'game', 'x'), (1013, 'month', 'a')]
+total-4
+games-8
+season-13
+games-3
+games-11
+month-15
+[(2, 'total', 'a'), (5, 'game', '27'), (10, 'season', '3'), (1001, 'game', 'the'), (1010, 'game', 'x'), (1013, 'month', 'a')]
+the
+[(2, 'total', 'a'), (5, 'game', '27'), (10, 'season', '3'), (1001, 'game', 'the'), (1010, 'game', 'x'), (1013, 'month', 'a')]
+[(2, 'total', 'a'), (5, 'game', '27'), (10, 'season', '3'), (1001, 'game', 'x'), (1010, 'game', 'x'), (1013, 'month', '1')]
+[(2, <makesets.aset object at 0x1111ef5f8>), (5, <makesets.aset object at 0x1111efd30>), (10, <makesets.aset object at 0x10ddec710>), (1001, <makesets.aset object at 0x111410048>), (1010, <makesets.aset object at 0x1111ef908>), (1013, <makesets.aset object at 0x111410080>)]
+
+ Top 3 equations: 
+1.6598901773572574 ( 27 / 3 ) / x = 1
+1.639817632166556 27 = 3 / ( x / 1 )
+1.639817632166556 27 = ( 3 / x ) / 1
+
+ CORRECT
+Guess :  9 
+Answer : 9.0 
+
+
+134
+ fred has 90 cents in his bank .  how many dimes does fred have  ? 
+[(2, <makesets.aset object at 0x11121e518>), (1002, <makesets.aset object at 0x11121e710>)]
+[(2, 'cent', '90'), (1002, 'dime', 'x')]
+cents-4
+dimes-3
+[(2, 'cent', '90'), (1002, 'dime', 'x')]
+CONVERTING
+cent dime
+[(2, 'dime', '9.0'), (1002, 'dime', 'x')]
+[(2, 'dime', '9.0'), (1002, 'dime', 'x')]
+[(2, <makesets.aset object at 0x11121e518>), (1002, <makesets.aset object at 0x11121e710>)]
+
+ Top 3 equations: 
+-0.2 9.0 = x
+135
+ there are 390 students at a school . if each classroom holds 30 students , how many classrooms are needed at the school ? 
+[(2, <makesets.aset object at 0x1113be6d8>), (5, <makesets.aset object at 0x1113be550>), (1001, <makesets.aset object at 0x1113be908>), (1004, <makesets.aset object at 0x1113be400>), (1013, <makesets.aset object at 0x1113be208>), (1009, <makesets.aset object at 0x1113be160>)]
+[(2, 'student', '390'), (5, 'school', 'a'), (1001, 'classroom', 'each'), (1004, 'student', '30'), (1009, 'classroom', 'x'), (1013, 'school', 'the')]
+students-4
+school-7
+classroom-3
+students-6
+classrooms-10
+school-15
+[(2, 'student', '390'), (5, 'school', 'a'), (1001, 'classroom', 'each'), (1004, 'student', '30'), (1009, 'classroom', 'x'), (1013, 'school', 'the')]
+the
+[(2, 'student', '390'), (5, 'school', 'a'), (1001, 'classroom', 'each'), (1004, 'student', '30'), (1009, 'classroom', 'x'), (1013, 'school', 'the')]
+[(2, 'student', '390'), (5, 'school', 'USED'), (1005, 'classroom', 'x'), (1004, 'student', '30'), (1009, 'classroom', 'x'), (1013, 'school', '1')]
+[(2, <makesets.aset object at 0x1113be6d8>), (5, <makesets.aset object at 0x1113be550>), (1004, <makesets.aset object at 0x1113be400>), (1005, <makesets.aset object at 0x1113be908>), (1009, <makesets.aset object at 0x1113be160>), (1013, <makesets.aset object at 0x1113be208>)]
+
+ Top 3 equations: 
+1.3022223032027276 390 / ( 30 / x ) = 1
+1.256826019925133 390 = 30 / ( x / 1 )
+1.256826019925133 390 = ( 30 / x ) / 1
+
+ INCORRECT
+Guess :  360 
+Answer : 13.0 
+
+
+136
+ mike has 96 muffins , which he needs to box up into dozens . how many boxes does he need ? 
+[(2, <makesets.aset object at 0x10de954e0>), (1002, <makesets.aset object at 0x10de95a90>)]
+[(2, 'muffin', '96'), (1002, 'box', 'x')]
+muffins-4
+boxes-3
+[(2, 'muffin', '96'), (1002, 'box', 'x')]
+[(2, 'muffin', '96'), (1002, 'box', 'x')]
+[(2, 'muffin', '96'), (1002, 'box', 'x')]
+[(2, <makesets.aset object at 0x10de954e0>), (1002, <makesets.aset object at 0x10de95a90>)]
+
+ Top 3 equations: 
+-0.2 96 = x
+
+ INCORRECT
+Guess :  96 
+Answer : 8.0 
+
+
+137
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+[(2, <makesets.aset object at 0x10dd99198>), (1002, <makesets.aset object at 0x10dd99cc0>), (9, <makesets.aset object at 0x1111f9be0>)]
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'pack', 'x')]
+crayons-4
+crayons-None
+packs-3
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'pack', 'x')]
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'pack', 'x')]
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'pack', 'x')]
+[(2, <makesets.aset object at 0x10dd99198>), (9, <makesets.aset object at 0x1111f9be0>), (1002, <makesets.aset object at 0x10dd99cc0>)]
+
+ Top 3 equations: 
+0.5488890654674496 615 = 15 / x
+0.2849973429462081 615 + 15 = x
+0.1513269146501053 615 = 15 - x
+
+ INCORRECT
+Guess :  630 
+Answer : 41.0 
+
+
+138
+ a teacher has 344 pieces of candy . if there are 43 students , and the candy is divided evenly , how many pieces will each student get ? 
+[(0, <makesets.aset object at 0x10ddec710>), (3, <makesets.aset object at 0x11123a9b0>), (1003, <makesets.aset object at 0x1113475c0>), (1007, <makesets.aset object at 0x111347550>), (1017, <makesets.aset object at 0x111347860>), (1015, <makesets.aset object at 0x10de15e48>)]
+[(0, 'teacher', 'a'), (3, 'piece', '344'), (1003, 'student', '43'), (1007, 'candy', 'the'), (1015, 'piece', 'x'), (1017, 'student', 'each')]
+teacher-2
+pieces-5
+students-5
+candy-9
+pieces-16
+student-19
+[(0, 'teacher', 'a'), (3, 'piece', '344'), (1003, 'student', '43'), (1007, 'candy', 'the'), (1015, 'piece', 'x'), (1017, 'student', 'each')]
+the
+the
+[(0, 'teacher', 'a'), (3, 'piece', '344'), (1003, 'student', '43'), (1007, 'candy', 'the'), (1015, 'piece', 'x'), (1017, 'student', 'each')]
+[(0, 'teacher', 'a'), (3, 'piece', '344'), (1003, 'student', 'USED'), (1007, 'candy', 'the'), (1015, 'piece', 'x'), (1017, 'student', '43')]
+[(0, <makesets.aset object at 0x10ddec710>), (3, <makesets.aset object at 0x11123a9b0>), (1003, <makesets.aset object at 0x1113475c0>), (1007, <makesets.aset object at 0x111347550>), (1015, <makesets.aset object at 0x10de15e48>), (1017, <makesets.aset object at 0x111347860>)]
+
+ Top 3 equations: 
+0.5493382453970028 344 = x / 43
+0.15614617085578453 344 * x = 43
+0.1319070650143261 344 = x - 43
+
+ INCORRECT
+Guess :  14792 
+Answer : 8.0 
+
+
+139
+ she counted her crayons and found out that she has 80 crayons which she will place in crayon boxes . every crayon box can contain 8 crayons . how many crayon boxes does she need ? 
+[(10, <makesets.aset object at 0x1112ca828>), (1000, <makesets.aset object at 0x1112cabe0>), (1005, <makesets.aset object at 0x1112ca588>), (2002, <makesets.aset object at 0x1112ca9e8>)]
+[(10, 'crayon', '80'), (1000, 'box', 'every'), (1005, 'crayon', '8'), (2002, 'crayon', 'x')]
+crayons-12
+box-3
+crayons-7
+crayon-3
+[(10, 'crayon', '80'), (1000, 'box', 'every'), (1005, 'crayon', '8'), (2002, 'crayon', 'x')]
+[(10, 'crayon', '80'), (1000, 'box', 'every'), (1005, 'crayon', '8'), (2002, 'crayon', 'x')]
+[(10, 'crayon', '80'), (1006, 'box', '1'), (1005, 'crayon', '8'), (2002, 'crayon', 'x')]
+[(10, <makesets.aset object at 0x1112ca828>), (1005, <makesets.aset object at 0x1112ca588>), (1006, <makesets.aset object at 0x1112cabe0>), (2002, <makesets.aset object at 0x1112ca9e8>)]
+
+ Top 3 equations: 
+1.6513415477845248 80 = ( 8 / 1 ) / x
+1.5508862668759922 80 = 8 / ( 1 / x )
+1.234876905183359 80 / ( 8 / 1 ) = x
+
+ CORRECT
+Guess :  10 
+Answer : 10.0 
+
+
+140
+ beside the pile of clean white paper was a stack of 700 sheets of used paper . she wants to place it in boxes for recycling . if every box can contain 100 sheets , how many boxes does she need ? 
+[(1, <makesets.aset object at 0x111332ba8>), (11, <makesets.aset object at 0x1113325f8>), (2001, <makesets.aset object at 0x111332e10>), (2005, <makesets.aset object at 0x111332be0>), (2010, <makesets.aset object at 0x111332b00>)]
+[(1, 'pile', 'the'), (11, 'sheet', '700'), (2001, 'box', 'every'), (2005, 'sheet', '100'), (2010, 'box', 'x')]
+pile-3
+sheets-13
+box-3
+sheets-7
+boxes-11
+[(1, 'pile', 'the'), (11, 'sheet', '700'), (2001, 'box', 'every'), (2005, 'sheet', '100'), (2010, 'box', 'x')]
+the
+[(1, 'pile', 'the'), (11, 'sheet', '700'), (2001, 'box', 'every'), (2005, 'sheet', '100'), (2010, 'box', 'x')]
+[(1, 'pile', 'the'), (11, 'sheet', '700'), (2006, 'box', 'x'), (2005, 'sheet', '100'), (2010, 'box', 'x')]
+[(1, <makesets.aset object at 0x111332ba8>), (11, <makesets.aset object at 0x1113325f8>), (2005, <makesets.aset object at 0x111332be0>), (2006, <makesets.aset object at 0x111332e10>), (2010, <makesets.aset object at 0x111332b00>)]
+
+ Top 3 equations: 
+0.5174384525916795 700 = 100 / x
+0.3844246569114825 700 / 100 = x
+0.1451495863150537 700 = 100 - x
+
+ CORRECT
+Guess :  7 
+Answer : 7.0 
+
+
+141
+ lexie's younger brother helped pick up all the paper clips in lexie's room . he was able to collect 81 paper clips . if he wants to distribute the paper clips in 9 boxes , how many paper clips will each box contain ? 
+[(8, <makesets.aset object at 0x11134e7f0>), (1005, <makesets.aset object at 0x11134e8d0>), (2005, <makesets.aset object at 0x11134e9b0>), (2009, <makesets.aset object at 0x11134e9e8>), (2017, <makesets.aset object at 0x11134ea90>), (2014, <makesets.aset object at 0x11134e748>)]
+[(8, 'clip', 'the'), (1005, 'clip', '81'), (2005, 'clip', 'the'), (2009, 'box', '9'), (2014, 'paper', 'x'), (2017, 'box', 'each')]
+clips-11
+clips-8
+clips-8
+boxes-11
+paper-15
+box-19
+[(8, 'clip', 'the'), (1005, 'clip', '81'), (2005, 'clip', 'the'), (2009, 'box', '9'), (2014, 'paper', 'x'), (2017, 'box', 'each')]
+the
+the
+the
+the
+[(8, 'clip', 'the'), (1005, 'clip', '81'), (2005, 'clip', 'the'), (2009, 'box', '9'), (2014, 'paper', 'x'), (2017, 'box', 'each')]
+[(8, 'clip', 'the'), (1005, 'clip', 'USED'), (2005, 'clip', '81'), (2009, 'box', 'USED'), (2014, 'paper', 'x'), (2017, 'box', '9')]
+[(8, <makesets.aset object at 0x11134e7f0>), (1005, <makesets.aset object at 0x11134e8d0>), (2005, <makesets.aset object at 0x11134e9b0>), (2009, <makesets.aset object at 0x11134e9e8>), (2014, <makesets.aset object at 0x11134e748>), (2017, <makesets.aset object at 0x11134ea90>)]
+
+ Top 3 equations: 
+0.7420834940707326 81 / x = 9
+0.5493382453970028 81 = x / 9
+-0.0680929349856739 81 = x - 9
+
+ CORRECT
+Guess :  9 
+Answer : 9.0 
+
+
+142
+ nine of her closest friends like stickers . if she plans to give all of them an equal number of stickers , how many will each receive if she has 72 stickers ? 
+[(0, <makesets.aset object at 0x1111f9898>), (1008, <makesets.aset object at 0x1111f9780>), (1022, <makesets.aset object at 0x1113d3780>), (1017, <makesets.aset object at 0x1111f9f28>), (1018, <makesets.aset object at 0x11121e668>)]
+[(0, 'friend', '9'), (1008, 'number', 'an'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1022, 'sticker', '72')]
+friends-5
+number-11
+receive-19
+receive-None
+stickers-24
+[(0, 'friend', '9'), (1008, 'number', 'an'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1022, 'sticker', '72')]
+[(0, 'friend', '9'), (1008, 'number', 'an'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1022, 'sticker', '72')]
+[(0, 'friend', '9'), (1008, 'number', 'an'), (1019, 'receive', 'x'), (1018, 'receive', 'x'), (1022, 'sticker', '72')]
+[(0, <makesets.aset object at 0x1111f9898>), (1008, <makesets.aset object at 0x1111f9780>), (1018, <makesets.aset object at 0x11121e668>), (1019, <makesets.aset object at 0x1111f9f28>), (1022, <makesets.aset object at 0x1113d3780>)]
+
+ Top 3 equations: 
+0.5471215385536703 9 / x = 72
+0.2626123008743124 9 = x - 72
+0.1451604420822627 9 = x / 72
+
+ INCORRECT
+Guess :  81 
+Answer : 8.0 
+
+
+143
+ when relatives visit haley and her family , she and her cousins do origami . if she has 48 origami papers to give away to her six cousins , how many will each receive if she gives everyone the same number of origami papers ? 
+[(1003, <makesets.aset object at 0x1113be2b0>), (1011, <makesets.aset object at 0x1113beba8>), (1023, <makesets.aset object at 0x1113befd0>), (1017, <makesets.aset object at 0x1113be860>), (1018, <makesets.aset object at 0x1113bec18>)]
+[(1003, 'papers', '48'), (1011, 'cousin', '6'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1023, 'number', 'the')]
+papers-6
+cousins-13
+receive-19
+receive-None
+number-26
+[(1003, 'papers', '48'), (1011, 'cousin', '6'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1023, 'number', 'the')]
+the
+[(1003, 'papers', '48'), (1011, 'cousin', '6'), (1017, 'receive', 'each'), (1018, 'receive', 'x'), (1023, 'number', 'the')]
+[(1003, 'papers', '48'), (1011, 'cousin', '6'), (1019, 'receive', 'x'), (1018, 'receive', 'x'), (1023, 'number', 'the')]
+[(1003, <makesets.aset object at 0x1113be2b0>), (1011, <makesets.aset object at 0x1113beba8>), (1018, <makesets.aset object at 0x1113bec18>), (1019, <makesets.aset object at 0x1113be860>), (1023, <makesets.aset object at 0x1113befd0>)]
+
+ Top 3 equations: 
+0.5174384525916795 48 = 6 / x
+0.5174384525916795 48 / 6 = x
+-0.05485041368494631 48 = 6 - x
+
+ CORRECT
+Guess :  8 
+Answer : 8.0 
+
+
+144
+ haley has 63 magazines in her cabinet . she plans to send it to the recycling office in their area . if she places it in boxes which can contain 9 magazines , how many boxes will she use ? 
+[(2, <makesets.aset object at 0x11134e748>), (1006, <makesets.aset object at 0x11134eba8>), (2009, <makesets.aset object at 0x11134e9b0>), (2014, <makesets.aset object at 0x11134e780>)]
+[(2, 'magazine', '63'), (1006, 'office', 'the'), (2009, 'magazine', '9'), (2014, 'box', 'x')]
+magazines-4
+office-9
+magazines-11
+boxes-15
+[(2, 'magazine', '63'), (1006, 'office', 'the'), (2009, 'magazine', '9'), (2014, 'box', 'x')]
+the
+[(2, 'magazine', '63'), (1006, 'office', 'the'), (2009, 'magazine', '9'), (2014, 'box', 'x')]
+[(2, 'magazine', '63'), (1006, 'office', 'the'), (2009, 'magazine', '9'), (2014, 'box', 'x')]
+[(2, <makesets.aset object at 0x11134e748>), (1006, <makesets.aset object at 0x11134eba8>), (2009, <makesets.aset object at 0x11134e9b0>), (2014, <makesets.aset object at 0x11134e780>)]
+
+ Top 3 equations: 
+0.5732155114689028 63 = 9 / x
+0.5262164264797307 63 / 9 = x
+0.15281142328026237 63 = 9 - x
+
+ CORRECT
+Guess :  7 
+Answer : 7.0 
+
+
+74 139
+22 13

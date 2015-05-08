@@ -1,0 +1,20 @@
+No answers :  three-toed sloths have 4 legs . how many toes would 25 sloths have ? 
+['4', 'x', '25']
+75
+
+No answers :  frank worked 8 hours on the first 4 days of the week . how many hours did he work in these 4 days ? 
+['8.0', '96.0', 'x', '96.0']
+32
+
+No answers :  nancy goes fishing with joan . they catch 18 trout .  if they equally split up the trout , how many will each one get  ? 
+['18', 'x']
+9
+
+No answers :  a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+['63', 'x', '1.0']
+9
+
+No answers :  mike has 96 muffins , which he needs to box up into dozens . how many boxes does he need ? 
+['96', 'x']
+8
+

@@ -1,0 +1,842 @@
+ ellen went to a garage sale to buy chairs . each chair cost 15 dollars . how much money did ellen spend for the 12 chairs she bought ? 
+180
+
+['12', '15.0', 'x']
+12 * 15.0 = x
+___
+ albert has 2 snakes . the garden snake is 10 inches long . the boaconstrictor is 7 times longer than the garden snake . how long is the boaconstrictor ? 
+70
+
+['10', '7', '2', 'x']
+x / 10 = 7
+x = 10 * 7
+10 = x / 7
+10 * 7 = x
+___
+ albert’s cabbage patch has 12 rows of cabbage . in each row , there are 15 heads of cabbage . how many heads of cabbage does albert have in all ? 
+180
+
+['15', '12', 'x']
+15 * 12 = x
+___
+ marie can bike at a speed of 12 miles an hour . how far can she bike in 31 hours ? 
+372
+
+['12', '31', 'x']
+12 * 31 = x
+___
+ tammy drove 55 miles in one hour . at that rate , how far can she drive in 36 hours ? 
+1980
+
+['55', '36', 'x']
+55 * 36 = x
+___
+ rob could run 7 miles in one hour . at that rate , how far could rob run in one day ? 
+168
+
+['7', '0.041666666666666664', 'x']
+7 / 0.041666666666666664 = x
+7 = 0.041666666666666664 * x
+___
+ it takes 4 apples to make 1 pie . how many apples does it take to make 504 pies ? 
+2016
+
+['4', 'x', '504']
+4 = x / 504
+___
+ sue’s family went on vacation . her mom drove the car at 60 mph . they camped at a campground after traveling for 5 hours . how far was the campground from their home ? 
+300
+
+['60', '5', 'x']
+60 * 5 = x
+___
+ brett drove 55 miles every hour . how many miles would he drive in 8 hours ? 
+440
+
+['55', 'x', '8']
+55 = x / 8
+___
+ a perfect score is 21 points . how many points would you have after 3 perfect games in a row ? 
+63
+
+['21', 'x', '3']
+21 = x / 3
+___
+ brian’s car gets 20 miles per gallon . on his last trip , he used 3 gallons of gas . how many miles did he travel on his last trip ? 
+60
+
+['20', '3', 'x']
+20 * 3 = x
+___
+ bob’s car gets 10 kilometers per gallon . how far can he drive on 10 gallons of gas ? 
+100
+
+['10', 'x', '10']
+10 = x / 10
+___
+ each cup contains 8 ounces . how many ounces are in 33 cups ? 
+264
+
+['8', '33', 'x']
+8 * 33 = x
+___
+ a chocolate chip cookie recipe calls for 2 cups of chocolate chips . you want to make 23 recipes for a bake sale . how many cups of chocolate chips will be needed to make all the cookie recipes ? 
+46
+
+['2', 'x', '23']
+2 = x / 23
+___
+ i have a pet golden retriever . each year he gains 11 pounds . he is 8 years old . how many pounds does he weigh ? 
+88
+
+['11', '8', 'x']
+11 * 8 = x
+___
+ mary’s car gets 20 miles per gallon of gas . how far can she drive on 14 gallons of gas ? 
+280
+
+['20', 'x', '14']
+20 = x / 14
+___
+ i walked 2 miles in 1 hour for relay for life . if i maintained this pace for the 8 hours i walk , how many miles total will i walk ? 
+16
+
+['2', '8', 'x']
+2 * 8 = x
+___
+ i walk 1 mile every 15 minutes . i walked 3 miles . how many minutes did it take me to walk 3 miles ? 
+45
+
+['15', '3', 'x', '3']
+15 * 3 = x
+15 * 3 = x
+___
+ there are 365 days in one year . how many days are in 12 years ? 
+4380
+
+['365', 'x', 'x', '4380.0']
+4380.0 = x
+___
+ lansing has 25 elementary schools . there are 247 students in each school . how many elementary students are there altogether in lansing ? 
+6175
+
+['247', 'x', '25']
+247 = x / 25
+___
+ one pencil weighs 28.3 grams . how much do 5 pencils weigh ? 
+141.5
+
+['28.3', 'x', '5', 'x']
+28.3 = x / 5
+___
+ robin has 3 packages of gum . there are 18 pieces in each package . how many pieces of gum does robin have ? 
+54
+
+['18', 'x', '3']
+18 = x / 3
+___
+ arthur baked 115 muffins . james baked 12 times as many . how many muffins did james bake ? 
+1380
+
+['115', '12', 'x']
+115 * 12 = x
+___
+ joan went to 4 football games this year . she went to 9 games last year . how many football games did joan go to in all  ? 
+13
+
+['4', '9', 'x']
+4 + 9 = x
+___
+ tom has 9 yellow balloons sara has 8 yellow balloons . how many yellow balloons do they have in total  ? 
+17
+
+['9', '8', 'x']
+9 + 8 = x
+___
+ there are 4 walnut trees currently in the park . park workers will plant 6 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+10
+
+['4', '6', 'x']
+4 + 6 = x
+___
+ sam had 9 dimes in his bank . his dad gave him 7 more dimes . how many dimes does sam have now  ? 
+16
+
+['9', '7', 'x']
+9 + 7 = x
+___
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+15
+
+['9', '6', 'x']
+9 + 6 = x
+___
+ there are 2 pencils in the drawer . tim placed 3 more pencils in the drawer . how many pencils are now there in total  ? 
+5
+
+['2', '3', 'x']
+2 + 3 = x
+___
+ joan found 6 seashells and jessica found 8 seashells on the beach . how many seashells did they find together  ? 
+14
+
+['6', '8', 'x']
+6 + 8 = x
+___
+ sandy grew 6 carrots . sam grew 3 carrots . how many carrots did they grow in total  ? 
+9
+
+['6', '3', 'x']
+6 + 3 = x
+___
+ benny picked 2 apples and dan picked 9 apples from the apple tree . how many apples were picked in total  ? 
+11
+
+['2', '9', 'x']
+2 + 9 = x
+___
+ sam found 18 seashells and mary found 47 seashells on the beach . how many seashells did they find together  ? 
+65
+
+['18', '47', 'x']
+18 + 47 = x
+___
+ sara picked 45 pears and sally picked 11 pears from the pear tree . how many pears were picked in total  ? 
+56
+
+['45', '11', 'x']
+45 + 11 = x
+___
+ keith has 20 books . jason has 21 books .  how many books do they have together  ? 
+41
+
+['20', '21', 'x']
+20 + 21 = x
+___
+ jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+74
+
+['49', '25', 'x']
+49 + 25 = x
+___
+ joan picked 37 oranges and sara picked 10 oranges . how many oranges were picked in total  ? 
+47
+
+['37', '10', 'x']
+37 + 10 = x
+___
+ there are 33 pencils in the drawer . joan placed  27 more pencils in the drawer . how many pencils are now there in total  ? 
+60
+
+['33', '27', 'x']
+33 + 27 = x
+___
+ anna starts with 5 candies . she gets 86 more from larry . how many candies does anna end with ? 
+91
+
+['5', '86', 'x']
+5 + 86 = x
+___
+ if there are 4 crayons in a box and harold puts 15 more crayons inside , how many crayons are in the box ? 
+19
+
+['4', '15', 'x']
+4 + 15 = x
+___
+ martha has 2 peanuts . joyce has 26 peanuts . if joyce gives all of her peanuts to martha , how many peanuts will martha have ? 
+28
+
+['2', '26', 'x']
+2 + 26 = x
+___
+ kevin starts with 7 cards . he finds another 47 . how many cards does kevin end with ? 
+54
+
+['7', '47', 'x']
+7 + 47 = x
+___
+ nicholas starts with 8 bottle caps . he gets 85 more from catherine . how many bottle caps does nicholas end with ? 
+93
+
+['8', '85', 'x']
+8 + 85 = x
+___
+ janet has 57 apples . she finds another 95 . how many apples does janet have in all ? 
+152
+
+['57', '95', 'x']
+57 + 95 = x
+___
+ there are 4 oranges . 73 oranges more are added . how many are there total ? 
+77
+
+['4', '73', 'x']
+4 + 73 = x
+___
+ dan grew 42 turnips and 38 cantelopes . jessica grew  47 turnips . how many turnips did they grow in total  ? 
+89
+
+['42', '38', '47', 'x']
+x - 42 = 47
+x = 42 + 47
+42 = x - 47
+42 + 47 = x
+___
+ there are 33 walnut trees currently in the park . park workers will plant  44 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+77
+
+['33', '44', 'x']
+33 + 44 = x
+___
+ sara had 21 quarters in her bank . her dad gave her 49 more quarters . how many quarters does she have now  ? 
+70
+
+['21', '49', 'x']
+21 + 49 = x
+___
+ there are 41 pencils in the drawer . mike placed 30 more  pencils in the drawer . how many pencils are now there in total  ? 
+71
+
+['41', '30', 'x']
+41 + 30 = x
+___
+ joan has 10 books . tom has 38 books .  how many books do they have together  ? 
+48
+
+['10', '38', 'x']
+10 + 38 = x
+___
+ joan has 40 blue balloons melanie has 41 blue balloons . how many blue balloons do they have in total  ? 
+81
+
+['40', '41', 'x']
+40 + 41 = x
+___
+ fred grew 38 cantelopes . tim grew 44 cantelopes . how many cantelopes did they grow in total  ? 
+82
+
+['38', '44', 'x']
+38 + 44 = x
+___
+ sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+43
+
+['14', '29', 'x']
+14 + 29 = x
+___
+ mary found 18 seashells and jessica found 41 seashells on the beach . how many seashells did they find together  ? 
+59
+
+['18', '41', 'x']
+18 + 41 = x
+___
+ denise removes 5 bananas from a jar . there were originally 46 bananas in the jar . how many bananas are left in the jar ? 
+41
+
+['5', '46', 'x']
+5 = 46 - x
+___
+ joyce starts with 75 apples . she gives 52 to larry . how many apples does joyce end with ? 
+23
+
+['75', '52', 'x']
+75 - 52 = x
+75 = 52 + x
+___
+ anne weighs 67 pounds . douglas weighs 52 pounds . how much heavier is anne than douglas ? 
+15
+
+['67', '52', 'x']
+67 - 52 = x
+67 = 52 + x
+___
+ carlos starts with 39 bananas . 3 are eaten by a hippopotamus . how many bananas does carlos end with ? 
+36
+
+['39', '3', 'x']
+39 - 3 = x
+39 = 3 + x
+___
+ patricia starts with 76 candies . albert takes 5 away . how many candies does patricia end with ? 
+71
+
+['76', '5', 'x']
+76 - 5 = x
+76 = 5 + x
+___
+ there are 13 oranges in a box . victor takes 3 oranges . how many are left ? 
+10
+
+['13', '3', 'x']
+13 - 3 = x
+13 = 3 + x
+___
+ ruby has 63 apples . emily takes 55 away . how many apples will ruby have ? 
+8
+
+['63', '55', 'x']
+63 - 55 = x
+63 = 55 + x
+___
+ meredith picked 347 apples . phil ate 198 of the apples . how many apples are left ? 
+149
+
+['347', '198', 'x']
+347 - 198 = x
+347 = 198 + x
+___
+ beka flew 873 miles to visit her aunt . jackson flew 563 miles to visit his aunt . how many more miles did beka fly than jackson ? 
+310
+
+['873', '563', 'x']
+873 - 563 = x
+873 = 563 + x
+___
+ mrs . hilt looked at her car's odometer before a trip . the odometer showed that she had traveled 212.3 miles . when she stopped for lunch , the odometer read 372.0 . how many miles had she traveled ? 
+159.7
+
+['212.3', '372.0', 'x']
+212.3 = 372.0 - x
+___
+ hilt read that north america covered an area of 9,365,290 square miles and europe covered 3,837,082 square miles . how much bigger is north america than europe ? 
+5528208
+
+['9365290', '3837082', 'x']
+9365290 - 3837082 = x
+9365290 = 3837082 + x
+___
+ mary is baking a cake . the recipe wants 8 cups of flour . she already put in 2 cups . how many more cups does she need to add  ? 
+6
+
+['8', '2', 'x']
+8 - 2 = x
+8 = 2 + x
+___
+ tom found 7 seashells , but 4 seashells were broken .  how many unbroken seashells did tom find  ? 
+3
+
+['7', '4', 'x']
+7 - 4 = x
+7 = 4 + x
+___
+ joan has 8 orange balloons , but lost 2 of them . how many orange balloons does joan have now  ? 
+6
+
+['8', '2', 'x']
+8 - 2 = x
+8 = 2 + x
+___
+ fred had 7 dimes in his bank . his sister borrowed 3 of his dimes . how many dimes does fred have now  ? 
+4
+
+['7', '3', 'x']
+7 - 3 = x
+7 = 3 + x
+___
+ joan's cat had 8 kittens . she gave 2 to her friends .  how many kittens does she have now  ? 
+6
+
+['8', '2', 'x']
+8 - 2 = x
+8 = 2 + x
+___
+ benny's high school played 39 baseball games this year . he attended  14 games . how many baseball games did benny miss  ? 
+25
+
+['39', '14', 'x']
+39 - 14 = x
+39 = 14 + x
+___
+ sam found 35 seashells on the beach , he gave joan 18 of the seashells . how many seashells does he now have  ? 
+17
+
+['35', '18', 'x']
+35 - 18 = x
+35 = 18 + x
+___
+ mike has 87 baseball cards . sam bought 13 of mike's  baseball cards . how many baseball cards does mike have now  ? 
+74
+
+['87', '13', 'x']
+87 - 13 = x
+87 = 13 + x
+___
+ dan has 64 violet marbles , he gave mary 14 of the marbles . how many violet marbles does he now have  ? 
+50
+
+['64', '14', 'x']
+64 - 14 = x
+64 = 14 + x
+___
+ sam had 98 pennies in his bank . he spent 93 of his pennies . how many pennies does he have now  ? 
+5
+
+['98', '93', 'x']
+98 - 93 = x
+98 = 93 + x
+___
+ joan found 79 seashells on the beach , she gave mike 63 of the seashells . how many seashells does she now have  ? 
+16
+
+['79', '63', 'x']
+79 - 63 = x
+79 = 63 + x
+___
+ melanie's high school played 64 soccer games this year . she attended  32 games . how many soccer games did melanie miss  ? 
+32
+
+['64', '32', 'x']
+64 - 32 = x
+64 = 32 + x
+___
+ sally had 760 quarters in her bank . she spent 418 of her quarters . how many quarters does she have now  ? 
+342
+
+['760', '418', 'x']
+760 - 418 = x
+760 = 418 + x
+___
+ fred's high school played 616 baseball games this year . he attended  147 games . how many baseball games did fred miss  ? 
+469
+
+['616', '147', 'x']
+616 - 147 = x
+616 = 147 + x
+___
+ jason has 676 pokemon cards . alyssa bought 224 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+452
+
+['676', '224', 'x']
+676 - 224 = x
+676 = 224 + x
+___
+ fred has 709 green balloons , he gave sandy 221 of the balloons . how many green balloons does he now have  ? 
+488
+
+['709', '221', 'x']
+709 - 221 = x
+709 = 221 + x
+___
+ jason has 3 pokemon cards . benny bought 2 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+1
+
+['3', '2', 'x']
+3 - 2 = x
+3 = 2 + x
+___
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+4
+
+['8', '4', 'x']
+8 - 4 = x
+8 = 4 + x
+___
+ joan had 5 dimes in her bank . she spent 2 of her dimes . how many dimes does she have now  ? 
+3
+
+['5', '2', 'x']
+5 - 2 = x
+5 = 2 + x
+___
+ sam grew 4 watermelons , but the rabbits ate 3 watermelons . how many watermelons does sam have left  ? 
+1
+
+['4', '3', 'x']
+4 - 3 = x
+4 = 3 + x
+___
+ tom found 5 seashells on the beach . he gave jessica 2 of the seashells . how many seashells does he now have  ? 
+3
+
+['5', '2', 'x']
+5 - 2 = x
+5 = 2 + x
+___
+ fred has 5 baseball cards . melanie bought 3 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+2
+
+['5', '3', 'x']
+5 - 3 = x
+5 = 3 + x
+___
+ here are 9 oak trees currently in the park . park workers had to cut down 2  oak trees that were damaged . how many oak trees will the park have when the workers are finished  ? 
+7
+
+['9', '2', 'x']
+9 - 2 = x
+9 = 2 + x
+___
+ jessica had 8 quarters in her bank . her sister borrowed 3 of her quarters . how many quarters does jessica have now  ? 
+5
+
+['8', '3', 'x']
+8 - 3 = x
+8 = 3 + x
+___
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+6
+
+['9', '3', 'x']
+9 - 3 = x
+9 = 3 + x
+___
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+4
+
+['7', '3', 'x']
+7 - 3 = x
+7 = 3 + x
+___
+ dan picked 9 limes and gave sara 4 of the limes .  how many limes does dan have now  ? 
+5
+
+['9', '4', 'x']
+9 - 4 = x
+9 = 4 + x
+___
+ dan found 7 seashells , but 3 were broken .  how many unbroken seashells did dan find  ? 
+4
+
+['7', '3', 'x']
+7 - 3 = x
+7 = 3 + x
+___
+ joan has 9 blue balloons  but lost 2 of them . how many blue balloons does joan have now  ? 
+7
+
+['9', '2', 'x']
+9 - 2 = x
+9 = 2 + x
+___
+ joan picked 43 apples from the orchard , and gave 27 apples  to  melanie . how many apples does joan have now  ? 
+16
+
+['43', '27', 'x']
+43 - 27 = x
+43 = 27 + x
+___
+ alyssa's high school played 31 hockey games this year . she attended  13 games . how many hockey games did alyssa miss  ? 
+18
+
+['31', '13', 'x']
+31 - 13 = x
+31 = 13 + x
+___
+ tom has 30 violet balloons , he gave fred 16 of the balloons . how many violet balloons does he now have  ? 
+14
+
+['30', '16', 'x']
+30 - 16 = x
+30 = 16 + x
+___
+ fred has 40 baseball cards . keith bought 22 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+18
+
+['40', '22', 'x']
+40 - 22 = x
+40 = 22 + x
+___
+ fred found 47 seashells on the beach , he gave jessica 25 of the seashells . how many seashells does he now have  ? 
+22
+
+['47', '25', 'x']
+47 - 25 = x
+47 = 25 + x
+___
+ sara grew 43 pumpkins , but the rabbits ate 23 pumpkins . how many pumpkins does sara have left  ? 
+20
+
+['43', '23', 'x']
+43 - 23 = x
+43 = 23 + x
+___
+ joan decided to sell all of her old books . she gathered up 33 books to sell . she sold 26 books in a yard sale . how many books does joan now have  ? 
+7
+
+['33', '26', 'x']
+33 - 26 = x
+33 = 26 + x
+___
+ there are 46 rulers in the drawer . tim took 25  rulers from the drawer . how many rulers are now in the drawer  ? 
+21
+
+['46', '25', 'x']
+46 - 25 = x
+46 = 25 + x
+___
+ there are 33 oak trees currently in the park . park workers had to cut down  18 oak trees that were damaged . how many oak trees will be in the park when the workers are finished  ? 
+15
+
+['33', '18', 'x']
+33 - 18 = x
+33 = 18 + x
+___
+ first museum she went to was the metropolitan museum in new york . she donated 46 medieval art pieces from the 70 she originally has . how many medieval art pieces were left with her ? 
+24
+
+['46', '70', 'x']
+46 = 70 - x
+___
+ the next museum on her list is the guggenheim in new york as well . there she gave 51 sets of egyptian mask from her collection of 90 . how many sets of masks were left in alicia’s collection ? 
+39
+
+['51', '90', 'x']
+51 = 90 - x
+___
+ after new york , she decided to visit the smithsonian in washington dc . if she has 63 miniature aircrafts and she gave away 49 to the national air and space museum , how many are left with her ? 
+14
+
+['63', '49', 'x', 'x']
+63 - 49 = x
+63 = 49 + x
+___
+ you have 24 cookies and want to share them equally with 6 people . how many cookies would each person get ? 
+4
+
+['24', '6', 'x']
+24 / 6 = x
+24 = 6 * x
+___
+ you are reading a book with 120 pages . if you want to read the same number of pages each night , how many would you have to read each night to finish in 10 days ? 
+12
+
+['120', 'x', 'x', '10', 'x']
+120 / x = 10
+120 = x * 10
+___
+ a cereal box holds 18 cups of cereal . each serving is 2 cups . how many servings are in the whole box ? 
+9
+
+['18', '2', 'x']
+18 / 2 = x
+18 = 2 * x
+___
+ a box of books weighs 42 pounds . each book weights 3 pounds . how many books are there in the box ? 
+14
+
+['42', '3', 'x']
+42 / 3 = x
+42 = 3 * x
+___
+ sue's mother made 75 cookies . she put the cookies in bags , with 3 cookies in each bag . how many bags could she fill up ? 
+25
+
+['75', '3', 'x', 'x']
+75 / 3 = x
+75 = 3 * x
+___
+ 89 cookies are being shared equally among 4 people . how many does each person get ? 
+22.25
+
+['89', '4', 'x', 'x']
+89 / 4 = x
+89 = 4 * x
+___
+ 256 students are going to the zoo . they have to be divided into groups so that each teacher has one group . there are 8 teachers . how many students will be in each group ? 
+32
+
+['256', '8', 'x']
+256 / 8 = x
+256 = 8 * x
+___
+ a fruit farm packs oranges in boxes that hold 10 each . one day it packs 2650 oranges . how many boxes did they use ? 
+265
+
+['10', 'x', '2650', 'x']
+10 * x = 2650
+___
+ julia has been collecting pennies since she was 3 years old . she used a machine at the bank to count her pennies . she had 4,380 pennies . how many dimes would that be ? 
+438
+
+['3', '438.0', 'x']
+438.0 = x
+___
+ you want to give your baseball cards to your 5 best friends . you have 455 baseball cards . how many would each get , if you share them equally ? 
+91
+
+['5', '455', 'x', 'x']
+5 = 455 / x
+___
+ dan was at the beach for 5 days and found 36 seashells . he plans to give all of his seashells equally to his 4 friends . how many seashells will each friend get  ? 
+9
+
+['5', '36', 'x', '4']
+36 / 4 = x
+36 = 4 * x
+5 + 4 = x
+___
+ there were a total of 27 soccer games during the 3 month season .  if the games are equally divided , how many soccer games are played a month  ? 
+9
+
+['27', '3', 'x', 'x']
+27 / 3 = x
+27 = 3 * x
+___
+ fred has 90 cents in his bank .  how many dimes does fred have  ? 
+9
+
+['9.0', 'x']
+9.0 = x
+___
+ there are 390 students at a school . if each classroom holds 30 students , how many classrooms are needed at the school ? 
+13
+
+['390', '30', 'x', 'x']
+390 / 30 = x
+390 = 30 * x
+___
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+41
+
+['615', '15', 'x']
+615 / 15 = x
+615 = 15 * x
+___
+ a teacher has 344 pieces of candy . if there are 43 students , and the candy is divided evenly , how many pieces will each student get ? 
+8
+
+['344', 'x', '43']
+344 / x = 43
+344 = x * 43
+___
+ she counted her crayons and found out that she has 80 crayons which she will place in crayon boxes . every crayon box can contain 8 crayons . how many crayon boxes does she need ? 
+10
+
+['80', '8', 'x']
+80 / 8 = x
+80 = 8 * x
+___
+ beside the pile of clean white paper was a stack of 700 sheets of used paper . she wants to place it in boxes for recycling . if every box can contain 100 sheets , how many boxes does she need ? 
+7
+
+['700', '100', 'x', 'x']
+700 / 100 = x
+700 = 100 * x
+___
+ lexie's younger brother helped pick up all the paper clips in lexie's room . he was able to collect 81 paper clips . if he wants to distribute the paper clips in 9 boxes , how many paper clips will each box contain ? 
+9
+
+['81', 'x', '9']
+81 / x = 9
+81 = x * 9
+___
+ 9 of her closest friends like stickers . if she plans to give all of them an equal number of stickers , how many will each receive if she has 72 stickers ? 
+8
+
+['9', 'x', 'x', '72']
+9 * x = 72
+___
+ when relatives visit haley and her family , she and her cousins do origami . if she has 48 origami papers to give away to her 6 cousins , how many will each receive if she gives everyone the same number of origami papers ? 
+8
+
+['48', '6', 'x', 'x']
+48 / 6 = x
+48 = 6 * x
+___
+ haley has 63 magazines in her cabinet . she plans to send it to the recycling office in their area . if she places it in boxes which can contain 9 magazines , how many boxes will she use ? 
+7
+
+['63', '9', 'x']
+63 / 9 = x
+63 = 9 * x
+___

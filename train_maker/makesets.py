@@ -72,6 +72,20 @@ def vector(a,b,problem,target,feats=False):
     elif b.location == a.location: vec.append(1)
     else: vec.append(-1)
 
+    features.append('number distances')
+    try:
+        distance = int(a.idx)-int(b.idx)
+        distance = 1 / ( 10000 - distance )
+    except: distance = 1
+    vec.append(distance)
+
+
+    features.append('a is target')
+    if a.num == 'x': vec.append(1)
+    else: vec.append(0)
+    features.append('b is target')
+    if b.num == 'x': vec.append(1)
+    else: vec.append(0)
 
     features.append('a target match')
     if a.entity==target: vec.append(1)

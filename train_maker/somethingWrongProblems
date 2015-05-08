@@ -1,0 +1,60 @@
+No answers :  three-toed sloths have 4 legs . how many toes would 25 sloths have ? 
+['4', 'x', '25']
+75
+
+No answers :  jeff swims 20 laps every day . how many laps will he swim in 6 weeks ? 
+['20', '6', 'x']
+840
+
+No answers :  mary beth could jump 42 times each minute . how many times could she jump in 2 hours ? 
+['42', '2', 'x']
+5040
+
+No answers :  frank worked 8 hours on the first 4 days of the week . how many hours did he work in these 4 days ? 
+['8', '96.0', 'x', '96.0']
+32
+
+No answers :  andrew spent 3 day working on his science report . he worked for 2.5 hours each day . how many hours did he work ? 
+['72.0', '2.5', 'x', 'x']
+7.5
+
+No answers :  fred went to 36 basketball games this year . he went to  11 games last year . how many basketball games did fred go to in total  ? 
+['36', '11', 'x']
+37
+
+No answers :  nancy starts with 91 bottle caps . she finds another 88 . how many bottle caps does nancy end with ? 
+['91', '88', 'x']
+178
+
+No answers :  ellen had 2,080 legos , but she lost 17 legos . how many legos does she have now ? 
+['2080', '17', 'x']
+2053
+
+No answers :  an airplane hangar is 300 feet long . how many planes can fit into it , end to end , if each plane is 40 feet long ? 
+['300', 'x', '40', 'x']
+7
+
+No answers :  it takes 3 eggs to make a cake . how many cakes can you make with 37 eggs ? 
+['3', 'x', 'x', '37']
+12
+
+No answers :  105 people are going to a movie . 6 people can ride in each car . how many cars are needed to get all 105 people to the movie ? 
+['105', '6', 'x', 'x', '105']
+17
+
+No answers :  deborah is running a marathon . she can run 4 miles in an hour . how long will it take her to run 26 miles ? 
+['4', 'x', '26']
+8.5
+
+no x : mike has 45 dollars in 5 dollar bills .  how many 5 dollars bills does  he have  ? no x : nancy goes fishing with joan . they catch 18 trout .  if they equally split up the trout , how may will each one get  ? No answers :  a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+['63', 'x']
+9
+
+No answers :  sandy worked 45 hours in the last 5 days . assuming that she worked the same amount of hours each day , how long did she work each day  ? 
+['1.875', 'x', '5']
+9
+
+No answers :  mike has 96 muffins , which he needs to box up into dozens . how many boxes does he need ? 
+['96', 'x']
+8
+

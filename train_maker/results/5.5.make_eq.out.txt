@@ -1,0 +1,2502 @@
+0
+ ellen went to a garage sale to buy chairs . each chair cost 15 dollars . how much money did ellen spend for the 12 chairs she bought ? 
+sale-6
+cost-3
+dollars-5
+money-3
+chairs-10
+chairs-10
+start solving
+[('15', <makesets.aset object at 0x11035cbe0>), ('x', <makesets.aset object at 0x11035cd68>), ('12', <makesets.aset object at 0x11035ccf8>)]
+['15', '12']
+done solving
+['15 = x / 12']
+0 15 = x / 12
++ 0
+1
+ three-toed sloths have four legs . how many toes would 25 sloths have ? 
+legs-5
+toes-3
+sloths-6
+start solving
+[('4', <makesets.aset object at 0x11033fcf8>), ('x', <makesets.aset object at 0x11033bbe0>), ('25', <makesets.aset object at 0x11033fe10>)]
+['4', '25']
+2
+ albert has two snakes . the garden snake is 10 inches long . the boaconstrictor is 7 times longer than the garden snake . how long is the boaconstrictor ? 
+snakes-4
+snake-3
+inches-6
+boaconstrictor-2
+times-5
+snake-10
+LENGTH-None
+boaconstrictor-5
+start solving
+[('2', <makesets.aset object at 0x11051c940>), ('10', <makesets.aset object at 0x11051ca90>), ('7', <makesets.aset object at 0x11051cba8>), ('x', <makesets.aset object at 0x11051c390>)]
+['2', '10', '7']
+done solving
+[]
+3
+ albert’s cabbage patch has 12 rows of cabbage . in each row , there are 15 heads of cabbage . how many heads of cabbage does albert have in all ? 
+rows-7
+row-3
+heads-8
+heads-3
+moving b to a
+B
+_____________
+adjs : None
+container : patch
+entity : row
+idx : 6
+location : None
+num : 12
+surface : rows
+verbs : has
+widx : 7
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : row
+idx : 1002
+location : None
+num : each
+surface : row
+verbs : None
+widx : 3
+_____________
+
+start solving
+[('12', <makesets.aset object at 0x11035a860>), ('15', <makesets.aset object at 0x11035a7b8>), ('x', <makesets.aset object at 0x11035a320>)]
+['12', '15']
+done solving
+['x = 12 * 15', '12 * 15 = x']
+0 x = 12 * 15
++ 0
+1 12 * 15 = x
++ 0
+4
+ marie can bike at a speed of 12 miles an hour . how far can she bike in 31 hours ? 
+speed-6
+miles-9
+hour-11
+DISTANCE-None
+hours-8
+start solving
+[('12', <makesets.aset object at 0x11362e7b8>), ('x', <makesets.aset object at 0x1136308d0>), ('31', <makesets.aset object at 0x11362e8d0>)]
+['12', '31']
+done solving
+['12 = x / 31']
+0 12 = x / 31
++ 0
+5
+ tammy drove 55 miles in one hour . at that rate , how far can she drive in 36 hours ? 
+miles-4
+hour-7
+rate-3
+DISTANCE-None
+hours-12
+start solving
+[('55', <makesets.aset object at 0x11035cbe0>), ('x', <makesets.aset object at 0x11033fda0>), ('36', <makesets.aset object at 0x11035ca20>)]
+['55', '36']
+done solving
+['55 = x / 36']
+0 55 = x / 36
++ 0
+6
+ jeff swims 20 laps every day . how many laps will he swim in six weeks ? 
+laps-4
+day-6
+laps-3
+weeks-9
+start solving
+[('20', <makesets.aset object at 0x1135329e8>), ('x', <makesets.aset object at 0x11035a7b8>), ('6', <makesets.aset object at 0x113532cf8>)]
+['20', '6']
+7
+ mary beth could jump 42 times each minute . how many times could she jump in two hours ? 
+times-6
+minute-8
+times-3
+hours-9
+start solving
+[('42', <makesets.aset object at 0x11356c208>), ('x', <makesets.aset object at 0x1104cacf8>), ('2', <makesets.aset object at 0x11035aac8>)]
+['42', '2']
+8
+ rob could run 7 miles in one hour . at that rate , how far could rob run in one day ? 
+miles-5
+hour-8
+rate-3
+DISTANCE-None
+day-12
+start solving
+[('7', <makesets.aset object at 0x1137a7978>), ('x', <makesets.aset object at 0x1137a7940>)]
+['7']
+9
+ it takes 4 apples to make 1 pie . how many apples does it take to make 504 pies ? 
+apples-4
+pie-8
+apples-3
+pies-10
+start solving
+[('4', <makesets.aset object at 0x11033fe10>), ('1', <makesets.aset object at 0x11033ff60>), ('x', <makesets.aset object at 0x11033fd30>), ('504', <makesets.aset object at 0x11033ff98>)]
+['4', '1', '504']
+done solving
+['4 * 1 = x / 504']
+0 4 * 1 = x / 504
++ 0
+10
+ frank worked 8 hours on the first four days of the week . how many hours did he work in these four days ? 
+hours-4
+days-9
+days-9
+week-12
+hours-3
+days-10
+days-10
+start solving
+[('8', <makesets.aset object at 0x11362ecc0>), ('4', <makesets.aset object at 0x11035ab00>), ('x', <makesets.aset object at 0x11362e5c0>), ('4', <makesets.aset object at 0x1137a7048>)]
+['8', '4', '4']
+done solving
+['8 = x / 4']
+0 8 = x / 4
++ 0
+11
+ sue’s family went on vacation . her mom drove the car at 60 mph . they camped at a campground after traveling for 5 hours . how far was the campground from their home ? 
+car-5
+mph-8
+campground-5
+hours-10
+DISTANCE-None
+campground-5
+start solving
+[('60', <makesets.aset object at 0x11035c940>), ('5', <makesets.aset object at 0x11035c9b0>), ('x', <makesets.aset object at 0x11035c9e8>)]
+['60', '5']
+done solving
+[]
+12
+ brett drove 55 miles every hour . how many miles would he drive in 8 hours ? 
+miles-4
+hour-6
+miles-3
+hours-9
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : hour
+idx : 1008
+location : None
+num : 8
+surface : hours
+verbs : None
+widx : 9
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : hour
+idx : 5
+location : None
+num : every
+surface : hour
+verbs : None
+widx : 6
+_____________
+
+start solving
+[('55', <makesets.aset object at 0x1137e1f60>), ('8', <makesets.aset object at 0x1137e1a20>), ('x', <makesets.aset object at 0x11033fc88>)]
+['55', '8']
+done solving
+['x = 55 * 8', '55 * 8 = x']
+0 x = 55 * 8
++ 0
+1 55 * 8 = x
++ 0
+13
+ a perfect score is 21 points . how many points would you have after three perfect games in a row ? 
+score-3
+points-6
+points-3
+games-10
+row-13
+start solving
+[('21', <makesets.aset object at 0x11033fda0>), ('x', <makesets.aset object at 0x1103604e0>), ('3', <makesets.aset object at 0x11033ffd0>)]
+['21', '3']
+done solving
+['21 = x / 3']
+0 21 = x / 3
++ 0
+14
+ brian’s car gets 20 miles per gallon . on his last trip , he used 3 gallons of gas . how many miles did he travel on his last trip ? 
+miles-6
+gallons-9
+miles-3
+start solving
+[('20', <makesets.aset object at 0x113803d30>), ('3', <makesets.aset object at 0x1136295f8>), ('x', <makesets.aset object at 0x11035a940>)]
+['20', '3']
+done solving
+['x = 20 * 3', '20 * 3 = x']
+0 x = 20 * 3
++ 0
+1 20 * 3 = x
++ 0
+15
+ bob’s car gets 10 kilometers per gallon . how far can he drive on 10 gallons of gas ? 
+kilometers-6
+DISTANCE-None
+gallons-8
+start solving
+[('10', <makesets.aset object at 0x1137e1c50>), ('x', <makesets.aset object at 0x11035a9b0>), ('10', <makesets.aset object at 0x1137e1cf8>)]
+['10', '10']
+done solving
+['10 = x / 10']
+0 10 = x / 10
++ 0
+16
+ each cup contains 8 ounces . how many ounces are in 33 cups ? 
+cup-2
+ounces-5
+ounces-3
+cups-7
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : cup
+idx : 1006
+location : None
+num : 33
+surface : cups
+verbs : None
+widx : 7
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : cup
+idx : 1
+location : None
+num : each
+surface : cup
+verbs : None
+widx : 2
+_____________
+
+start solving
+[('33', <makesets.aset object at 0x11035a748>), ('8', <makesets.aset object at 0x11035a9e8>), ('x', <makesets.aset object at 0x11356c208>)]
+['33', '8']
+done solving
+['x = 33 * 8', '33 * 8 = x']
+0 x = 33 * 8
++ 0
+1 33 * 8 = x
++ 0
+17
+ a chocolate chip cookie recipe calls for 2 cups of chocolate chips . you want to make 23 recipes for a bake sale . how many cups of chocolate chips will be needed to make all the cookie recipes ? 
+recipe-5
+cups-9
+recipes-6
+sale-10
+cups-3
+recipes-15
+start solving
+[('2', <makesets.aset object at 0x113803518>), ('23', <makesets.aset object at 0x1138030b8>), ('x', <makesets.aset object at 0x113803160>)]
+['2', '23']
+done solving
+[]
+18
+ i have a pet golden retriever . each year he gains 11 pounds . he is 8 years old . how many pounds does he weigh ? 
+retriever-6
+year-2
+pounds-6
+years-4
+pounds-3
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : year
+idx : 2003
+location : None
+num : 8
+surface : years
+verbs : None
+widx : 4
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : year
+idx : 1001
+location : None
+num : each
+surface : year
+verbs : None
+widx : 2
+_____________
+
+start solving
+[('8', <makesets.aset object at 0x11362e7f0>), ('11', <makesets.aset object at 0x11362ea58>), ('x', <makesets.aset object at 0x11362e080>)]
+['8', '11']
+done solving
+['x = 8 * 11', '8 * 11 = x']
+0 x = 8 * 11
++ 0
+1 8 * 11 = x
++ 0
+19
+ mary’s car gets 20 miles per gallon of gas . how far can she drive on 14 gallons of gas ? 
+miles-6
+DISTANCE-None
+gallons-8
+start solving
+[('20', <makesets.aset object at 0x11379e358>), ('x', <makesets.aset object at 0x113803eb8>), ('14', <makesets.aset object at 0x11379e518>)]
+['20', '14']
+done solving
+['20 = x / 14']
+0 20 = x / 14
++ 0
+20
+ i walked 2 miles in 1 hour for relay for life . if i maintained this pace for the 8 hours i walk , how many miles total will i walk ? 
+miles-4
+hour-7
+pace-5
+hours-9
+hours-9
+miles-15
+start solving
+[('2', <makesets.aset object at 0x11035a828>), ('1', <makesets.aset object at 0x11035a6a0>), ('8', <makesets.aset object at 0x11035a908>), ('x', <makesets.aset object at 0x11035a9e8>)]
+['2', '1', '8']
+done solving
+['x / ( 2 / 1 ) = 8', 'x / ( 2 * 1 ) = 8', 'x = ( 2 / 1 ) * 8', 'x = 2 * ( 1 * 8 )', '2 = x / ( 1 * 8 )', '2 = x * ( 1 / 8 )', '2 = 1 * ( x / 8 )', '( 2 / 1 ) * 8 = x', '( 2 * 1 ) * 8 = x', '2 * ( 1 * 8 ) = x', '2 = ( 1 / 8 ) * x']
+0 x / ( 2 / 1 ) = 8
++ 0
+1 x / ( 2 * 1 ) = 8
++ 0
+2 x = ( 2 / 1 ) * 8
++ 0
+3 x = 2 * ( 1 * 8 )
++ 0
+4 2 = x / ( 1 * 8 )
++ 0
+5 2 = x * ( 1 / 8 )
++ 0
+6 2 = 1 * ( x / 8 )
++ 0
+7 ( 2 / 1 ) * 8 = x
++ 0
+8 ( 2 * 1 ) * 8 = x
++ 0
+9 2 * ( 1 * 8 ) = x
++ 0
+10 2 = ( 1 / 8 ) * x
++ 0
+21
+ i walk 1 mile every 15 minutes . i walked 3 miles . how many minutes did it take me to walk 3 miles ? 
+mile-4
+minutes-7
+miles-4
+minutes-3
+miles-11
+start solving
+[('1', <makesets.aset object at 0x11035ce80>), ('15', <makesets.aset object at 0x113844ac8>), ('3', <makesets.aset object at 0x113844898>), ('x', <makesets.aset object at 0x11362e668>), ('3', <makesets.aset object at 0x1138448d0>)]
+['1', '15', '3', '3']
+done solving
+['( 1 + 15 ) * 3 = x + 3']
+0 ( 1 + 15 ) * 3 = x + 3
++ 1
+22
+ there are 365 days in one year . how many days are in 12 years ? 
+days-4
+year-7
+days-3
+years-7
+start solving
+[('365', <makesets.aset object at 0x1103b2588>), ('x', <makesets.aset object at 0x1103b2dd8>), ('12', <makesets.aset object at 0x11033fcf8>)]
+['365', '12']
+done solving
+['365 = x / 12']
+0 365 = x / 12
++ 1
+23
+ lansing has 25 elementary schools . there are 247 students in each school . how many elementary students are there altogether in lansing ? 
+schools-5
+students-4
+school-7
+students-4
+moving b to a
+B
+_____________
+adjs : elementary
+container : lansing
+entity : school
+idx : 4
+location : None
+num : 25
+surface : schools
+verbs : has
+widx : 5
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : school
+idx : 1006
+location : None
+num : each
+surface : school
+verbs : None
+widx : 7
+_____________
+
+start solving
+[('247', <makesets.aset object at 0x113a002e8>), ('25', <makesets.aset object at 0x113a00be0>), ('x', <makesets.aset object at 0x1137f8ac8>)]
+['247', '25']
+done solving
+['x = 247 * 25', '247 * 25 = x']
+0 x = 247 * 25
++ 1
+1 247 * 25 = x
++ 1
+24
+ one pencil weighs 28.3 grams . how much do 5 pencils weigh ? 
+pencil-2
+grams-5
+pencils-5
+pencils-None
+start solving
+[('28.3', <makesets.aset object at 0x11396e240>), ('5', <makesets.aset object at 0x113589550>), ('x', <makesets.aset object at 0x11396ed68>)]
+['28.3', '5']
+done solving
+['x = 28.3 * 5', '28.3 * 5 = x']
+0 x = 28.3 * 5
++ 1
+1 28.3 * 5 = x
++ 1
+25
+ andrew spent three day working on his science report . he worked for 2.5 hours each day . how many hours did he work ? 
+day-4
+hours-5
+day-7
+hours-3
+moving b to a
+B
+_____________
+adjs : None
+container : andrew
+entity : day
+idx : 3
+location : None
+num : 3
+surface : day
+verbs : spent
+widx : 4
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : day
+idx : 1006
+location : None
+num : each
+surface : day
+verbs : None
+widx : 7
+_____________
+
+start solving
+[('2.5', <makesets.aset object at 0x113a000b8>), ('3', <makesets.aset object at 0x113a00780>), ('x', <makesets.aset object at 0x113a00d68>)]
+['2.5', '3']
+done solving
+['x = 2.5 * 3', '2.5 * 3 = x']
+0 x = 2.5 * 3
++ 1
+1 2.5 * 3 = x
++ 1
+26
+ robin has 3 packages of gum . there are 18 pieces in each package . how many pieces of gum does robin have ? 
+packages-4
+pieces-4
+package-7
+pieces-3
+moving b to a
+B
+_____________
+adjs : None
+container : robin
+entity : package
+idx : 3
+location : None
+num : 3
+surface : packages
+verbs : has
+widx : 4
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : package
+idx : 1006
+location : None
+num : each
+surface : package
+verbs : None
+widx : 7
+_____________
+
+start solving
+[('18', <makesets.aset object at 0x1137f96d8>), ('3', <makesets.aset object at 0x113844a90>), ('x', <makesets.aset object at 0x1137f8da0>)]
+['18', '3']
+done solving
+['x = 18 * 3', '18 * 3 = x']
+0 x = 18 * 3
++ 1
+1 18 * 3 = x
++ 1
+27
+ arthur baked 115 muffins . james baked 12 times as many . how many muffins did james bake ? 
+muffins-4
+times-4
+james-1
+muffins-3
+start solving
+[('115', <makesets.aset object at 0x11035cd30>), ('12', <makesets.aset object at 0x1137f4940>), ('x', <makesets.aset object at 0x11035cd68>)]
+['115', '12']
+done solving
+['x = 115 * 12', '115 * 12 = x']
+0 x = 115 * 12
++ 1
+1 115 * 12 = x
++ 1
+28
+ joan went to 4 football games this year . she went to 9 games last year . how many football games did joan go to in all  ? 
+games-6
+year-8
+games-5
+games-4
+start solving
+[('4', <makesets.aset object at 0x113972080>), ('9', <makesets.aset object at 0x113972f98>), ('x', <makesets.aset object at 0x113a000b8>)]
+['4', '9']
+done solving
+['x = 4 + 9', '4 + 9 = x']
+0 x = 4 + 9
++ 2
+1 4 + 9 = x
++ 3
+29
+ tom has 9 yellow balloons sara has 8 yellow balloons . how many yellow balloons do they have in total  ? 
+balloons-5
+balloons-10
+balloons-4
+start solving
+[('9', <makesets.aset object at 0x113844d68>), ('8', <makesets.aset object at 0x113844cf8>), ('x', <makesets.aset object at 0x113844eb8>)]
+['9', '8']
+done solving
+['x = 9 + 8', '9 + 8 = x']
+0 x = 9 + 8
++ 4
+1 9 + 8 = x
++ 5
+30
+ there are 4 walnut trees currently in the park . park workers will plant 6 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+trees-5
+park-9
+trees-8
+walnut-3
+park-7
+workers-11
+start solving
+[('4', <makesets.aset object at 0x113a00240>), ('6', <makesets.aset object at 0x113a00978>), ('x', <makesets.aset object at 0x11397e5f8>)]
+['4', '6']
+done solving
+[]
+31
+ sam had 9 dimes in his bank . his dad gave him 7 more dimes . how many dimes does sam have now  ? 
+dimes-4
+dimes-7
+dimes-3
+start solving
+[('9', <makesets.aset object at 0x1138123c8>), ('7', <makesets.aset object at 0x113812198>), ('x', <makesets.aset object at 0x1137f4d30>)]
+['9', '7']
+done solving
+['x = 9 + 7', '9 + 7 = x']
+0 x = 9 + 7
++ 6
+1 9 + 7 = x
++ 7
+32
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+restaurant-2
+pizzas-5
+pizzas-None
+pizzas-None
+start solving
+[('9', <makesets.aset object at 0x1137f8cf8>), ('6', <makesets.aset object at 0x1137f8908>), ('x', <makesets.aset object at 0x1137f8e10>)]
+['9', '6']
+done solving
+['x = 9 + 6', '9 + 6 = x']
+0 x = 9 + 6
++ 8
+1 9 + 6 = x
++ 9
+33
+ there are 2 pencils in the drawer . tim placed 3 more pencils in the drawer . how many pencils are now there in total  ? 
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+start solving
+[('2', <makesets.aset object at 0x113a00438>), ('3', <makesets.aset object at 0x113a002b0>), ('x', <makesets.aset object at 0x1137a7748>)]
+['2', '3']
+done solving
+['x = 2 + 3', '2 + 3 = x']
+0 x = 2 + 3
++ 10
+1 2 + 3 = x
++ 11
+34
+ joan found 6 seashells and jessica found 8 seashells on the beach . how many seashells did they find together  ? 
+seashells-4
+seashells-9
+beach-12
+beach-None
+start solving
+[('6', <makesets.aset object at 0x11397ae80>), ('8', <makesets.aset object at 0x1103a5048>), ('x', <makesets.aset object at 0x11397af60>)]
+['6', '8']
+done solving
+['x = 6 + 8', '6 + 8 = x']
+0 x = 6 + 8
++ 12
+1 6 + 8 = x
++ 13
+35
+ sandy grew 6 carrots . sam grew 3 carrots . how many carrots did they grow in total  ? 
+carrots-4
+carrots-4
+carrots-3
+start solving
+[('6', <makesets.aset object at 0x113821c50>), ('3', <makesets.aset object at 0x113821390>), ('x', <makesets.aset object at 0x113821a20>)]
+['6', '3']
+done solving
+['x = 6 + 3', '6 + 3 = x']
+0 x = 6 + 3
++ 14
+1 6 + 3 = x
++ 15
+36
+ benny picked 2 apples and dan picked 9 apples from the apple tree . how many apples were picked in total  ? 
+apples-4
+apples-9
+tree-13
+apples-3
+start solving
+[('2', <makesets.aset object at 0x1137d4c18>), ('9', <makesets.aset object at 0x1137d48d0>), ('x', <makesets.aset object at 0x1137e1588>)]
+['2', '9']
+done solving
+['x = 2 + 9', '2 + 9 = x']
+0 x = 2 + 9
++ 16
+1 2 + 9 = x
++ 17
+37
+ sam found 18 seashells and mary found 47 seashells on the beach . how many seashells did they find together  ? 
+seashells-4
+seashells-9
+beach-12
+beach-None
+start solving
+[('18', <makesets.aset object at 0x11379efd0>), ('47', <makesets.aset object at 0x11379ea58>), ('x', <makesets.aset object at 0x11379edd8>)]
+['18', '47']
+done solving
+['x = 18 + 47', '18 + 47 = x']
+0 x = 18 + 47
++ 18
+1 18 + 47 = x
++ 19
+38
+ sara picked 45 pears and sally picked 11 pears from the pear tree . how many pears were picked in total  ? 
+pears-4
+pears-9
+tree-13
+pears-3
+start solving
+[('45', <makesets.aset object at 0x113821668>), ('11', <makesets.aset object at 0x113821470>), ('x', <makesets.aset object at 0x113821be0>)]
+['45', '11']
+done solving
+['x = 45 + 11', '45 + 11 = x']
+0 x = 45 + 11
++ 20
+1 45 + 11 = x
++ 21
+39
+ keith has 20 books . jason has 21 books .  how many books do they have together  ? 
+books-4
+books-4
+books-3
+start solving
+[('20', <makesets.aset object at 0x11364da90>), ('21', <makesets.aset object at 0x11364df60>), ('x', <makesets.aset object at 0x11364d6a0>)]
+['20', '21']
+done solving
+['x = 20 + 21', '20 + 21 = x']
+0 x = 20 + 21
++ 22
+1 20 + 21 = x
++ 23
+40
+ jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+quarters-4
+quarters-7
+quarters-3
+start solving
+[('49', <makesets.aset object at 0x1137f9ba8>), ('25', <makesets.aset object at 0x1137f9a20>), ('x', <makesets.aset object at 0x1137f9518>)]
+['49', '25']
+done solving
+['x = 49 + 25', '49 + 25 = x']
+0 x = 49 + 25
++ 24
+1 49 + 25 = x
++ 25
+41
+ joan picked 37 oranges and sara picked 10 oranges . how many oranges were picked in total  ? 
+oranges-4
+oranges-9
+oranges-3
+start solving
+[('37', <makesets.aset object at 0x113a00390>), ('10', <makesets.aset object at 0x1138448d0>), ('x', <makesets.aset object at 0x113a00cc0>)]
+['37', '10']
+done solving
+['x = 37 + 10', '37 + 10 = x']
+0 x = 37 + 10
++ 26
+1 37 + 10 = x
++ 27
+42
+ fred went to 36 basketball games this year . he went to  11 games last year . how many basketball games did fred go to in total  ? 
+games-6
+year-8
+games-5
+games-4
+start solving
+[('36', <makesets.aset object at 0x11397e4e0>), ('11', <makesets.aset object at 0x1103fbb38>), ('x', <makesets.aset object at 0x11397e550>)]
+['36', '11']
+43
+ there are 33 pencils in the drawer . joan placed  27 more pencils in the drawer . how many pencils are now there in total  ? 
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+start solving
+[('33', <makesets.aset object at 0x11362e390>), ('27', <makesets.aset object at 0x113a007f0>), ('x', <makesets.aset object at 0x113844d68>)]
+['33', '27']
+done solving
+['x = 33 + 27', '33 + 27 = x']
+0 x = 33 + 27
++ 28
+1 33 + 27 = x
++ 29
+44
+ anna starts with 5 candies . she gets 86 more from larry . how many candies does anna end with ? 
+candies-5
+candies-None
+candies-3
+start solving
+[('5', <makesets.aset object at 0x11396e9b0>), ('86', <makesets.aset object at 0x1103c6d30>), ('x', <makesets.aset object at 0x11396ecf8>)]
+['5', '86']
+done solving
+['x = 5 + 86', '5 + 86 = x']
+0 x = 5 + 86
++ 30
+1 5 + 86 = x
++ 31
+45
+ if there are 4 crayons in a box and harold puts 15 more crayons inside , how many crayons are in the box ? 
+crayons-5
+box-8
+crayons-14
+crayons-None
+box-23
+start solving
+[('4', <makesets.aset object at 0x1137f85c0>), ('15', <makesets.aset object at 0x1137f8240>), ('x', <makesets.aset object at 0x1103fbf98>)]
+['4', '15']
+done solving
+[]
+46
+ martha has 2 peanuts . joyce has 26 peanuts . if joyce gives all of her peanuts to martha , how many peanuts will martha have ? 
+peanuts-4
+peanuts-4
+peanuts-13
+start solving
+[('2', <makesets.aset object at 0x11364d7f0>), ('26', <makesets.aset object at 0x11364d828>), ('x', <makesets.aset object at 0x11362e080>)]
+['2', '26']
+done solving
+['x = 2 + 26', '2 + 26 = x']
+0 x = 2 + 26
++ 32
+1 2 + 26 = x
++ 33
+47
+ kevin starts with 7 cards . he finds another 47 . how many cards does kevin end with ? 
+cards-5
+cards-None
+cards-3
+start solving
+[('7', <makesets.aset object at 0x1103fbd30>), ('47', <makesets.aset object at 0x1103fbeb8>), ('x', <makesets.aset object at 0x1135890b8>)]
+['7', '47']
+done solving
+['x = 7 + 47', '7 + 47 = x']
+0 x = 7 + 47
++ 34
+1 7 + 47 = x
++ 35
+48
+ nicholas starts with 8 bottle caps . he gets 85 more from catherine . how many bottle caps does nicholas end with ? 
+caps-6
+caps-None
+caps-4
+start solving
+[('8', <makesets.aset object at 0x11364d3c8>), ('85', <makesets.aset object at 0x11364dba8>), ('x', <makesets.aset object at 0x1137f86d8>)]
+['8', '85']
+done solving
+['x = 8 + 85', '8 + 85 = x']
+0 x = 8 + 85
++ 36
+1 8 + 85 = x
++ 37
+49
+ janet has 57 apples . she finds another 95 . how many apples does janet have in all ? 
+apples-4
+apples-None
+apples-3
+start solving
+[('57', <makesets.aset object at 0x113812438>), ('95', <makesets.aset object at 0x1138123c8>), ('x', <makesets.aset object at 0x113812198>)]
+['57', '95']
+done solving
+['x = 57 + 95', '57 + 95 = x']
+0 x = 57 + 95
++ 38
+1 57 + 95 = x
++ 39
+50
+ nancy starts with 91 bottle caps . she finds another 88 . how many bottle caps does nancy end with ? 
+caps-6
+caps-None
+caps-4
+start solving
+[('91', <makesets.aset object at 0x11364d6d8>), ('88', <makesets.aset object at 0x11364ddd8>), ('x', <makesets.aset object at 0x11364de48>)]
+['91', '88']
+51
+ there are 4 oranges . 73 oranges more are added . how many are there total ? 
+oranges-4
+oranges-2
+oranges-None
+start solving
+[('4', <makesets.aset object at 0x113909e10>), ('73', <makesets.aset object at 0x113909860>), ('x', <makesets.aset object at 0x113909d68>)]
+['4', '73']
+done solving
+['x = 4 + 73', '4 + 73 = x']
+0 x = 4 + 73
++ 40
+1 4 + 73 = x
++ 41
+52
+ dan grew 42 turnips and 38 cantelopes . jessica grew  47 turnips . how many turnips did they grow in total  ? 
+turnips-4
+cantelopes-7
+turnips-4
+turnips-3
+start solving
+[('42', <makesets.aset object at 0x1139095c0>), ('38', <makesets.aset object at 0x113909470>), ('47', <makesets.aset object at 0x113909a20>), ('x', <makesets.aset object at 0x1139096d8>)]
+['42', '38', '47']
+done solving
+['x = 42 + 47', '42 + 47 = x']
+0 x = 42 + 47
++ 42
+1 42 + 47 = x
++ 43
+53
+ there are 33 walnut trees currently in the park . park workers will plant  44 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+trees-5
+park-9
+trees-8
+walnut-3
+park-7
+workers-11
+start solving
+[('33', <makesets.aset object at 0x113821dd8>), ('44', <makesets.aset object at 0x113821240>), ('x', <makesets.aset object at 0x1138123c8>)]
+['33', '44']
+done solving
+[]
+54
+ sara had 21 quarters in her bank . her dad gave her 49 more quarters . how many quarters does she have now  ? 
+quarters-4
+quarters-None
+quarters-3
+start solving
+[('21', <makesets.aset object at 0x1103b2940>), ('49', <makesets.aset object at 0x1103b2d68>), ('x', <makesets.aset object at 0x1137f96d8>)]
+['21', '49']
+done solving
+['x = 21 + 49', '21 + 49 = x']
+0 x = 21 + 49
++ 44
+1 21 + 49 = x
++ 45
+55
+ there are 41 pencils in the drawer . mike placed 30 more  pencils in the drawer . how many pencils are now there in total  ? 
+pencils-4
+drawer-7
+pencils-5
+drawer-8
+pencils-3
+start solving
+[('41', <makesets.aset object at 0x1103604e0>), ('30', <makesets.aset object at 0x113803128>), ('x', <makesets.aset object at 0x113972550>)]
+['41', '30']
+done solving
+['x = 41 + 30', '41 + 30 = x']
+0 x = 41 + 30
++ 46
+1 41 + 30 = x
++ 47
+56
+ joan has 10 books . tom has 38 books .  how many books do they have together  ? 
+books-4
+books-4
+books-3
+start solving
+[('10', <makesets.aset object at 0x1103c67f0>), ('38', <makesets.aset object at 0x1103c6be0>), ('x', <makesets.aset object at 0x1103c6390>)]
+['10', '38']
+done solving
+['x = 10 + 38', '10 + 38 = x']
+0 x = 10 + 38
++ 48
+1 10 + 38 = x
++ 49
+57
+ joan has 40 blue balloons melanie has 41 blue balloons . how many blue balloons do they have in total  ? 
+balloons-5
+balloons-10
+balloons-4
+start solving
+[('40', <makesets.aset object at 0x113972828>), ('41', <makesets.aset object at 0x113972b00>), ('x', <makesets.aset object at 0x113972d30>)]
+['40', '41']
+done solving
+['x = 40 + 41', '40 + 41 = x']
+0 x = 40 + 41
++ 50
+1 40 + 41 = x
++ 51
+58
+ fred grew 38 cantelopes . tim grew 44 cantelopes . how many cantelopes did they grow in total  ? 
+cantelopes-4
+cantelopes-4
+cantelopes-3
+start solving
+[('38', <makesets.aset object at 0x113972438>), ('44', <makesets.aset object at 0x113972ac8>), ('x', <makesets.aset object at 0x11044e198>)]
+['38', '44']
+done solving
+['x = 38 + 44', '38 + 44 = x']
+0 x = 38 + 44
++ 52
+1 38 + 44 = x
++ 53
+59
+ sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+games-6
+year-8
+games-5
+games-4
+start solving
+[('14', <makesets.aset object at 0x113972dd8>), ('29', <makesets.aset object at 0x1137f9f28>), ('x', <makesets.aset object at 0x11379ea58>)]
+['14', '29']
+done solving
+['x = 14 + 29', '14 + 29 = x']
+0 x = 14 + 29
++ 54
+1 14 + 29 = x
++ 55
+60
+ mary found 18 seashells and jessica found 41 seashells on the beach . how many seashells did they find together  ? 
+seashells-4
+seashells-9
+beach-12
+beach-None
+start solving
+[('18', <makesets.aset object at 0x11046dcc0>), ('41', <makesets.aset object at 0x11046d358>), ('x', <makesets.aset object at 0x11035c5f8>)]
+['18', '41']
+done solving
+['x = 18 + 41', '18 + 41 = x']
+0 x = 18 + 41
++ 56
+1 18 + 41 = x
++ 57
+61
+ denise removes 5 bananas from a jar . there were originally 46 bananas in the jar . how many bananas are left in the jar ? 
+bananas-4
+jar-7
+bananas-5
+jar-8
+bananas-3
+jar-8
+start solving
+[('5', <makesets.aset object at 0x113a00128>), ('46', <makesets.aset object at 0x113a00828>), ('x', <makesets.aset object at 0x113a007b8>)]
+['5', '46']
+done solving
+['5 + x = 46', '5 = 46 - x']
+0 5 + x = 46
++ 58
+1 5 = 46 - x
++ 58
+62
+ joyce starts with 75 apples . she gives 52 to larry . how many apples does joyce end with ? 
+apples-5
+apples-None
+apples-3
+start solving
+[('75', <makesets.aset object at 0x110461e80>), ('52', <makesets.aset object at 0x110461ac8>), ('x', <makesets.aset object at 0x11046d978>)]
+['75', '52']
+done solving
+['75 - x = 52', '75 - 52 = x', '75 = 52 + x']
+0 75 - x = 52
++ 58
+1 75 - 52 = x
++ 58
+2 75 = 52 + x
++ 59
+63
+ anne weighs 67 pounds . douglas weighs 52 pounds . how much heavier is anne than douglas ? 
+pounds-4
+pounds-4
+pounds-None
+start solving
+[('67', <makesets.aset object at 0x1137e1710>), ('52', <makesets.aset object at 0x11397e5c0>), ('x', <makesets.aset object at 0x110357828>)]
+['67', '52']
+done solving
+['67 - x = 52', '67 - 52 = x', '67 = 52 + x']
+0 67 - x = 52
++ 59
+1 67 - 52 = x
++ 59
+2 67 = 52 + x
++ 60
+64
+ carlos starts with 39 bananas . 3 are eaten by a hippopotamus . how many bananas does carlos end with ? 
+bananas-5
+bananas-None
+hippopotamus-6
+bananas-3
+start solving
+[('39', <makesets.aset object at 0x11362e780>), ('3', <makesets.aset object at 0x1137f9518>), ('x', <makesets.aset object at 0x11362ea58>)]
+['39', '3']
+done solving
+['39 - x = 3', '39 - 3 = x', '39 = 3 + x']
+0 39 - x = 3
++ 60
+1 39 - 3 = x
++ 60
+2 39 = 3 + x
++ 61
+65
+ patricia starts with 76 candies . albert takes 5 away . how many candies does patricia end with ? 
+candies-5
+candies-None
+candies-3
+start solving
+[('76', <makesets.aset object at 0x1103c6d68>), ('5', <makesets.aset object at 0x1103c6cc0>), ('x', <makesets.aset object at 0x1103c6e48>)]
+['76', '5']
+done solving
+['76 - x = 5', '76 - 5 = x', '76 = 5 + x']
+0 76 - x = 5
++ 61
+1 76 - 5 = x
++ 61
+2 76 = 5 + x
++ 62
+66
+ there are 13 oranges in a box . victor takes 3 oranges . how many are left ? 
+oranges-4
+box-7
+oranges-4
+oranges-None
+start solving
+[('13', <makesets.aset object at 0x1103c63c8>), ('3', <makesets.aset object at 0x1103c6978>), ('x', <makesets.aset object at 0x11046db00>)]
+['13', '3']
+done solving
+['13 - x = 3', '13 - 3 = x', '13 = 3 + x']
+0 13 - x = 3
++ 62
+1 13 - 3 = x
++ 62
+2 13 = 3 + x
++ 63
+67
+ ruby has 63 apples . emily takes 55 away . how many apples will ruby have ? 
+apples-4
+apples-None
+apples-3
+start solving
+[('63', <makesets.aset object at 0x11397eac8>), ('55', <makesets.aset object at 0x1137e19e8>), ('x', <makesets.aset object at 0x11362e780>)]
+['63', '55']
+done solving
+['63 - x = 55', '63 - 55 = x', '63 = 55 + x']
+0 63 - x = 55
++ 63
+1 63 - 55 = x
++ 63
+2 63 = 55 + x
++ 64
+68
+ ellen had 2,080 legos , but she lost 17 legos . how many legos does she have now ? 
+legos-4
+legos-10
+legos-3
+start solving
+[('2080', <makesets.aset object at 0x113a00748>), ('17', <makesets.aset object at 0x113a00cf8>), ('x', <makesets.aset object at 0x113a004a8>)]
+['2080', '17']
+69
+ meredith picked 347 apples . phil ate 198 of the apples . how many apples are left ? 
+apples-4
+apples-6
+apples-6
+apples-3
+start solving
+[('347', <makesets.aset object at 0x1137f4358>), ('198', <makesets.aset object at 0x1137f4da0>), ('x', <makesets.aset object at 0x11035a940>)]
+['347', '198']
+done solving
+['347 - x = 198', '347 - 198 = x', '347 = 198 + x']
+0 347 - x = 198
++ 64
+1 347 - 198 = x
++ 64
+2 347 = 198 + x
++ 65
+70
+ beka flew 873 miles to visit her aunt . jackson flew 563 miles to visit his aunt . how many more miles did beka fly than jackson ? 
+miles-4
+miles-4
+miles-4
+start solving
+[('873', <makesets.aset object at 0x1104619e8>), ('563', <makesets.aset object at 0x110461c88>), ('x', <makesets.aset object at 0x11033fcf8>)]
+['873', '563']
+done solving
+['873 - x = 563', '873 - 563 = x', '873 = 563 + x']
+0 873 - x = 563
++ 65
+1 873 - 563 = x
++ 65
+2 873 = 563 + x
++ 66
+71
+ mrs . hilt looked at her car's odometer before a trip . the odometer showed that she had traveled 212.3 miles . when she stopped for lunch , the odometer read 372.0 . how many miles had she traveled ? 
+trip-10
+odometer-2
+miles-9
+odometer-8
+odometer-None
+miles-3
+start solving
+[('212.3', <makesets.aset object at 0x11379e518>), ('372.0', <makesets.aset object at 0x11379ed68>), ('x', <makesets.aset object at 0x11379e898>)]
+['212.3', '372.0']
+done solving
+['212.3 + x = 372.0', '212.3 = 372.0 - x']
+0 212.3 + x = 372.0
++ 67
+1 212.3 = 372.0 - x
++ 67
+72
+ hilt read that north america covered an area of 9,365,290 square miles and europe covered 3,837,082 square miles . how much bigger is north america than europe ? 
+area-8
+miles-12
+miles-18
+miles-None
+start solving
+[('9365290', <makesets.aset object at 0x1137d4c18>), ('3837082', <makesets.aset object at 0x1137d4828>), ('x', <makesets.aset object at 0x110461668>)]
+['9365290', '3837082']
+done solving
+['9365290 - x = 3837082', '9365290 - 3837082 = x', '9365290 = 3837082 + x']
+0 9365290 - x = 3837082
++ 67
+1 9365290 - 3837082 = x
++ 67
+2 9365290 = 3837082 + x
++ 68
+73
+ mary is baking a cake . the recipe wants 8 cups of flour . she already put in 2 cups . how many more cups does she need to add  ? 
+cake-5
+recipe-2
+cups-5
+cups-6
+cups-4
+start solving
+[('8', <makesets.aset object at 0x113972eb8>), ('2', <makesets.aset object at 0x1139729e8>), ('x', <makesets.aset object at 0x110357828>)]
+['8', '2']
+done solving
+['8 - x = 2', '8 - 2 = x', '8 = 2 + x']
+0 8 - x = 2
++ 68
+1 8 - 2 = x
++ 68
+2 8 = 2 + x
++ 69
+74
+ tom found 7 seashells , but 4 seashells were broken .  how many unbroken seashells did tom find  ? 
+seashells-4
+seashells-8
+seashells-None
+start solving
+[('7', <makesets.aset object at 0x113a00198>), ('4', <makesets.aset object at 0x113a00780>), ('x', <makesets.aset object at 0x113a00470>)]
+['7', '4']
+done solving
+['7 - x = 4', '7 - 4 = x', '7 = 4 + x']
+0 7 - x = 4
++ 69
+1 7 - 4 = x
++ 69
+2 7 = 4 + x
++ 70
+75
+ joan has 8 orange balloons , but lost 2 of them . how many orange balloons does joan have now  ? 
+balloons-5
+balloons-None
+balloons-4
+start solving
+[('8', <makesets.aset object at 0x113a005f8>), ('2', <makesets.aset object at 0x113a00978>), ('x', <makesets.aset object at 0x1137f4d30>)]
+['8', '2']
+done solving
+['8 - x = 2', '8 - 2 = x', '8 = 2 + x']
+0 8 - x = 2
++ 70
+1 8 - 2 = x
++ 70
+2 8 = 2 + x
++ 71
+76
+ fred had 7 dimes in his bank . his sister borrowed 3 of his dimes . how many dimes does fred have now  ? 
+dimes-4
+dimes-7
+dimes-3
+start solving
+[('7', <makesets.aset object at 0x11046d240>), ('3', <makesets.aset object at 0x11046d208>), ('x', <makesets.aset object at 0x11046d3c8>)]
+['7', '3']
+done solving
+['7 - x = 3', '7 - 3 = x', '7 = 3 + x']
+0 7 - x = 3
++ 71
+1 7 - 3 = x
++ 71
+2 7 = 3 + x
++ 72
+77
+ joan's cat had 8 kittens . she gave 2 to her friends .  how many kittens does she have now  ? 
+kittens-6
+kittens-None
+kittens-3
+start solving
+[('8', <makesets.aset object at 0x1103b2e48>), ('2', <makesets.aset object at 0x1103b2cc0>), ('x', <makesets.aset object at 0x1103b2ef0>)]
+['8', '2']
+done solving
+['8 - x = 2', '8 - 2 = x', '8 = 2 + x']
+0 8 - x = 2
++ 72
+1 8 - 2 = x
++ 72
+2 8 = 2 + x
++ 73
+78
+ benny's high school played 39 baseball games this year . he attended  14 games . how many baseball games did benny miss  ? 
+games-8
+year-10
+games-4
+games-4
+start solving
+[('39', <makesets.aset object at 0x1104619b0>), ('14', <makesets.aset object at 0x110461ef0>), ('x', <makesets.aset object at 0x1137e19e8>)]
+['39', '14']
+done solving
+['39 - x = 14', '39 - 14 = x', '39 = 14 + x']
+0 39 - x = 14
++ 73
+1 39 - 14 = x
++ 73
+2 39 = 14 + x
++ 74
+79
+ sam found 35 seashells on the beach , he gave joan 18 of the seashells . how many seashells does he now have  ? 
+seashells-4
+beach-7
+seashells-15
+seashells-15
+seashells-None
+start solving
+[('35', <makesets.aset object at 0x11044ed68>), ('18', <makesets.aset object at 0x113909320>), ('x', <makesets.aset object at 0x113a00828>)]
+['35', '18']
+done solving
+['35 - x = 18', '35 - 18 = x', '35 = 18 + x']
+0 35 - x = 18
++ 74
+1 35 - 18 = x
++ 74
+2 35 = 18 + x
++ 75
+80
+ mike has 87 baseball cards . sam bought 13 of mike's  baseball cards . how many baseball cards does mike have now  ? 
+cards-5
+cards-8
+cards-4
+start solving
+[('87', <makesets.aset object at 0x11046d2e8>), ('13', <makesets.aset object at 0x11046d9e8>), ('x', <makesets.aset object at 0x11364d160>)]
+['87', '13']
+done solving
+['87 - x = 13', '87 - 13 = x', '87 = 13 + x']
+0 87 - x = 13
++ 75
+1 87 - 13 = x
++ 75
+2 87 = 13 + x
++ 76
+81
+ dan has 64 violet marbles , he gave mary 14 of the marbles . how many violet marbles does he now have  ? 
+marbles-5
+marbles-13
+marbles-13
+marbles-4
+start solving
+[('64', <makesets.aset object at 0x113821ba8>), ('14', <makesets.aset object at 0x113821da0>), ('x', <makesets.aset object at 0x1138211d0>)]
+['64', '14']
+done solving
+['64 - x = 14', '64 - 14 = x', '64 = 14 + x']
+0 64 - x = 14
++ 76
+1 64 - 14 = x
++ 76
+2 64 = 14 + x
++ 77
+82
+ sam had 98 pennies in his bank . he spent 93 of his pennies . how many pennies does he have now  ? 
+pennies-4
+pennies-6
+pennies-3
+start solving
+[('98', <makesets.aset object at 0x11396ee80>), ('93', <makesets.aset object at 0x11396e080>), ('x', <makesets.aset object at 0x11396ef60>)]
+['98', '93']
+done solving
+['98 - x = 93', '98 - 93 = x', '98 = 93 + x']
+0 98 - x = 93
++ 77
+1 98 - 93 = x
++ 77
+2 98 = 93 + x
++ 78
+83
+ joan found 79 seashells on the beach , she gave mike 63 of the seashells . how many seashells does she now have  ? 
+seashells-4
+beach-7
+seashells-15
+seashells-15
+seashells-None
+start solving
+[('79', <makesets.aset object at 0x1138212e8>), ('63', <makesets.aset object at 0x113a00b38>), ('x', <makesets.aset object at 0x1138219e8>)]
+['79', '63']
+done solving
+['79 - x = 63', '79 - 63 = x', '79 = 63 + x']
+0 79 - x = 63
++ 78
+1 79 - 63 = x
++ 78
+2 79 = 63 + x
++ 79
+84
+ melanie's high school played 64 soccer games this year . she attended  32 games . how many soccer games did melanie miss  ? 
+games-8
+year-10
+games-4
+games-4
+start solving
+[('64', <makesets.aset object at 0x1137f8358>), ('32', <makesets.aset object at 0x1137f8e10>), ('x', <makesets.aset object at 0x1137f8cc0>)]
+['64', '32']
+done solving
+['64 - x = 32', '64 - 32 = x', '64 = 32 + x']
+0 64 - x = 32
++ 79
+1 64 - 32 = x
++ 79
+2 64 = 32 + x
++ 80
+85
+ sally had 760 quarters in her bank . she spent 418 of her quarters . how many quarters does she have now  ? 
+quarters-4
+quarters-6
+quarters-3
+start solving
+[('760', <makesets.aset object at 0x113844dd8>), ('418', <makesets.aset object at 0x113844cc0>), ('x', <makesets.aset object at 0x113844b00>)]
+['760', '418']
+done solving
+['760 - x = 418', '760 - 418 = x', '760 = 418 + x']
+0 760 - x = 418
++ 80
+1 760 - 418 = x
++ 80
+2 760 = 418 + x
++ 81
+86
+ fred's high school played 616 baseball games this year . he attended  147 games . how many baseball games did fred miss  ? 
+games-8
+year-10
+games-4
+games-4
+start solving
+[('616', <makesets.aset object at 0x1103c6ac8>), ('147', <makesets.aset object at 0x1138211d0>), ('x', <makesets.aset object at 0x11046d2b0>)]
+['616', '147']
+done solving
+['616 - x = 147', '616 - 147 = x', '616 = 147 + x']
+0 616 - x = 147
++ 81
+1 616 - 147 = x
++ 81
+2 616 = 147 + x
++ 82
+87
+ jason has 676 pokemon cards . alyssa bought 224 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+cards-5
+cards-8
+pokemon-3
+start solving
+[('676', <makesets.aset object at 0x11046d4a8>), ('224', <makesets.aset object at 0x11046d198>), ('x', <makesets.aset object at 0x11046d2e8>)]
+['676', '224']
+done solving
+['676 - x = 224', '676 - 224 = x', '676 = 224 + x']
+0 676 - x = 224
++ 82
+1 676 - 224 = x
++ 82
+2 676 = 224 + x
++ 83
+88
+ fred has 709 green balloons , he gave sandy 221 of the balloons . how many green balloons does he now have  ? 
+balloons-5
+balloons-13
+balloons-13
+balloons-4
+start solving
+[('709', <makesets.aset object at 0x11044ea90>), ('221', <makesets.aset object at 0x113821668>), ('x', <makesets.aset object at 0x11397e438>)]
+['709', '221']
+done solving
+['709 - x = 221', '709 - 221 = x', '709 = 221 + x']
+0 709 - x = 221
++ 83
+1 709 - 221 = x
++ 83
+2 709 = 221 + x
++ 84
+89
+ jason has 3 pokemon cards . benny bought 2 of jason's  pokemon cards . how many pokemon cards does jason have now  ? 
+cards-5
+cards-8
+pokemon-3
+start solving
+[('3', <makesets.aset object at 0x113844c18>), ('2', <makesets.aset object at 0x113844cc0>), ('x', <makesets.aset object at 0x113526668>)]
+['3', '2']
+done solving
+['3 - x = 2', '3 - 2 = x', '3 = 2 + x']
+0 3 - x = 2
++ 84
+1 3 - 2 = x
++ 84
+2 3 = 2 + x
++ 85
+90
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+marbles-5
+marbles-13
+marbles-13
+marbles-4
+start solving
+[('8', <makesets.aset object at 0x11046dd30>), ('4', <makesets.aset object at 0x11046d6d8>), ('x', <makesets.aset object at 0x11046d780>)]
+['8', '4']
+done solving
+['8 - x = 4', '8 - 4 = x', '8 = 4 + x']
+0 8 - x = 4
++ 85
+1 8 - 4 = x
++ 85
+2 8 = 4 + x
++ 86
+91
+ joan had 5 dimes in her bank . she spent 2 of her dimes . how many dimes does she have now  ? 
+dimes-4
+dimes-6
+dimes-3
+start solving
+[('5', <makesets.aset object at 0x113821a20>), ('2', <makesets.aset object at 0x1138217b8>), ('x', <makesets.aset object at 0x113a00278>)]
+['5', '2']
+done solving
+['5 - x = 2', '5 - 2 = x', '5 = 2 + x']
+0 5 - x = 2
++ 86
+1 5 - 2 = x
++ 86
+2 5 = 2 + x
++ 87
+92
+ sam grew 4 watermelons , but the rabbits ate 3 watermelons . how many watermelons does sam have left  ? 
+watermelons-4
+rabbits-8
+watermelons-11
+watermelons-3
+start solving
+[('4', <makesets.aset object at 0x113909710>), ('3', <makesets.aset object at 0x113909898>), ('x', <makesets.aset object at 0x113909470>)]
+['4', '3']
+done solving
+['4 - x = 3', '4 - 3 = x', '4 = 3 + x']
+0 4 - x = 3
++ 87
+1 4 - 3 = x
++ 87
+2 4 = 3 + x
++ 88
+93
+ tom found 5 seashells on the beach . he gave jessica 2 of the seashells . how many seashells does he now have  ? 
+seashells-4
+beach-7
+seashells-7
+seashells-7
+seashells-None
+start solving
+[('5', <makesets.aset object at 0x113844c18>), ('2', <makesets.aset object at 0x113844c50>), ('x', <makesets.aset object at 0x113844710>)]
+['5', '2']
+done solving
+['5 - x = 2', '5 - 2 = x', '5 = 2 + x']
+0 5 - x = 2
++ 88
+1 5 - 2 = x
++ 88
+2 5 = 2 + x
++ 89
+94
+ fred has 5 baseball cards . melanie bought 3 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+cards-5
+cards-None
+cards-4
+start solving
+[('5', <makesets.aset object at 0x1138122b0>), ('3', <makesets.aset object at 0x1137f4940>), ('x', <makesets.aset object at 0x11364d6a0>)]
+['5', '3']
+done solving
+['5 - x = 3', '5 - 3 = x', '5 = 3 + x']
+0 5 - x = 3
++ 89
+1 5 - 3 = x
++ 89
+2 5 = 3 + x
++ 90
+95
+ here are 9 oak trees currently in the park . park workers had to cut down 2  oak trees that were damaged . how many oak trees will the park have when the workers are finished  ? 
+trees-5
+park-9
+trees-9
+oak-3
+park-7
+workers-11
+start solving
+[('9', <makesets.aset object at 0x11044e748>), ('2', <makesets.aset object at 0x11044e4a8>), ('x', <makesets.aset object at 0x11044ef60>)]
+['9', '2']
+done solving
+[]
+96
+ jessica had 8 quarters in her bank . her sister borrowed 3 of her quarters . how many quarters does jessica have now  ? 
+quarters-4
+quarters-7
+quarters-3
+start solving
+[('8', <makesets.aset object at 0x110461240>), ('3', <makesets.aset object at 0x11033fcf8>), ('x', <makesets.aset object at 0x1104619e8>)]
+['8', '3']
+done solving
+['8 - x = 3', '8 - 3 = x', '8 = 3 + x']
+0 8 - x = 3
++ 90
+1 8 - 3 = x
++ 90
+2 8 = 3 + x
++ 91
+97
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+restaurant-2
+hamburgers-5
+hamburgers-None
+hamburgers-3
+start solving
+[('9', <makesets.aset object at 0x11044ea90>), ('3', <makesets.aset object at 0x11044e438>), ('x', <makesets.aset object at 0x11044e470>)]
+['9', '3']
+done solving
+['9 - x = 3', '9 - 3 = x', '9 = 3 + x']
+0 9 - x = 3
++ 91
+1 9 - 3 = x
++ 91
+2 9 = 3 + x
++ 92
+98
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+crayons-4
+drawer-7
+crayons-4
+drawer-8
+crayons-3
+start solving
+[('7', <makesets.aset object at 0x11396e208>), ('3', <makesets.aset object at 0x11396e860>), ('x', <makesets.aset object at 0x113909c50>)]
+['7', '3']
+done solving
+['7 - x = 3', '7 - 3 = x', '7 = 3 + x']
+0 7 - x = 3
++ 92
+1 7 - 3 = x
++ 92
+2 7 = 3 + x
++ 93
+99
+ dan picked 9 limes and gave sara 4 of the limes .  how many limes does dan have now  ? 
+limes-4
+limes-11
+limes-11
+limes-3
+start solving
+[('9', <makesets.aset object at 0x11379ed68>), ('4', <makesets.aset object at 0x11044e0f0>), ('x', <makesets.aset object at 0x11379ea90>)]
+['9', '4']
+done solving
+['9 - x = 4', '9 - 4 = x', '9 = 4 + x']
+0 9 - x = 4
++ 93
+1 9 - 4 = x
++ 93
+2 9 = 4 + x
++ 94
+100
+ dan found 7 seashells , but 3 were broken .  how many unbroken seashells did dan find  ? 
+seashells-4
+seashells-None
+seashells-None
+start solving
+[('7', <makesets.aset object at 0x113803128>), ('3', <makesets.aset object at 0x1138218d0>), ('x', <makesets.aset object at 0x1138122b0>)]
+['7', '3']
+done solving
+['7 - x = 3', '7 - 3 = x', '7 = 3 + x']
+0 7 - x = 3
++ 94
+1 7 - 3 = x
++ 94
+2 7 = 3 + x
++ 95
+101
+ joan has 9 blue balloons  but lost 2 of them . how many blue balloons does joan have now  ? 
+balloons-5
+balloons-None
+balloons-4
+start solving
+[('9', <makesets.aset object at 0x1137f8cf8>), ('2', <makesets.aset object at 0x1137f8ac8>), ('x', <makesets.aset object at 0x1137f8fd0>)]
+['9', '2']
+done solving
+['9 - x = 2', '9 - 2 = x', '9 = 2 + x']
+0 9 - x = 2
++ 95
+1 9 - 2 = x
++ 95
+2 9 = 2 + x
++ 96
+102
+ joan picked 43 apples from the orchard , and gave 27 apples  to  melanie . how many apples does joan have now  ? 
+apples-4
+orchard-7
+apples-12
+apples-3
+start solving
+[('43', <makesets.aset object at 0x11044e898>), ('27', <makesets.aset object at 0x11044e240>), ('x', <makesets.aset object at 0x113821c50>)]
+['43', '27']
+done solving
+['43 - x = 27', '43 - 27 = x', '43 = 27 + x']
+0 43 - x = 27
++ 96
+1 43 - 27 = x
++ 96
+2 43 = 27 + x
++ 97
+103
+ alyssa's high school played 31 hockey games this year . she attended  13 games . how many hockey games did alyssa miss  ? 
+games-8
+year-10
+games-4
+games-4
+start solving
+[('31', <makesets.aset object at 0x113844e80>), ('13', <makesets.aset object at 0x113844ba8>), ('x', <makesets.aset object at 0x11362e668>)]
+['31', '13']
+done solving
+['31 - x = 13', '31 - 13 = x', '31 = 13 + x']
+0 31 - x = 13
++ 97
+1 31 - 13 = x
++ 97
+2 31 = 13 + x
++ 98
+104
+ tom has 30 violet balloons , he gave fred 16 of the balloons . how many violet balloons does he now have  ? 
+balloons-5
+balloons-13
+balloons-13
+balloons-4
+start solving
+[('30', <makesets.aset object at 0x1137f4940>), ('16', <makesets.aset object at 0x1137f4ba8>), ('x', <makesets.aset object at 0x11397e438>)]
+['30', '16']
+done solving
+['30 - x = 16', '30 - 16 = x', '30 = 16 + x']
+0 30 - x = 16
++ 98
+1 30 - 16 = x
++ 98
+2 30 = 16 + x
++ 99
+105
+ fred has 40 baseball cards . keith bought 22 of fred's  baseball cards . how many baseball cards does fred have now  ? 
+cards-5
+cards-None
+cards-4
+start solving
+[('40', <makesets.aset object at 0x113909978>), ('22', <makesets.aset object at 0x113909160>), ('x', <makesets.aset object at 0x113844d68>)]
+['40', '22']
+done solving
+['40 - x = 22', '40 - 22 = x', '40 = 22 + x']
+0 40 - x = 22
++ 99
+1 40 - 22 = x
++ 99
+2 40 = 22 + x
++ 100
+106
+ fred found 47 seashells on the beach , he gave jessica 25 of the seashells . how many seashells does he now have  ? 
+seashells-4
+beach-7
+seashells-15
+seashells-15
+seashells-None
+start solving
+[('47', <makesets.aset object at 0x11364d2e8>), ('25', <makesets.aset object at 0x11364ddd8>), ('x', <makesets.aset object at 0x113844eb8>)]
+['47', '25']
+done solving
+['47 - x = 25', '47 - 25 = x', '47 = 25 + x']
+0 47 - x = 25
++ 100
+1 47 - 25 = x
++ 100
+2 47 = 25 + x
++ 101
+107
+ sara grew 43 pumpkins , but the rabbits ate 23 pumpkins . how many pumpkins does sara have left  ? 
+pumpkins-4
+rabbits-8
+pumpkins-11
+pumpkins-3
+start solving
+[('43', <makesets.aset object at 0x110461b38>), ('23', <makesets.aset object at 0x1104619b0>), ('x', <makesets.aset object at 0x110461be0>)]
+['43', '23']
+done solving
+['43 - x = 23', '43 - 23 = x', '43 = 23 + x']
+0 43 - x = 23
++ 101
+1 43 - 23 = x
++ 101
+2 43 = 23 + x
++ 102
+108
+ joan decided to sell all of her old books . she gathered up 33 books to sell . she sold 26 books in a yard sale . how many books does joan now have  ? 
+books-5
+books-4
+sale-8
+books-3
+start solving
+[('33', <makesets.aset object at 0x11379ea90>), ('26', <makesets.aset object at 0x11379ef28>), ('x', <makesets.aset object at 0x11379eda0>)]
+['33', '26']
+done solving
+['33 - x = 26', '33 - 26 = x', '33 = 26 + x']
+0 33 - x = 26
++ 102
+1 33 - 26 = x
++ 102
+2 33 = 26 + x
++ 103
+109
+ there are 46 rulers in the drawer . tim took 25  rulers from the drawer . how many rulers are now in the drawer  ? 
+rulers-4
+drawer-7
+rulers-4
+drawer-7
+rulers-3
+drawer-8
+start solving
+[('46', <makesets.aset object at 0x1137f4a90>), ('25', <makesets.aset object at 0x11379e898>), ('x', <makesets.aset object at 0x110461cf8>)]
+['46', '25']
+done solving
+[]
+110
+ there are 33 oak trees currently in the park . park workers had to cut down  18 oak trees that were damaged . how many oak trees will be in the park when the workers are finished  ? 
+trees-5
+park-9
+trees-9
+trees-None
+park-9
+workers-12
+start solving
+[('33', <makesets.aset object at 0x113844be0>), ('18', <makesets.aset object at 0x113844c50>), ('x', <makesets.aset object at 0x113844e10>)]
+['33', '18']
+done solving
+[]
+111
+ first museum she went to was the metropolitan museum in new york . she donated 46 medieval art pieces from the 70 she originally has . how many medieval art pieces were left with her ? 
+museum-9
+pieces-6
+pieces-None
+art-4
+start solving
+[('46', <makesets.aset object at 0x113909e80>), ('70', <makesets.aset object at 0x113909550>), ('x', <makesets.aset object at 0x11035a940>)]
+['46', '70']
+done solving
+['46 + x = 70', '46 = 70 - x']
+0 46 + x = 70
++ 104
+1 46 = 70 - x
++ 104
+112
+ the next museum on her list is the guggenheim in new york as well . there she gave 51 sets of egyptian mask from her collection of 90 . how many sets of masks were left in alicia’s collection ? 
+museum-3
+guggenheim-9
+sets-5
+sets-None
+sets-3
+start solving
+[('51', <makesets.aset object at 0x11364da90>), ('90', <makesets.aset object at 0x11364d7b8>), ('x', <makesets.aset object at 0x11364d978>)]
+['51', '90']
+done solving
+['51 + x = 90', '51 = 90 - x']
+0 51 + x = 90
++ 105
+1 51 = 90 - x
++ 105
+113
+ after new york , she decided to visit the smithsonian in washington dc . if she has 63 miniature aircrafts and she gave away 49 to the national air and space museum , how many are left with her ? 
+smithsonian-10
+aircrafts-6
+air-None
+air-15
+air-None
+start solving
+[('63', <makesets.aset object at 0x11046deb8>), ('49', <makesets.aset object at 0x11046d8d0>), ('x', <makesets.aset object at 0x11379efd0>)]
+['63', '49']
+done solving
+['63 - x = 49', '63 - 49 = x', '63 = 49 + x']
+0 63 - x = 49
++ 105
+1 63 - 49 = x
++ 105
+2 63 = 49 + x
++ 106
+114
+ you have 24 cookies and want to share them equally with 6 people . how many cookies would each person get ? 
+cookies-4
+people-13
+cookies-3
+person-6
+start solving
+[('24', <makesets.aset object at 0x1138218d0>), ('6', <makesets.aset object at 0x1138211d0>), ('x', <makesets.aset object at 0x11379e5c0>)]
+['24', '6']
+done solving
+['24 / x = 6', '24 / 6 = x', '24 = 6 * x']
+0 24 / x = 6
++ 106
+1 24 / 6 = x
++ 106
+2 24 = 6 * x
++ 106
+115
+ you are reading a book with 120 pages . if you want to read the same number of pages each night , how many would you have to read each night to finish in 10 days ? 
+book-5
+pages-8
+number-8
+night-12
+night-None
+night-22
+days-27
+start solving
+[('120', <makesets.aset object at 0x1138448d0>), ('x', <makesets.aset object at 0x113a00d68>), ('10', <makesets.aset object at 0x113844dd8>)]
+['120', '10']
+done solving
+['120 = x * 10']
+0 120 = x * 10
++ 106
+116
+ a cereal box holds 18 cups of cereal . each serving is 2 cups . how many servings are in the whole box ? 
+box-3
+cups-6
+serving-2
+cups-5
+serving-None
+box-8
+start solving
+[('18', <makesets.aset object at 0x11364de80>), ('2', <makesets.aset object at 0x11364da58>), ('x', <makesets.aset object at 0x11364d668>)]
+['18', '2']
+done solving
+[]
+117
+ a box of books weighs 42 pounds . each book weights 3 pounds . how many books are there in the box ? 
+box-2
+pounds-7
+weights-3
+pounds-5
+books-3
+box-8
+start solving
+[('42', <makesets.aset object at 0x11364d358>), ('3', <makesets.aset object at 0x11364df98>), ('x', <makesets.aset object at 0x113821ef0>)]
+['42', '3']
+done solving
+[]
+118
+ sue's mother made 75 cookies . she put the cookies in bags , with 3 cookies in each bag . how many bags could she fill up ? 
+cookies-6
+cookies-4
+cookies-10
+bag-13
+bags-3
+start solving
+[('75', <makesets.aset object at 0x113972550>), ('3', <makesets.aset object at 0x113972b00>), ('x', <makesets.aset object at 0x110357828>)]
+['75', '3']
+done solving
+['75 / x = 3', '75 / 3 = x', '75 = 3 * x']
+0 75 / x = 3
++ 106
+1 75 / 3 = x
++ 106
+2 75 = 3 * x
++ 106
+119
+ an airplane hangar is 300 feet long . how many planes can fit into it , end to end , if each plane is 40 feet long ? 
+hangar-3
+feet-6
+planes-3
+plane-15
+feet-18
+start solving
+[('300', <makesets.aset object at 0x11364d898>), ('x', <makesets.aset object at 0x113821f28>), ('40', <makesets.aset object at 0x11364d630>)]
+['300', '40']
+120
+ it takes 3 eggs to make a cake . how many cakes can you make with 37 eggs ? 
+eggs-4
+cake-8
+cakes-3
+eggs-9
+start solving
+[('3', <makesets.aset object at 0x110461780>), ('x', <makesets.aset object at 0x110461eb8>), ('37', <makesets.aset object at 0x110461240>)]
+['3', '37']
+121
+ 105 people are going to a movie . 6 people can ride in each car . how many cars are needed to get all 105 people to the movie ? 
+people-2
+movie-7
+people-2
+car-7
+cars-3
+people-10
+people-10
+movie-13
+start solving
+[('105', <makesets.aset object at 0x11379ea20>), ('6', <makesets.aset object at 0x1138219e8>), ('x', <makesets.aset object at 0x1103b2ef0>), ('105', <makesets.aset object at 0x113821c88>)]
+['105', '6', '105']
+122
+ 89 cookies are being shared equally among 4 people . how many does each person get ? 
+cookies-2
+people-9
+person-5
+person-None
+start solving
+[('89', <makesets.aset object at 0x11379e358>), ('4', <makesets.aset object at 0x11379ec88>), ('x', <makesets.aset object at 0x1137f8c50>)]
+['89', '4']
+done solving
+['89 / x = 4', '89 / 4 = x', '89 = 4 * x']
+0 89 / x = 4
++ 106
+1 89 / 4 = x
++ 106
+2 89 = 4 * x
++ 106
+123
+ deborah is running a marathon . she can run 4 miles in an hour . how long will it take her to run 26 miles ? 
+marathon-5
+miles-5
+hour-8
+LENGTH-None
+miles-10
+start solving
+[('4', <makesets.aset object at 0x113ab1518>), ('x', <makesets.aset object at 0x113ab1470>), ('26', <makesets.aset object at 0x113ad2b70>)]
+['4', '26']
+124
+ 256 students are going to the zoo . they have to be divided into groups so that each teacher has one group . there are 8 teachers . how many students will be in each group ? 
+students-2
+zoo-7
+teacher-11
+group-14
+teachers-4
+students-3
+group-8
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : teacher
+idx : 2003
+location : None
+num : 8
+surface : teachers
+verbs : None
+widx : 4
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : teacher
+idx : 1010
+location : None
+num : each
+surface : teacher
+verbs : None
+widx : 11
+_____________
+
+start solving
+[('256', <makesets.aset object at 0x113ab1630>), ('8', <makesets.aset object at 0x113ab1e80>), ('x', <makesets.aset object at 0x113ab1e10>)]
+['256', '8']
+done solving
+['256 / x = 8', '256 / 8 = x', '256 = 8 * x']
+0 256 / x = 8
++ 106
+1 256 / 8 = x
++ 106
+2 256 = 8 * x
++ 106
+125
+ a fruit farm packs oranges in boxes that hold 10 each . one day it packs 2650 oranges . how many boxes did they use ? 
+farm-3
+farm-None
+.-12
+day-2
+oranges-6
+boxes-3
+start solving
+[('10', <makesets.aset object at 0x1138219e8>), ('2650', <makesets.aset object at 0x113821dd8>), ('x', <makesets.aset object at 0x113821978>)]
+['10', '2650']
+done solving
+['10 * x = 2650']
+0 10 * x = 2650
++ 106
+126
+ julia has been collecting pennies since she was 3 years old . she used a machine at the bank to count her pennies . she had 4,380 pennies . how many dimes would that be ? 
+years-10
+machine-4
+bank-7
+pennies-4
+pennies-None
+start solving
+[('3', <makesets.aset object at 0x113ad20b8>), ('4380', <makesets.aset object at 0x113ad2898>), ('x', <makesets.aset object at 0x113ad2550>)]
+['3', '4380']
+127
+ you want to give your baseball cards to your 5 best friends . you have 455 baseball cards . how many would each get , if you share them equally ? 
+friends-12
+cards-5
+get-5
+get-None
+start solving
+[('5', <makesets.aset object at 0x113821940>), ('455', <makesets.aset object at 0x11035a940>), ('x', <makesets.aset object at 0x113526668>)]
+['5', '455']
+done solving
+['5 * x = 455']
+0 5 * x = 455
++ 106
+128
+ mike has 45 dollars in five dollar bills .  how many five dollars bills does  he have  ? 
+dollars-4
+bills-8
+dollars-4
+dollars-4
+start solving
+[('45', <makesets.aset object at 0x113909fd0>), ('5', <makesets.aset object at 0x113909518>), ('5', <makesets.aset object at 0x1139091d0>), ('x', <makesets.aset object at 0x113ade2b0>)]
+['45', '5', '5']
+done solving
+['45 / 5 = x', 'x = 45 / 5', '45 / x = 5', '45 = x * 5', '45 / 5 = x']
+0 45 / 5 = x
++ 106
+1 x = 45 / 5
++ 106
+2 45 / x = 5
++ 106
+3 45 = x * 5
++ 106
+4 45 / 5 = x
++ 106
+129
+ nancy goes fishing with joan . they catch 18 trout .  if they equally split up the trout , how may will each one get  ? 
+trout-4
+trout-7
+one-13
+one-None
+130
+ a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+restaurant-2
+hamburgers-5
+hamburgers-3
+day-9
+start solving
+[('63', <makesets.aset object at 0x113abe780>), ('x', <makesets.aset object at 0x11379eda0>)]
+['63']
+131
+ dan was at the beach for five days and found 36 seashells . he plans to give all of his seashells equally to his four friends . how many seashells will each friend get  ? 
+beach-5
+days-8
+seashells-12
+friends-13
+seashells-3
+friend-6
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : friend
+idx : 1012
+location : None
+num : 4
+surface : friends
+verbs : None
+widx : 13
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : friend
+idx : 2005
+location : None
+num : each
+surface : friend
+verbs : None
+widx : 6
+_____________
+
+start solving
+[('5', <makesets.aset object at 0x1137f8e10>), ('36', <makesets.aset object at 0x1137f8cc0>), ('x', <makesets.aset object at 0x1137f8d30>), ('4', <makesets.aset object at 0x1137f8390>)]
+['5', '36', '4']
+done solving
+['5 = x - 4']
+0 5 = x - 4
++ 106
+132
+ sandy worked 45 hours in the last five days . assuming that she worked the same amount of hours each day , how long did she work each day  ? 
+hours-4
+days-9
+days-9
+amount-7
+day-11
+LENGTH-None
+day-19
+moving b to a
+B
+_____________
+adjs : last
+container : the day
+entity : day
+idx : 8
+location : None
+num : 5
+surface : days
+verbs : None
+widx : 9
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : day
+idx : 1010
+location : None
+num : each
+surface : day
+verbs : None
+widx : 11
+_____________
+
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : day
+idx : 1010
+location : None
+num : 5
+surface : day
+verbs : None
+widx : 11
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : day
+idx : 1018
+location : None
+num : each
+surface : day
+verbs : None
+widx : 19
+_____________
+
+start solving
+[('45', <makesets.aset object at 0x11044ee48>), ('x', <makesets.aset object at 0x11044e898>), ('5', <makesets.aset object at 0x11044eeb8>)]
+['45', '5']
+done solving
+['45 = x * 5']
+0 45 = x * 5
++ 106
+133
+ there were a total of 27 soccer games during the three month season .  if the games are equally divided , how many soccer games are played a month  ? 
+total-4
+games-8
+season-13
+season-13
+games-3
+games-11
+month-15
+start solving
+[('27', <makesets.aset object at 0x113b234a8>), ('3', <makesets.aset object at 0x113b235c0>), ('x', <makesets.aset object at 0x11397e5c0>)]
+['27', '3']
+done solving
+[]
+134
+ fred has 90 cents in his bank .  how many dimes does fred have  ? 
+cents-4
+dimes-3
+start solving
+[('90', <makesets.aset object at 0x113ab1cc0>), ('x', <makesets.aset object at 0x113ab1160>)]
+['90']
+135
+ there are 390 students at a school . if each classroom holds 30 students , how many classrooms are needed at the school ? 
+students-4
+school-7
+classroom-3
+students-6
+classrooms-10
+school-15
+start solving
+[('390', <makesets.aset object at 0x113b23390>), ('30', <makesets.aset object at 0x113b4a6d8>), ('x', <makesets.aset object at 0x113b23b00>)]
+['390', '30']
+done solving
+[]
+136
+ mike has 96 muffins , which he needs to box up into dozens . how many boxes does he need ? 
+muffins-4
+boxes-3
+start solving
+[('96', <makesets.aset object at 0x113602898>), ('x', <makesets.aset object at 0x113602b70>)]
+['96']
+137
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+crayons-4
+crayons-None
+packs-3
+start solving
+[('615', <makesets.aset object at 0x113568978>), ('15', <makesets.aset object at 0x1134ece80>), ('x', <makesets.aset object at 0x1135f1898>)]
+['615', '15']
+done solving
+['615 / x = 15', '615 / 15 = x', '615 = 15 * x']
+0 615 / x = 15
++ 106
+1 615 / 15 = x
++ 106
+2 615 = 15 * x
++ 106
+138
+ a teacher has 344 pieces of candy . if there are 43 students , and the candy is divided evenly , how many pieces will each student get ? 
+teacher-2
+pieces-5
+students-5
+candy-9
+pieces-16
+student-19
+moving b to a
+B
+_____________
+adjs : None
+container : None
+entity : student
+idx : 1004
+location : None
+num : 43
+surface : students
+verbs : None
+widx : 5
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : student
+idx : 1018
+location : None
+num : each
+surface : student
+verbs : None
+widx : 19
+_____________
+
+start solving
+[('344', <makesets.aset object at 0x1103af588>), ('x', <makesets.aset object at 0x1103afeb8>), ('43', <makesets.aset object at 0x1103af470>)]
+['344', '43']
+done solving
+['344 = x * 43']
+0 344 = x * 43
++ 106
+139
+ she counted her crayons and found out that she has 80 crayons which she will place in crayon boxes . every crayon box can contain 8 crayons . how many crayon boxes does she need ? 
+crayons-12
+box-3
+crayons-7
+crayon-3
+start solving
+[('80', <makesets.aset object at 0x11033fef0>), ('8', <makesets.aset object at 0x113532ac8>), ('x', <makesets.aset object at 0x11033f080>)]
+['80', '8']
+done solving
+['80 / x = 8', '80 / 8 = x', '80 = 8 * x']
+0 80 / x = 8
++ 106
+1 80 / 8 = x
++ 106
+2 80 = 8 * x
++ 106
+140
+ beside the pile of clean white paper was a stack of 700 sheets of used paper . she wants to place it in boxes for recycling . if every box can contain 100 sheets , how many boxes does she need ? 
+pile-3
+sheets-13
+box-3
+sheets-7
+boxes-11
+start solving
+[('700', <makesets.aset object at 0x110359ef0>), ('100', <makesets.aset object at 0x11051c8d0>), ('x', <makesets.aset object at 0x1135f1898>)]
+['700', '100']
+done solving
+['700 / x = 100', '700 / 100 = x', '700 = 100 * x']
+0 700 / x = 100
++ 106
+1 700 / 100 = x
++ 106
+2 700 = 100 * x
++ 106
+141
+ lexie's younger brother helped pick up all the paper clips in lexie's room . he was able to collect 81 paper clips . if he wants to distribute the paper clips in 9 boxes , how many paper clips will each box contain ? 
+clips-11
+clips-8
+clips-8
+boxes-11
+paper-15
+box-19
+moving b to a
+B
+_____________
+adjs : None
+container : the clip
+entity : box
+idx : 2010
+location : None
+num : 9
+surface : boxes
+verbs : None
+widx : 11
+_____________
+
+A
+_____________
+adjs : None
+container : None
+entity : box
+idx : 2018
+location : None
+num : each
+surface : box
+verbs : None
+widx : 19
+_____________
+
+start solving
+[('81', <makesets.aset object at 0x11362fdd8>), ('x', <makesets.aset object at 0x113630c18>), ('9', <makesets.aset object at 0x11362fd30>)]
+['81', '9']
+done solving
+['81 = x * 9']
+0 81 = x * 9
++ 106
+142
+ nine of her closest friends like stickers . if she plans to give all of them an equal number of stickers , how many will each receive if she has 72 stickers ? 
+friends-5
+number-11
+receive-19
+receive-None
+stickers-24
+start solving
+[('9', <makesets.aset object at 0x113614fd0>), ('x', <makesets.aset object at 0x113532080>), ('72', <makesets.aset object at 0x110360080>)]
+['9', '72']
+done solving
+['9 * x = 72']
+0 9 * x = 72
++ 106
+143
+ when relatives visit haley and her family , she and her cousins do origami . if she has 48 origami papers to give away to her six cousins , how many will each receive if she gives everyone the same number of origami papers ? 
+papers-6
+cousins-13
+receive-19
+receive-None
+number-26
+start solving
+[('48', <makesets.aset object at 0x11397e438>), ('6', <makesets.aset object at 0x11397e588>), ('x', <makesets.aset object at 0x113532b00>)]
+['48', '6']
+done solving
+[]
+144
+ haley has 63 magazines in her cabinet . she plans to send it to the recycling office in their area . if she places it in boxes which can contain 9 magazines , how many boxes will she use ? 
+magazines-4
+office-9
+magazines-11
+boxes-15
+start solving
+[('63', <makesets.aset object at 0x1135329b0>), ('9', <makesets.aset object at 0x1103af128>), ('x', <makesets.aset object at 0x11035ce10>)]
+['63', '9']
+done solving
+['63 / x = 9', '63 / 9 = x', '63 = 9 * x']
+0 63 / x = 9
++ 106
+1 63 / 9 = x
++ 106
+2 63 = 9 * x
++ 106
